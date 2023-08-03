@@ -8,7 +8,7 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 ---
 ## Styles
 | Style name | wght | wdth |
-| ---------- | :---: | :---: |
+| --------- | :---: | :---: |
 | Light | 300 | 100 |
 | Book | 350 | 100 |
 | Roman | 400 | 100 |
