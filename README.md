@@ -18,8 +18,8 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 | ExtraBold | 800 | 100 |
 | Black | 900 | 100 |
 
+
 ## Plans
-- Add diacritical marks & accented characters (Vietnamese support)✅
 - Cyrillic next?
 - Numbers-related characters (sub- & superscript, denominators & numerators, slashed zero, tabular figures)
 - Arrows (like, lots of them)
@@ -29,8 +29,13 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 - Italics, definitely. Just need to make the Upright version first.
 - New styles? Mono, Text, Micro? maybe not yet
 
+### Completed tasks
+- Add diacritical marks & accented characters (Vietnamese support)✅ (05/08/2023)
+
+
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
+
 
 ## Requirements
 This typeface is designed using [FontForge](https://github.com/fontforge/fontforge). In order to open the .sfd files in the source folder, you must install FontForge.
@@ -62,6 +67,7 @@ py -m fontmake -m OverusedGrotesk.designspace -o variable
 Or you can generate instances by copy-and-pasting all of the content from `build_instances.sh` into the command prompt.
 
 The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or whatever name is in the `path = "..."`. For more information on how to edit designspace files, check out RoboFont's [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib).
+
 
 ## Additional documentation
 This section is just here for additional references.
