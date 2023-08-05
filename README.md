@@ -19,7 +19,7 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 | Black | 900 | 100 |
 
 ## Plans
-- Add diacritical marks & accented characters (Vietnamese support)
+- Add diacritical marks & accented characters (Vietnamese support)✅
 - Cyrillic next?
 - Numbers-related characters (sub- & superscript, denominators & numerators, slashed zero, tabular figures)
 - Arrows (like, lots of them)
