@@ -30,7 +30,7 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 - New styles? Mono, Text, Micro? maybe not yet
 
 ### Completed tasks
-- Add diacritical marks & accented characters (Vietnamese support)✅ (05/08/2023)
+- Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
 
 
 ## License
