@@ -124,6 +124,19 @@ i7.kerning = True
 i7.info = True
 doc.addInstance(i7)
 
+#-------
+# rules
+#-------
+#
+#r1 = RuleDescriptor(name='spur_latin-a')
+#r1.conditionSets = [ 
+#    [
+#        {'name': "weight", 'minimum': 300, 'maximum': 650 },
+#    ],
+#]
+#r1.subs = [("a", "a.spur"),]
+#doc.addRule(r1)
+#
 #--------
 # saving
 #--------
