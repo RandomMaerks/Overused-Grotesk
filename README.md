@@ -20,6 +20,7 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 
 
 ## Plans
+- Stylistic set + Accented characters ⏳ (IN PROGRESS)
 - Cyrillic next?
 - Numbers-related characters (sub- & superscript, denominators & numerators, slashed zero, tabular figures)
 - Arrows (like, lots of them)
@@ -43,6 +44,10 @@ This typeface is designed using [FontForge](https://github.com/fontforge/fontfor
 [fontmake](https://github.com/googlefonts/fontmake) was also used to create variable font and generate instances.
 
 ### How to build & contribute
+If you found any issues with the design, any other features of the font files, or the font files/sources themselves, please open an issue or open up a discussion. Any help would be appreciated.
+
+If you want to directly contribute to the project (meaning editing the source files, adding more features, etc.), you can follow the steps below:
+
 **For Windows users**
 
 You can use FontForge to open the .sfd files. .ufo files coming soon cuz im lazy lol
