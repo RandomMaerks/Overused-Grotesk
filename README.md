@@ -20,11 +20,10 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 
 
 ## Plans
-- Stylistic set + Accented characters ⏳ (IN PROGRESS)
-- Cyrillic next?
-- Numbers-related characters (sub- & superscript, denominators & numerators, slashed zero, tabular figures)
+- Numbers-related characters (sub- & superscript, denominators & numerators, slashed zero, tabular figures) ⏳ (IN PROGRESS)
 - Arrows (like, lots of them)
 - Ligatures (not necessary)
+- Cyrillic next?
 - Kerning (LATIN, NUMBERS, etc.)
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
 - Italics, definitely. Just need to make the Upright version first.
@@ -32,7 +31,7 @@ A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alt
 
 ### Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
-
+- Stylistic set + Accented characters ✅ (06-08/08/2023)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
