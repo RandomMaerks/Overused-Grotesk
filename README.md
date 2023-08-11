@@ -1,5 +1,9 @@
 # Overused Grotesk
-A neo-grotesque sans serif typeface that looks spetacularly like a Helvetica alternative because it is one.
+Do you want a free alternative to Helvetica because you refuse to pay good money for high-quality typefaces, or that you think neo-grotesk Swiss-like type design is peak minimalism? Then this is probably a good choice.
+
+Overused Grotesk is heavily based off the classic neo-grotesque type design, especially the epic look of the ubiquitous typeface, Helvetica. It may look like the other thousand neo-grotesque typefaces out there, but I can guarantee that "it has its own charm and uniqueness".
+
+If you like this typeface, download it, store it in your library, use it, share it with someone.
 
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-3.png)
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-4.png)
