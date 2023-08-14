@@ -24,18 +24,24 @@ If you like this typeface, download it, store it in your library, use it, share 
 
 
 ## Plans
-- Numbers-related characters (sub- & superscript, denominators & numerators, slashed zero, tabular figures) ⏳ (IN PROGRESS)
-- Arrows (like, lots of them)
 - Ligatures (not necessary)
 - Cyrillic next?
+- Building more accented letters (Latin-specific)
+- Trying to figure out why Black weight has massive vertical height
+- More currency symbols
 - Kerning (LATIN, NUMBERS, etc.)
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
 - Italics, definitely. Just need to make the Upright version first.
+- Hinting (might just use ttfautohint)
 - New styles? Mono, Text, Micro? maybe not yet
 
-### Completed tasks
+### ⏳ In progress
+- Arrows (like, lots of them)
+
+### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
-- Stylistic set + Accented characters ✅ (06-08/08/2023)
+- Stylistic set + Accented characters ✅ (08/08/2023)
+- Numbers-related characters (sub- & superscript, denominators & numerators, slashed zero, tabular figures) ✅ (14/08/2023)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
