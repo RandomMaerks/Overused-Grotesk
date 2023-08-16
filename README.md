@@ -49,20 +49,20 @@ This project is under the [SIL Open Font License 1.1](https://github.com/RandomM
 
 
 ## Requirements
-This typeface is designed using [FontForge](https://github.com/fontforge/fontforge). In order to open the .sfd files in the source folder, you must install FontForge.
+This typeface is designed using [FontForge](https://github.com/fontforge/fontforge).
 
 [fontmake](https://github.com/googlefonts/fontmake) was also used to create variable font and generate instances.
 
 ### How to build & contribute
-If you found any issues with the design, any other features of the font files, or the font files/sources themselves, please open an issue or open up a discussion. Any help would be appreciated.
+If you find any issues with the design, features of the font files, or the font files/sources themselves, please open an issue or a discussion. Any help would be appreciated.
 
-If you want to directly contribute to the project (meaning editing the source files, adding more features, etc.), you can follow the steps below:
+To directly edit the source files, you can follow the steps below:
 
 **For Windows users**
 
-You can use FontForge to open the .sfd files. .ufo files coming soon cuz im lazy lol
+In order to open .sfd files, you must install FontForge. The program allows you to export .ttf, .otf, etc., or .ufo for interpolation or multiplatform editing.
 
-If you want to build and generate variable fonts or instances, you will need to install Python 3.8 or later.
+To build and generate variable fonts or instances, you will need to install Python 3.8 or later.
 
 Open **Run** and type `cmd`. Then type in the following to install `fontmake`:
 ```
