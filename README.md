@@ -34,6 +34,7 @@ If you like this typeface, download it, store it in your library, use it, share 
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
 - Italics, definitely. Just need to make the Upright version first.
 - Hinting (might just use ttfautohint)
+- Webfont support + css code
 - New styles? Mono, Text, Micro? maybe not yet
 
 ### ⏳ In progress
