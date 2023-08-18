@@ -48,40 +48,10 @@ If you like this typeface, download it, store it in your library, use it, share 
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
 
 
-## Requirements
-This typeface is designed using [FontForge](https://github.com/fontforge/fontforge).
+## Contributing
+You can contribute to this project by opening an issue, creating a pull request, or by directly editing the source.
 
-[fontmake](https://github.com/googlefonts/fontmake) was also used to create variable font and generate instances.
-
-### How to build & contribute
-If you find any issues with the design, features of the font files, or the font files/sources themselves, please open an issue or a discussion. Any help would be appreciated.
-
-To directly edit the source files, you can follow the steps below:
-
-**For Windows users**
-
-In order to open .sfd files, you must install FontForge. The program allows you to export .ttf, .otf, etc., or .ufo for interpolation or multiplatform editing.
-
-To build and generate variable fonts or instances, you will need to install Python 3.8 or later.
-
-Open **Run** and type `cmd`. Then type in the following to install `fontmake`:
-```
-py -m pip install fontmake
-```
-
-Once the installation is complete, enter `cd` then drag in the source directory (assuming you've downloaded the .zip and extracted it). For example:
-```
-cd "C:\Users\...\Overused-Grotesk-main\source"
-```
-
-If you want to build variable font, use:
-```
-py -m fontmake -m OverusedGrotesk.designspace -o variable
-```
-
-Or you can generate instances by copy-and-pasting all of the content from `build_instances.sh` into the command prompt.
-
-The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or whatever name is in the `path = "..."`. For more information on how to edit designspace files, check out RoboFont's [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib).
+For more information, see [CONTRIBUTING.md](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/CONTRIBUTING.md).
 
 
 ## Additional documentation
