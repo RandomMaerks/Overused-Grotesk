@@ -7,16 +7,12 @@ assignees: ''
 
 ---
 
-- [ ] **Explain the issue**
-What is the issue about? What might be causing the issue?
+- [ ] **Explain the issue** <sub>What is the issue about? What might be causing the issue?</sub>
 
 - [ ] **Include a screenshot/video** (if needed).
 
-- [ ] **Steps to recreate the issue**
-How to re-create the issue? Is there a workaround?
+- [ ] **Steps to recreate the issue** <sub>How to re-create the issue? Is there a workaround?</sub>
 
-- [ ] **Specification**
-What device/program are you using?
+- [ ] **Specification** <sub>What device/program are you using?</sub>
 
-- [ ] **Version**
-Which version of the font? Where did you get the font files?
+- [ ] **Version** <sub>Which version of the font? Where did you get the font files?</sub>
