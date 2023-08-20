@@ -24,7 +24,6 @@ If you like this typeface, download it, store it in your library, use it, share 
 
 
 ## Plans
-- Circled + squared numbers
 - Ligatures (not necessary)
 - Cyrillic next?
 - Building more accented letters (Latin-specific)
@@ -44,6 +43,11 @@ If you like this typeface, download it, store it in your library, use it, share 
 - Stylistic set + Accented characters ✅ (08/08/2023)
 - Sub- & superscript, denominators & numerators, slashed zero, tabular figures ✅ (14/08/2023)
 - Trying to figure out why Black weight has massive vertical height ✅ (20/08/2023)
+- Circled + squared numbers (Character variant 01 - 04) ✅ (20/08/2023)
+  - 'cv01': Negative squared numbers
+  - 'cv02': Squared numbers
+  - 'cv03': Negative circled numbers
+  - 'cv04': Circled numbers
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
