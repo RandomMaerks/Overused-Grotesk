@@ -28,7 +28,6 @@ If you like this typeface, download it, store it in your library, use it, share 
 - Ligatures (not necessary)
 - Cyrillic next?
 - Building more accented letters (Latin-specific)
-- Trying to figure out why Black weight has massive vertical height
 - More currency symbols
 - Kerning (LATIN, NUMBERS, etc.)
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
@@ -44,6 +43,7 @@ If you like this typeface, download it, store it in your library, use it, share 
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
 - Stylistic set + Accented characters ✅ (08/08/2023)
 - Sub- & superscript, denominators & numerators, slashed zero, tabular figures ✅ (14/08/2023)
+- Trying to figure out why Black weight has massive vertical height ✅ (20/08/2023)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
