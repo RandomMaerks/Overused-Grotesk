@@ -28,7 +28,6 @@ If you like this typeface, download it, store it in your library, use it, share 
 - Cyrillic next?
 - Building more accented letters (Latin-specific)
 - More currency symbols
-- Kerning (LATIN, NUMBERS, etc.)
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
 - Italics, definitely. Just need to make the Upright version first.
 - Hinting (might just use ttfautohint)
@@ -38,6 +37,7 @@ If you like this typeface, download it, store it in your library, use it, share 
 ### ⏳ In progress
 - Arrows (like, lots of them)
 - Uniwidth
+- Kerning (LATIN, NUMBERS, etc.)
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
