@@ -39,6 +39,7 @@ If you like this typeface, download it, store it in your library, use it, share 
 - Arrows (like, lots of them)
 - Uniwidth
 - Kerning (LATIN, NUMBERS, etc.)
+- IPA
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
