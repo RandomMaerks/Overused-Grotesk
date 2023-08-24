@@ -26,6 +26,7 @@ If you like this typeface, download it, store it in your library, use it, share 
 ## Plans
 - Ligatures (not necessary)
 - Cyrillic next?
+- Small caps
 - Building more accented letters (Latin-specific)
 - More currency symbols
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
