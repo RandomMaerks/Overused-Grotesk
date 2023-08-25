@@ -36,7 +36,6 @@ If you like this typeface, download it, store it in your library, use it, share 
 - New styles? Mono, Text, Micro? maybe not yet
 
 ### ⏳ In progress
-- Arrows (like, lots of them)
 - Kerning (LATIN, NUMBERS, etc.)
 - IPA
   - Letters ✅
@@ -54,6 +53,7 @@ If you like this typeface, download it, store it in your library, use it, share 
   - 'cv04': Circled numbers
 - Uniwidth ✅ (24/08/2023)
   - Auto-kerned. Can't be bothered to manually kern (lol).
+- Arrows ✅ (25/08/2023)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
