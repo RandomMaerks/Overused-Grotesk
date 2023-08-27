@@ -66,6 +66,14 @@ py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-SemiBold
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Bold
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-ExtraBold
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Black
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-LightItalic
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-BookItalic
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Italic
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-MediumItalic
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-SemiBoldItalic
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-BoldItalic
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-ExtraBoldItalic
+py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-BlackItalic
 ```
 
 The output font files will be in either instance_otf / _ttf (instance generation) or variable_ttf
@@ -76,4 +84,5 @@ The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or w
 `path = "..."`.
 
 For more information on how to edit designspace files, check out RoboFont's 
-[Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib).
+[Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
+and fonttools' [Scripting a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html).
