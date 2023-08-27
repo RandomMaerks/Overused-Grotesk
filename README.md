@@ -40,8 +40,7 @@ If you like this typeface, download it, store it in your library, use it, share 
   - Letters ✅
   - Accents ⏳
 - Italics - 'slnt' axis
-  - I've decided that I should make Italics now
-  - Most Basic Latin ✅ (27/08/2023)
+  - Basic Latin ✅ (27/08/2023)
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
