@@ -7,7 +7,7 @@ If you like this typeface, download it, store it in your library, use it, share 
 
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-3.png)
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-4.png)
-![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-5.png)
+![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-e1.png)
 
 ---
 ## Styles
