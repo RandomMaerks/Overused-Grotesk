@@ -11,16 +11,16 @@ If you like this typeface, download it, store it in your library, use it, share 
 
 ---
 ## Styles
-| Style name | wght | wdth |
-| --------- | :---: | :---: |
-| Light | 300 | 100 |
-| Book | 350 | 100 |
-| Roman | 400 | 100 |
-| Medium | 500 | 100 |
-| SemiBold | 600 | 100 |
-| Bold | 700 | 100 |
-| ExtraBold | 800 | 100 |
-| Black | 900 | 100 |
+| Style name | wght | wdth | slnt | - | Style name | wght | wdth | slnt |
+| --------- | :---: | :---: | :---: | - | --------- | :---: | :---: | :---: |
+| Light | 300 | 100 | 0 | - | Light Italic | 300 | 100 | -10 |
+| Book | 350 | 100 | 0 | - | Book Italic | 350 | 100 | -10 |
+| Roman | 400 | 100 | 0 | - | Italic | 400 | 100 | -10 |
+| Medium | 500 | 100 | 0 | - | Medium Italic | 500 | 100 | -10 |
+| SemiBold | 600 | 100 | 0 | - | SemiBold Italic | 600 | 100 | -10 |
+| Bold | 700 | 100 | 0 | - | Bold Italic | 700 | 100 | -10 |
+| ExtraBold | 800 | 100 | 0 | - | ExtraBold Italic | 800 | 100 | -10 |
+| Black | 900 | 100 | 0 | - | Black Italic | 900 | 100 | -10 |
 
 
 ## Plans
@@ -30,7 +30,6 @@ If you like this typeface, download it, store it in your library, use it, share 
 - Building more accented letters (Latin-specific)
 - More currency symbols
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
-- Italics, definitely. Just need to make the Upright version first.
 - Hinting (might just use ttfautohint)
 - Webfont support + css code
 - New styles? Mono, Text, Micro? maybe not yet
@@ -40,6 +39,8 @@ If you like this typeface, download it, store it in your library, use it, share 
 - IPA
   - Letters ✅
   - Accents ⏳
+- Italics - 'slnt' axis
+  - I've decided that I should make Italics now
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
