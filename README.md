@@ -73,3 +73,4 @@ This section is just here for additional references.
 - [Cyrillic Local Forms](https://localfonts.eu/typography-basics/fonts-the-importance-of-localisation/local-features/cyrillic-local-forms/)
 - Google's [Google Fonts Documentation](https://googlefonts.github.io/gf-guide/) (if this typeface's going to GF, which I doubt)
 - RoboFont's [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
+- fontTools' [Creating a deignspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html).
