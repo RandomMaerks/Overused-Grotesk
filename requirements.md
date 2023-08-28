@@ -1,3 +1,4 @@
 python
 fontforge
 fontmake
+fonttools
