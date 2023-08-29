@@ -22,9 +22,12 @@ If you like this typeface, download it, store it in your library, use it, share 
 | ExtraBold | 800 | 100 | 0 | - | ExtraBold Italic | 800 | 100 | -10 |
 | Black | 900 | 100 | 0 | - | Black Italic | 900 | 100 | -10 |
 
-## Usage Web Fonts
+## Webfont usage
 
-With variable fonts. Traditionally, all possible weights and styles have been separated out into different font files, whereas variable fonts combine all of those variations into one. Because of this, overall file size is greatly reduced compared to loading multiple individual font files—and that’s a key consideration for web typography. [Google Fonts / article was written by Elliot Jay Stocks](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts)
+### Variable fonts
+Traditionally, all possible weights and styles have been separated out into different font files, whereas variable fonts combine all of those variations into one. Because of this, overall file size is greatly reduced compared to loading multiple individual font files—and that’s a key consideration for web typography.
+
+More information about variable font can be found on Google Fonts' [Introducing variable fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) article written by Elliot Jay Stocks.
 
 ```css
 @font-face {
