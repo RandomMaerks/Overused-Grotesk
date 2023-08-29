@@ -1,5 +1,5 @@
 # Contributing
-This is a detailed documentation on how to report an issue, build, and contribute to this project.
+This is an instruction on how to report an issue, build, and contribute to this project.
 
 Note that the instruction on building and generating font files are based on the assumption that 
 you are using a Windows machine. If you are using other operating systems like Mac or Linux, please 
@@ -50,10 +50,14 @@ cd "C:\Users\...\Overused-Grotesk-main\source"
 ```
 
 ### Generate
+- Variable font (.ttf)
+
 If you want to build variable font, use:
 ```
 py -m fontmake -m OverusedGrotesk.designspace -o variable
 ```
+
+- Static fonts — Desktop (.ttf, .otf)
 
 Or you can generate instances by copy-and-pasting all of the content from `source/build_instances.sh` 
 into the command prompt:
@@ -76,8 +80,59 @@ py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-ExtraBoldItalic
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-BlackItalic
 ```
 
-The output font files will be in either instance_otf / _ttf (instance generation) or variable_ttf
-(variable font). When you generate instances, their respective .ufo file will also be in instance_ufo.
+The output font files will be in either `instance_otf` / `instance_ttf` (instance generation) or 
+`variable_ttf` (variable font). When you generate instances, their respective .ufo file will 
+also be in `instance`.
+
+
+- Webfont (Variable + Static, .woff2)
+
+To build woff2, you can follow the instructions from @husenlovedisney ([#4](https://github.com/RandomMaerks/Overused-Grotesk/pull/4)).
+
+Or, if you are too lazy to open a new tab:
+
+Open the command prompt as administrator (or use PowerShell). Run the command `wsl --install` or
+`wsl --install -d Ubuntu` to install WSL and the Ubuntu distribution of Linux. For more information,
+go to Microsoft's [Linux installation article](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+After installation, Ubuntu can be run as a program. Open Ubuntu, then run the following commands:
+```
+sudo apt update 
+sudo apt install build-essential
+```
+
+Then, clone Google's [`woff2`](https://github.com/google/woff2) library:
+```
+git clone --recursive https://github.com/google/woff2.git
+cd woff2
+make clean all
+```
+
+THEN, copy the .ttf files into the `.woff2` directory (which could be found in \\wsl.localhost\Ubuntu
+\home\..\woff2). You can also create a new separate folder for the font files (for example: ...\ttf).
+
+Run `./woff2_compress ttf/OverusedGrotesk-VF.ttf` (replace name if necessary) to generate .woff2 for
+variable font.
+
+Or, copy the following straight into the command line to convert to .woff2 for static fonts:
+```
+./woff2_compress ttf/OverusedGrotesk-Light.ttf
+./woff2_compress ttf/OverusedGrotesk-LightItalic.ttf
+./woff2_compress ttf/OverusedGrotesk-Book.ttf
+./woff2_compress ttf/OverusedGrotesk-BookItalic.ttf
+./woff2_compress ttf/OverusedGrotesk-Roman.ttf
+./woff2_compress ttf/OverusedGrotesk-Italic.ttf
+./woff2_compress ttf/OverusedGrotesk-Medium.ttf
+./woff2_compress ttf/OverusedGrotesk-MediumItalic.ttf
+./woff2_compress ttf/OverusedGrotesk-SemiBold.ttf
+./woff2_compress ttf/OverusedGrotesk-SemiBoldItalic.ttf
+./woff2_compress ttf/OverusedGrotesk-Bold.ttf
+./woff2_compress ttf/OverusedGrotesk-BoldItalic.ttf
+./woff2_compress ttf/OverusedGrotesk-ExtraBold.ttf
+./woff2_compress ttf/OverusedGrotesk-ExtraBoldItalic.ttf
+./woff2_compress ttf/OverusedGrotesk-Black.ttf
+./woff2_compress ttf/OverusedGrotesk-BlackItalic.ttf
+```
 
 ### Designspace file
 The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or whatever name is in the
@@ -86,3 +141,18 @@ The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or w
 For more information on how to edit designspace files, check out RoboFont's 
 [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
 and fonttools' [Scripting a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html).
+
+## Warning
+
+This is an oversimplification of what you can actually do with these tools. I've only included the
+necessities required to build and run.
+
+The instruction, which I have to mention again, is heavily dependent on the fact that you are running
+a Windows machine, and has not had any required libraries or distributions installed beforehand. I
+cannot be liable for any damages caused by improper setup, bugs, incorrect library installation, or
+incompatibility.
+
+It is also important that you do extensive research before installing any programs, libraries, or
+distributions on your device, and you should at least know what you are doing. If there are 
+uncertainties or incomprehension in the process of installing, building, or other, feel free to ask
+other people by opening a discussion or an issue.
