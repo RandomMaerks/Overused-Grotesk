@@ -87,7 +87,7 @@ also be in `instance`.
 
 - Webfont (Variable + Static, .woff2)
 
-To build woff2, you can follow the instructions from @husenlovedisney ([#4](https://github.com/RandomMaerks/Overused-Grotesk/pull/4)).
+To build woff2, you can follow the instructions from [@husenlovedisney](https://github.com/husenlovedisney) ([#4](https://github.com/RandomMaerks/Overused-Grotesk/pull/4)).
 
 Or, if you are too lazy to open a new tab:
 
