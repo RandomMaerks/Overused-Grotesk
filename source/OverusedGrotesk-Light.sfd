@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1690548111
-ModificationTime: 1693469354
+ModificationTime: 1693480561
 PfmFamily: 17
 TTFWeight: 300
 TTFWidth: 5
@@ -214,7 +214,7 @@ KernClass2: 46 71 "OverusedGrotesk-Black-'kern' Horizontal Kerning in Latin look
  147 c e g o q ccedilla eth dcroat eogonek oe ohorn uni01D2 uni1EB9 uni1ECD a.ss01 aogonek.ss01 uni1EA1.ss01 uni1EA1.ss01.ss03 uni1EB9.ss03 uni1ECD.ss03
  158 d egrave eacute ograve oacute cacute cdotaccent dcaron edotaccent uni1EBB uni1ECF uni1EDB uni1EDD uni1EDF uni1EE3 cdotaccent.ss03 edotaccent.ss03 uni1EE3.ss03
  50 f t uni0163 tcaron t.ss08 uni0163.ss08 tcaron.ss08
- 55 i ij i.ss03 l.ss02 lcaron.ss02 ldot.ss02 ldot.ss02.ss03
+ 12 i ij i.ss03 
  8 j j.ss03
  97 m n p r dotlessi kgreenlandic nacute uni0146 ncaron eng racute uni1E9E dotlessi.ss03 uni0146.ss03
  211 u ugrave uacute umacron uring uhungarumlaut uogonek uhorn uni1EE5 uni1EE7 uni1EE9 uni1EEB uni1EED uni1EF1 u.ss10 uni1EE5.ss03 uni1EF1.ss03 uogonek.ss10 uhorn.ss10 uni1EE5.ss10 uni1EE5.ss10.ss03 uni1EE5.ss03.ss10
@@ -260,7 +260,7 @@ KernClass2: 46 71 "OverusedGrotesk-Black-'kern' Horizontal Kerning in Latin look
  29 edieresis.ss03 odieresis.ss03
  22 ij.ss03 udieresis.ss03
  12 iogonek.ss03
- 11 lacute.ss02
+ 55 l.ss02 lacute.ss02 lcaron.ss02 ldot.ss02 ldot.ss02.ss03
  12 uni1ECB.ss03
  135 ugrave.ss10 uacute.ss10 uring.ss10 uni1EE7.ss10 uni1EE9.ss10 uni1EEB.ss10 uni1EED.ss10 uni1EF1.ss10 uni1EF1.ss10.ss03 uni1EF1.ss03.ss10
  11 ubreve.ss10
