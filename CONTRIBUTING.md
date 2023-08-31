@@ -59,8 +59,7 @@ py -m fontmake -m OverusedGrotesk.designspace -o variable
 
 - Static fonts — Desktop (.ttf, .otf)
 
-Or you can generate instances by copy-and-pasting all of the content from `source/build_instances.sh` 
-into the command prompt:
+Or you can generate instances by copy-and-pasting all of the commands below or run `source/build_instances.bat`: 
 ```
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Light
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Book
