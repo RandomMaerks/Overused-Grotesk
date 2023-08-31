@@ -47,7 +47,6 @@ More information about variable font can be found on Google Fonts' [Introducing 
 - More currency symbols
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
 - Hinting (might just use ttfautohint)
-- Webfont support + css code
 - New styles? Mono, Text, Micro? maybe not yet
 
 ### ⏳ In progress
@@ -57,6 +56,7 @@ More information about variable font can be found on Google Fonts' [Introducing 
   - Accents ⏳
 - Italics - 'slnt' axis
   - Basic Latin ✅ (27/08/2023)
+  - Extended, numbers, symbols ✅ (29-30/08/2023)
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
@@ -71,6 +71,7 @@ More information about variable font can be found on Google Fonts' [Introducing 
 - Uniwidth ✅ (24/08/2023)
   - Auto-kerned. Can't be bothered to manually kern (lol).
 - Arrows ✅ (25/08/2023)
+- Webfont support + css code ✅
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
