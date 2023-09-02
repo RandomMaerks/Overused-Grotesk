@@ -45,7 +45,6 @@ More information about variable font can be found on Google Fonts' [Introducing 
 - Cyrillic next?
 - Small caps
 - Building more accented letters (Latin-specific)
-- More currency symbols
 - New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
 - Hinting (might just use ttfautohint)
 - New styles? Mono, Text, Micro? maybe not yet
@@ -58,6 +57,7 @@ More information about variable font can be found on Google Fonts' [Introducing 
 - Italics - 'slnt' axis
   - Basic Latin ✅ (27/08/2023)
   - Extended, numbers, symbols ✅ (29-30/08/2023)
+- More currency symbols
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
