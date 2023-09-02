@@ -5,6 +5,8 @@ Note that the instruction on building and generating font files are based on the
 you are using a Windows machine. If you are using other operating systems like Mac or Linux, please 
 change the command lines appropriately.
 
+---
+
 ## Report an issue
 If you find any issue with the design, features, or the source, please [open an issue](https://github.com/RandomMaerks/Overused-Grotesk/issues/new/choose). But if you're
 just here to have a conversation or discuss certain things, you can [create a discussion](https://github.com/RandomMaerks/Overused-Grotesk/discussions/new/choose).
@@ -22,6 +24,7 @@ You can follow this template when you're creating an issue:
 
 You also need to make sure that the issue you're reporting has not already been reported before.
 
+
 ## Build
 
 ### Requirements
@@ -30,7 +33,11 @@ allows you to open and edit the .sfd files included in the source folder, export
 .ufo for other uses.
 
 [fontmake](https://github.com/googlefonts/fontmake) was also used to create variable font and
-generate instances. You can also see further information down below.
+generate instances.
+
+For `woff` and `woff2` compression, Google's [`woff2`](https://github.com/google/woff2) and
+samboy's [`WOFF`](https://github.com/samboy/WOFF) libraries are used. Other tools _can_ also 
+be used.
 
 ### Installation & Setup
 You can download FontForge from their [repository](https://github.com/fontforge/fontforge) or their [official website](https://fontforge.org/en-US/).
@@ -47,6 +54,38 @@ Once the installation is complete, enter `cd` then drag in the source directory 
 downloaded the .zip and extracted it). For example:
 ```
 cd "C:\Users\...\Overused-Grotesk-main\source"
+```
+
+At this point, you don't need to install anything anymore. But, if you want to generate webfonts, you
+must also install WSL.
+
+Open the command prompt as administrator (or use PowerShell). Run the command `wsl --install` or
+`wsl --install -d Ubuntu` to install WSL and the Ubuntu distribution of Linux. For more information,
+go to Microsoft's [Linux installation article](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+After installation, Ubuntu can be run as a program. Enter a name, password, set up the necessities, bla
+bla bla...
+
+To begin, run the following commands:
+```
+sudo apt update 
+sudo apt install build-essential
+```
+
+For `woff2`, clone Google's [`woff2`](https://github.com/google/woff2) library:
+```
+git clone --recursive https://github.com/google/woff2.git
+cd woff2
+make clean all
+```
+
+For `woff`, install the zlib library (Ubuntu) and clone samboy's [`WOFF`](https://github.com/samboy/WOFF) 
+(in all caps) library:
+```
+sudo apt install zlib1g zlib1g-dev -y
+git clone https://github.com/samboy/WOFF
+cd WOFF
+make
 ```
 
 ### Generate
@@ -84,54 +123,40 @@ The output font files will be in either `instance_otf` / `instance_ttf` (instanc
 also be in `instance`.
 
 
-- Webfont (Variable + Static, .woff2)
+- Webfont (Variable + Static)
 
-To build woff2, you can follow the instructions from [@husenlovedisney](https://github.com/husenlovedisney) ([#4](https://github.com/RandomMaerks/Overused-Grotesk/pull/4)).
+_**woff2**_
 
-Or, if you are too lazy to open a new tab:
+(Special thanks to [@husenlovedisney](https://github.com/husenlovedisney) for helping with the
+compression.)
 
-Open the command prompt as administrator (or use PowerShell). Run the command `wsl --install` or
-`wsl --install -d Ubuntu` to install WSL and the Ubuntu distribution of Linux. For more information,
-go to Microsoft's [Linux installation article](https://learn.microsoft.com/en-us/windows/wsl/install).
-
-After installation, Ubuntu can be run as a program. Open Ubuntu, then run the following commands:
-```
-sudo apt update 
-sudo apt install build-essential
-```
-
-Then, clone Google's [`woff2`](https://github.com/google/woff2) library:
-```
-git clone --recursive https://github.com/google/woff2.git
-cd woff2
-make clean all
-```
-
-THEN, copy the .ttf files into the `.woff2` directory (which could be found in \\wsl.localhost\Ubuntu
-\home\..\woff2). You can also create a new separate folder for the font files (for example: ...\ttf).
+Copy the .ttf files into the `woff2` directory (which could be found in \\wsl.localhost\Ubuntu\home\..\woff2).
+You can also create a new separate folder for the font files (for example: woff2\ttf).
 
 Run `./woff2_compress ttf/OverusedGrotesk-VF.ttf` (replace name if necessary) to generate .woff2 for
 variable font.
 
-Or, copy the following straight into the command line to convert to .woff2 for static fonts:
+Or, run this command to compress all .ttf fonts to .woff2:
 ```
-./woff2_compress ttf/OverusedGrotesk-Light.ttf
-./woff2_compress ttf/OverusedGrotesk-LightItalic.ttf
-./woff2_compress ttf/OverusedGrotesk-Book.ttf
-./woff2_compress ttf/OverusedGrotesk-BookItalic.ttf
-./woff2_compress ttf/OverusedGrotesk-Roman.ttf
-./woff2_compress ttf/OverusedGrotesk-Italic.ttf
-./woff2_compress ttf/OverusedGrotesk-Medium.ttf
-./woff2_compress ttf/OverusedGrotesk-MediumItalic.ttf
-./woff2_compress ttf/OverusedGrotesk-SemiBold.ttf
-./woff2_compress ttf/OverusedGrotesk-SemiBoldItalic.ttf
-./woff2_compress ttf/OverusedGrotesk-Bold.ttf
-./woff2_compress ttf/OverusedGrotesk-BoldItalic.ttf
-./woff2_compress ttf/OverusedGrotesk-ExtraBold.ttf
-./woff2_compress ttf/OverusedGrotesk-ExtraBoldItalic.ttf
-./woff2_compress ttf/OverusedGrotesk-Black.ttf
-./woff2_compress ttf/OverusedGrotesk-BlackItalic.ttf
+for file in ttf/*.ttf; do ./woff2_compress $file; done
 ```
+
+Refresh if needed. The `.woff2` files will now be in the folder.
+
+_**woff**_
+
+Copy the .ttf files into the `WOFF` directory (which could be found in \\wsl.localhost\Ubuntu\home\..\WOFF). 
+You can also create a new separate folder for the font files (for example: WOFF\ttf).
+
+Run `./sfnt2woff ttf/OverusedGrotesk-VF.ttf` (replace name if necessary) to generate .woff for
+variable font.
+
+Or, run this command to compress all .ttf fonts to .woff:
+```
+for file in ttf/*.ttf; do ./sfnt2woff $file; done
+```
+
+Refresh if needed. The `.woff` files will now be in the folder.
 
 ### Designspace file
 The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or whatever name is in the
@@ -140,6 +165,8 @@ The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or w
 For more information on how to edit designspace files, check out RoboFont's 
 [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
 and fonttools' [Scripting a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html).
+
+---
 
 ## Warning
 
