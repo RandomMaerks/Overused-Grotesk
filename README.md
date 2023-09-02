@@ -5,9 +5,10 @@ Overused Grotesk is heavily based off the classic neo-grotesque type design, esp
 
 If you like this typeface, download it, store it in your library, use it, share it with someone.
 
-![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-3.png)
-![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-4.png)
+![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-f1.png)
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-e1.png)
+![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-f2.png)
+![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-f3.png)
 
 ---
 ## Styles
