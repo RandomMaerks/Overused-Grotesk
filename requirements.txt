@@ -2,3 +2,5 @@ python
 fontforge
 fontmake
 fonttools
+woff2
+WOFF
