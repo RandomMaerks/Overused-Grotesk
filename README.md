@@ -30,6 +30,7 @@ Traditionally, all possible weights and styles have been separated out into diff
 
 More information about variable font can be found on Google Fonts' [Introducing variable fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) article written by Elliot Jay Stocks.
 
+**fonts.css**
 ```css
 @font-face {
   font-family: 'Overused Grotesk';
@@ -38,6 +39,20 @@ More information about variable font can be found on Google Fonts' [Introducing 
     url('../fonts/OverusedGrotesk-VF.woff2') format('woff2-variations');
   font-weight: 300 900;
 }
+```
+**base.css**
+```css
+@import "fonts.css";
+
+:root {
+    --font-sans: Overused Grotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+```
+To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload the font in the head of your HTML document:
+
+**base.html**
+```html
+<link rel="preload" href="/fonts/OverusedGrotesk-VF.woff2" as="font" type="font/woff2" crossorigin>
 ```
 
 ## Plans
