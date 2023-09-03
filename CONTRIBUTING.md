@@ -89,16 +89,16 @@ make
 ```
 
 ### Generate
-- Variable font (.ttf)
+- Variable font (.ttf) using Python/fontmake
 
 If you want to build variable font, use:
 ```
 py -m fontmake -m OverusedGrotesk.designspace -o variable
 ```
 
-- Static fonts — Desktop (.ttf, .otf)
+- Static fonts — Desktop (.ttf, .otf) using Python/fontmake
 
-Or you can generate instances by copy-and-pasting all of the commands below or run `source/build_instances.bat`: 
+You can generate instances by copy-and-pasting all of the commands below or run `source/build_instances.bat`: 
 ```
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Light
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Book
@@ -123,7 +123,7 @@ The output font files will be in either `instance_otf` / `instance_ttf` (instanc
 also be in `instance`.
 
 
-- Webfont (Variable + Static)
+- Webfont (Variable + Static) with WSL
 
 _**woff2**_
 
