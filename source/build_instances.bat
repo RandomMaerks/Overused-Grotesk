@@ -1,6 +1,4 @@
 @echo off
-
-cd "C:\Users\AD\Dropbox\My PC (RandomMaerks)\Documents\A_RandomTypeFoundr\Overused Grotesk"
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Light
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Book
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Roman
