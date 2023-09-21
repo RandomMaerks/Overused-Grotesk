@@ -98,6 +98,7 @@ _**After v2.0**_
 - Add serif 'I' for disambiguation between 'I' and 'l' (20/09/2023)
 - Figure out how the WriteUFOLayer error occurs when merging sfds (20/09/2023)
 - Fixing kerning for 'y' with Stylistic Set 07 (20/09/2023)
+- Add 'a.spur' for Helvetica-related reasons, although no accents (20/09/2023)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
