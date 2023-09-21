@@ -56,12 +56,16 @@ To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload t
 ```
 
 ## Plans
-- Ligatures (not necessary)
-- Cyrillic next?
+_**Before v1.0**_
+- Cyrillic
+- New widths
+
+_**After v1.0 - Before v2.0**_
 - Small caps
 - Building more accented letters (Latin-specific)
-- New widths? Compressed + Condensed + Extended + ExtraExtended (build Compressed & ExtraExtended then just interpolate from there)
-- Hinting (might just use ttfautohint)
+- Ligatures (not necessary)
+
+_**After v2.0**_
 - New styles? Mono, Text, Micro? maybe not yet
 
 ### ⏳ In progress
