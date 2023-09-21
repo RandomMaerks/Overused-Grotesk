@@ -58,7 +58,8 @@ To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload t
 ## Plans
 _**Before v1.0**_
 - Cyrillic
-- New widths
+- More widths (5 static widths: Compressed - Condensed - Normal - Extended - Wide)
+  - 3 width masters * 2 weight masters * 2 slant masters = 12 total masters
 
 _**After v1.0 - Before v2.0**_
 - Small caps
@@ -92,6 +93,11 @@ _**After v2.0**_
   - Auto-kerned. Can't be bothered to manually kern (lol).
 - Arrows ✅ (25/08/2023)
 - Webfont support + css code ✅
+
+### ☑ Completed side quests
+- Add serif 'I' for disambiguation between 'I' and 'l' (20/09/2023)
+- Figure out how the WriteUFOLayer error occurs when merging sfds (20/09/2023)
+- Fixing kerning for 'y' with Stylistic Set 07 (20/09/2023)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
