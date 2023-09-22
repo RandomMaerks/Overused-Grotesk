@@ -261,16 +261,21 @@ doc.addInstance(i15)
 #-------
 # rules
 #-------
-
-#r1 = RuleDescriptor(name='latin-a_italic')
-#r1.conditionSets = [ 
-#    [
-#        {'name': "slant", 'minimum': -10, 'maximum': -5 },
-#    ],
-#]
-#r1.subs = [("a", "a.ss01"),]
-#doc.addRule(r1)
-
+# Currently dropping support for a_spur because i'm lazy
+# and it will take a long time to add accents for it
+# It looks cool but I'm not so just ignore it
+"""
+r1 = RuleDescriptor()
+r1.name = 'latin-a_spur-wght'
+r1.conditionSets = [
+    [
+        { 'name': "weight", 'minimum': 300, 'maximum': 650 },
+        { 'name': "slant", 'minimum': -10, 'maximum': 0 },
+    ]
+]
+r1.subs = [("a", "a.spur")]
+doc.addRule(
+"""
 #--------
 # saving
 #--------
