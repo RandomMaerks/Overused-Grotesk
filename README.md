@@ -1,7 +1,7 @@
 # Overused Grotesk
 Do you want a free alternative to Helvetica because you refuse to pay good money for high-quality typefaces, or that you think neo-grotesk Swiss-like type design is peak minimalism? Then this is probably a good choice.
 
-Overused Grotesk is heavily based off the classic neo-grotesque type design, especially the epic look of the ubiquitous typeface, Helvetica. It may look like the other thousand neo-grotesque typefaces out there, but I can guarantee that "it has its own charm and uniqueness".
+Overused Grotesk is heavily based off the classic neo-grotesk type design, especially the epic look of the ubiquitous typeface, Helvetica. It may look like the other thousand neo-grotesk typefaces out there, but I can guarantee that "it has its own charm and uniqueness".
 
 If you like this typeface, download it, store it in your library, use it, share it with someone.
 
@@ -115,18 +115,11 @@ This section is just here for additional references.
 - Donny Trương's [Vietnamese Typography](https://vietnamesetypography.com) book
 - Monotype's [Glossary of Typographic Terms and Definitions](https://www.monotype.com/resources/z-typographic-terms)
 - [Cyrillic Local Forms](https://localfonts.eu/typography-basics/fonts-the-importance-of-localisation/local-features/cyrillic-local-forms/)
-- Google's [Google Fonts Documentation](https://googlefonts.github.io/gf-guide/) (if this typeface's going to GF, which I doubt)
 - RoboFont's [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
 - fontTools' [Creating a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html)
 
 ## A small warning about distribution of this typeface
-Even though the license does specify distribution permission very clearly, I still need to say a few words about this matter.
-
 When you share this typeface with someone else, or submitting it to a public font collection, please include the link to this repository.
-
-Lately, I've been seeing a lot of font distributors adding my typeface to their massive collection, some even made their own graphics. And I really appreciate that they even acknowledged my work....
-
-BUT, a lot of them seems to "copy each other", or they just don't know the original repo, so they just share the old files. In some of the graphics they made, kerning wasn't even present.
 
 This typeface had already gone through multiple major updates throughout August, with many addtions like KERNING, ITALICS, WEBFONTS, even STYLISTIC SETS, BUG FIXES, CHARACTER VARIANTS, etc.
 
