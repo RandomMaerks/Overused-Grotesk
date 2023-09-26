@@ -74,9 +74,6 @@ _**After v2.0**_
 - IPA
   - Letters ✅
   - Accents ⏳
-- Italics - 'slnt' axis
-  - Basic Latin ✅ (27/08/2023)
-  - Extended, numbers, symbols ✅ (29-30/08/2023)
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
@@ -90,7 +87,8 @@ _**After v2.0**_
   - 'cv04': Circled numbers
 - Arrows ✅ (25/08/2023)
 - Webfont support + css code ✅
-- More currency symbol ✅️ (24/08/2023)
+- More currency symbols ✅️ (24/09/2023)
+- Italic (for now) ✅️
 
 ### ☑ Completed side quests
 - Add serif 'I' for disambiguation between 'I' and 'l' (20/09/2023)
