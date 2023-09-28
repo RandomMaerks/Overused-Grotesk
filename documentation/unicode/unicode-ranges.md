@@ -6,8 +6,8 @@ This information can be found here: FontForge > Elements > Font Info > Unicode R
 
 | Name | Image | Unicode range | Supported |
 | --- | --- | :---: | :---: |
-| Basic Multilingual Plane | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/41bc44d1-b973-4a2e-80eb-71e718ac3c27) | U+0000 - U+FFFD | 728/64082 |
-| Non-Unicode Glyphs | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/32d64046-ee3a-4b79-a1f4-e4409fc1d131) | --- | 337/0 |
+| Basic Multilingual Plane | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/b51d6000-eb71-406e-811b-bd94fccd7fb7) | U+0000 - U+FFFD | 763/64082 |
+| Non-Unicode Glyphs | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/6952fb97-046a-4eef-a568-2de9c47db4d3) | --- | 261/0 |
 
 ## Specific unicode ranges
 
@@ -21,8 +21,9 @@ This information can be found here: FontForge > Elements > Font Info > Unicode R
 | Spacing Modifier Letters | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/ca8e0026-e7e8-43e8-8a09-068cbc790075) | U+02B0 - U+02FF | 4/80 |
 | Combining Diacritical Marks | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/dc21fee4-d4d7-4fec-870a-b626fba227d6) | U+0300 - U+036F | 20/112 |
 | Latin Extended Additional | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/6868dae3-d54a-4a71-8f80-91cc5fde292b) | U+1E00 - U+1EFF | 91/256 |
-| General Punctuation | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/7f0fd3df-1df2-48d1-ba07-387033d83165) | U+2000 - U+206F | 21/111 |
+| General Punctuation | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/7f0fd3df-1df2-48d1-ba07-387033d83165) | U+2000 - U+206F | 24/111 |
 | Superscripts and Subscripts | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/bde30f72-09a9-4360-81fe-8c352e7a1bfb) | U+2070 - U+209F | 29/42 |
+| Currency Symbols | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/4491d727-92c7-465a-9bc3-753cc46d8492) | U+20A0 - U+20CF | 32/33 |
 | Arrows | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/37133be4-ac3e-42a7-ba41-d2cf7b3e650d) | U+2190 - U+21FF | 85/112 |
 | Enclosed Alphanumerics | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/319ba1b2-5a91-4f37-abbe-2d0758c17daf) | U+2460 - U+24FF | 11/160 |
 | Geometric Shapes | ![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/a1980ebe-b5b2-47e7-be8e-47d00b06f9d4) | U+25A0 - U+25FF | 23/96 |
