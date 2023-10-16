@@ -57,7 +57,6 @@ To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload t
 
 ## Plans
 _**Before v1.0**_
-- Cyrillic
 - More widths (5 static widths: Compressed - Condensed - Normal - Extended - Wide)
   - 3 width masters * 2 weight masters * 2 slant masters = 12 total masters
 
@@ -70,6 +69,7 @@ _**After v2.0**_
 - New styles? Mono, Text, Micro? maybe not yet
 
 ### ⏳ In progress
+- Cyrillic
 - Kerning (LATIN, NUMBERS, etc.)
 - IPA
   - Letters ✅
