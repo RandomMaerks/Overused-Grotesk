@@ -61,6 +61,7 @@ _**Before v1.0**_
   - 3 width masters * 2 weight masters * 2 slant masters = 12 total masters
 
 _**After v1.0 - Before v2.0**_
+- Greek
 - Small caps
 - Building more accented letters (Latin-specific)
 - Ligatures (not necessary)
