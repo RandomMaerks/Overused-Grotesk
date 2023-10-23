@@ -72,9 +72,6 @@ _**After v2.0**_
 ### ⏳ In progress
 - Cyrillic
 - Kerning (LATIN, NUMBERS, etc.)
-- IPA
-  - Letters ✅
-  - Accents ⏳
 
 ### ✅ Completed tasks
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
@@ -90,6 +87,7 @@ _**After v2.0**_
 - Webfont support + css code ✅
 - More currency symbols ✅️ (24/09/2023)
 - Italic (for now) ✅️
+- IPA (for now) ✅️
 
 ### ☑ Completed side quests
 - Add serif 'I' for disambiguation between 'I' and 'l' (20/09/2023)
