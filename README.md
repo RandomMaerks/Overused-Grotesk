@@ -77,7 +77,7 @@ _**After v2.0**_
 - Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
 - Stylistic set + Accented characters ✅ (08/08/2023)
 - Sub- & superscript, denominators & numerators, slashed zero, tabular figures ✅ (14/08/2023)
-- Trying to figure out why Black weight has massive vertical height ✅ (20/08/2023)
+- Try to figure out why Black weight has massive vertical height ✅ (20/08/2023)
 - Circled + squared numbers (Character variant 01 - 04) ✅ (20/08/2023)
   - 'cv01': Negative squared numbers
   - 'cv02': Squared numbers
@@ -90,12 +90,11 @@ _**After v2.0**_
 - IPA (for now) ✅️
 
 ### ☑ Completed side quests
-- Add serif 'I' for disambiguation between 'I' and 'l' (20/09/2023)
-- Figure out how the WriteUFOLayer error occurs when merging sfds (20/09/2023)
-- Fixing kerning for 'y' with Stylistic Set 07 (20/09/2023)
-- Add 'a.spur' for Helvetica-related reasons, although no accents (20/09/2023)
-- REMOVE UNIWIDTH (22/09/2023)
-  - cuz i don't think there's a use for that. Many typefaces out there have done a better job (e.g. recursive, bahnschrift) with accent marks, proper kerning, etc. For this typeface, it wasn't for functionality, I just added it because "why not".
+- Add serif 'I' (20/09/2023)
+- Figure out why the WriteUFOLayer error occurs when merging sfds (20/09/2023)
+- Fix kerning for 'y' with Stylistic Set 07 (20/09/2023)
+- Add 'a.spur' for aesthetic reasons (cv05), although no accents (20/09/2023)
+- REMOVE UNIWIDTH (22/09/2023) - poorly designed
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
