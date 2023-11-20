@@ -1,4 +1,4 @@
-# Contributing
+# Contributing 🛠
 This is an instruction on how to report an issue, build, and contribute to this project.
 
 Note that the instruction on building and generating font files are based on the assumption that 
@@ -7,12 +7,13 @@ change the command lines appropriately.
 
 ---
 
-## Report an issue
+## Report an issue ❗
 If you find any issue with the design, features, or the source, please [open an issue](https://github.com/RandomMaerks/Overused-Grotesk/issues/new/choose). But if you're
 just here to have a conversation or discuss certain things, you can [create a discussion](https://github.com/RandomMaerks/Overused-Grotesk/discussions/new/choose).
 
 You can follow this template when you're creating an issue:
 
+```
 [TITLE] Name the issue. Make it as short, but as informative as possible.
 
 - Explain the issue in further detail. What is the issue about? What might be causing the issue?
@@ -21,13 +22,13 @@ You can follow this template when you're creating an issue:
 - What device/program are you using?
 - Which version of the font? Where did you get the font files?
 - A "please fix" at the end for a better chance of responding
-
+```
 You also need to make sure that the issue you're reporting has not already been reported before.
 
 
-## Build
+## Build 🔨
 
-### Requirements
+### • Requirements
 This typeface is designed using [FontForge](https://github.com/fontforge/fontforge). FontForge 
 allows you to open and edit the .sfd files included in the source folder, export .ttf, .otf, or
 .ufo for other uses.
@@ -39,32 +40,33 @@ For `woff` and `woff2` compression, Google's [`woff2`](https://github.com/google
 samboy's [`WOFF`](https://github.com/samboy/WOFF) libraries are used. Other tools _can_ also 
 be used.
 
-### Installation & Setup
+### • Installation & Setup
 You can download FontForge from their [repository](https://github.com/fontforge/fontforge) or their [official website](https://fontforge.org/en-US/).
 
 Before installing fontmake, you have to make sure that you already installed Python 3.8 or later.
 A more detailed instruction can be found in the [fontmake repository](https://github.com/googlefonts/fontmake).
 
-Open **Run** and type `cmd`. Then type in the following to install `fontmake`:
-```
-py -m pip install fontmake
-```
+Note that you can also create a virtual environment so none of the installed dependencies interfere
+with any other libraries. But if you're dumb like me, just directly install it on your machine like
+normal. (yes that's bad advice, i'm just not good at this stuff)
 
-Once the installation is complete, enter `cd` then drag in the source directory (assuming you've
+Open **Run** and type `cmd`. Then run `py -m pip install fontmake` to install `fontmake`.
+
+Once the installation is complete, enter `cd` and drag in the source directory (assuming you've
 downloaded the .zip and extracted it). For example:
 ```
 cd "C:\Users\...\Overused-Grotesk-main\source"
 ```
 
 At this point, you don't need to install anything anymore. But, if you want to generate webfonts, you
-must also install WSL.
+must also install WSL. The libraries used for webfont generation can only be run with Ubuntu or lack
+thereof.
 
 Open the command prompt as administrator (or use PowerShell). Run the command `wsl --install` or
 `wsl --install -d Ubuntu` to install WSL and the Ubuntu distribution of Linux. For more information,
 go to Microsoft's [Linux installation article](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-After installation, Ubuntu can be run as a program. Enter a name, password, set up the necessities, bla
-bla bla...
+After installation, Ubuntu can be run as a program. Enter a name, password, set up the necessities, etc.
 
 To begin, run the following commands:
 ```
@@ -88,7 +90,13 @@ cd WOFF
 make
 ```
 
-### Generate
+Since you've installed WSL, there should be a subsystem called 'Linux' in the file explorer:
+
+![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/a51f44e7-3769-43cf-86d5-703ae5e511b9)
+
+Every time you want to generate webfonts, you have to work with them here.
+
+### • Generate
 - Variable font (.ttf) using Python/fontmake
 
 If you want to build variable font, use:
