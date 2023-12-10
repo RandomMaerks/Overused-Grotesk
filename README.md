@@ -64,7 +64,6 @@ _**After v1.0 - Before v2.0**_
 - Greek
 - Small caps
 - Building more accented letters (Latin-specific)
-- Ligatures (not necessary)
 
 _**After v2.0**_
 - New styles? Mono, Text, Micro? maybe not yet
@@ -95,6 +94,9 @@ _**After v2.0**_
 - Fix kerning for 'y' with Stylistic Set 07 (20/09/2023)
 - Add 'a.spur' for aesthetic reasons (cv05), although no accents (20/09/2023)
 - REMOVE UNIWIDTH (22/09/2023) - poorly designed
+- Add Discretionary Ligatures (fi, fl, ff, ffi, ffl) (10/12/2023)
+- Add fractions (10/12/2023)
+- Add a few mathematical notations (10/12/2023)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
