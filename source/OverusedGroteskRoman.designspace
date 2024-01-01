@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="300" maximum="900" default="300"/>
+    <axis tag="slnt" name="slant" minimum="0" maximum="0" default="0"/>
+  </axes>
+  <sources>
+    <source filename="OverusedGrotesk-Light.ufo" familyname="Overused Grotesk Roman" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="weight" xvalue="300"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="OverusedGrotesk-Black.ufo" familyname="Overused Grotesk Roman" stylename="Black">
+      <location>
+        <dimension name="weight" xvalue="900"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="OverusedGrotesk-Light" familyname="Overused Grotesk Roman" stylename="Light" filename="instances/OverusedGrotesk-Light.ufo" stylemapfamilyname="Overused Grotesk Light" stylemapstylename="regular">
+      <location>
+        <dimension name="weight" xvalue="300"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="OverusedGrotesk-Book" familyname="Overused Grotesk Roman" stylename="Book" filename="instances/OverusedGrotesk-Book.ufo" stylemapfamilyname="Overused Grotesk Book" stylemapstylename="regular">
+      <location>
+        <dimension name="weight" xvalue="375"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="OverusedGrotesk-Roman" familyname="Overused Grotesk Roman" stylename="Regular" filename="instances/OverusedGrotesk-Roman.ufo" stylemapfamilyname="Overused Grotesk" stylemapstylename="regular">
+      <location>
+        <dimension name="weight" xvalue="450"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="OverusedGrotesk-Medium" familyname="Overused Grotesk Roman" stylename="Medium" filename="instances/OverusedGrotesk-Medium.ufo" stylemapfamilyname="Overused Grotesk Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="weight" xvalue="525"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="OverusedGrotesk-SemiBold" familyname="Overused Grotesk Roman" stylename="SemiBold" filename="instances/OverusedGrotesk-SemiBold.ufo" stylemapfamilyname="Overused Grotesk SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="weight" xvalue="610"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="OverusedGrotesk-Bold" familyname="Overused Grotesk Roman" stylename="Bold" filename="instances/OverusedGrotesk-Bold.ufo" stylemapfamilyname="Overused Grotesk" stylemapstylename="bold">
+      <location>
+        <dimension name="weight" xvalue="710"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="OverusedGrotesk-ExtraBold" familyname="Overused Grotesk Roman" stylename="ExtraBold" filename="instances/OverusedGrotesk-ExtraBold.ufo" stylemapfamilyname="Overused Grotesk ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="weight" xvalue="800"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="OverusedGrotesk-Black" familyname="Overused Grotesk Roman" stylename="Black" filename="instances/OverusedGrotesk-Black.ufo" stylemapfamilyname="Overused Grotesk Black" stylemapstylename="regular">
+      <location>
+        <dimension name="weight" xvalue="900"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

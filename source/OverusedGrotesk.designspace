@@ -43,31 +43,31 @@
     </instance>
     <instance name="OverusedGrotesk-Book" familyname="Overused Grotesk" stylename="Book" filename="instances/OverusedGrotesk-Book.ufo" stylemapfamilyname="Overused Grotesk Book" stylemapstylename="regular">
       <location>
-        <dimension name="weight" xvalue="350"/>
+        <dimension name="weight" xvalue="375"/>
         <dimension name="slant" xvalue="0"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-Roman" familyname="Overused Grotesk" stylename="Regular" filename="instances/OverusedGrotesk-Roman.ufo" stylemapfamilyname="Overused Grotesk" stylemapstylename="regular">
       <location>
-        <dimension name="weight" xvalue="400"/>
+        <dimension name="weight" xvalue="450"/>
         <dimension name="slant" xvalue="0"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-Medium" familyname="Overused Grotesk" stylename="Medium" filename="instances/OverusedGrotesk-Medium.ufo" stylemapfamilyname="Overused Grotesk Medium" stylemapstylename="regular">
       <location>
-        <dimension name="weight" xvalue="500"/>
+        <dimension name="weight" xvalue="525"/>
         <dimension name="slant" xvalue="0"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-SemiBold" familyname="Overused Grotesk" stylename="SemiBold" filename="instances/OverusedGrotesk-SemiBold.ufo" stylemapfamilyname="Overused Grotesk SemiBold" stylemapstylename="regular">
       <location>
-        <dimension name="weight" xvalue="600"/>
+        <dimension name="weight" xvalue="610"/>
         <dimension name="slant" xvalue="0"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-Bold" familyname="Overused Grotesk" stylename="Bold" filename="instances/OverusedGrotesk-Bold.ufo" stylemapfamilyname="Overused Grotesk" stylemapstylename="bold">
       <location>
-        <dimension name="weight" xvalue="700"/>
+        <dimension name="weight" xvalue="710"/>
         <dimension name="slant" xvalue="0"/>
       </location>
     </instance>
@@ -91,31 +91,31 @@
     </instance>
     <instance name="OverusedGrotesk-BookItalic" familyname="Overused Grotesk" stylename="Book Italic" filename="instances/OverusedGrotesk-BookItalic.ufo" stylemapfamilyname="Overused Grotesk Book" stylemapstylename="italic">
       <location>
-        <dimension name="weight" xvalue="350"/>
+        <dimension name="weight" xvalue="375"/>
         <dimension name="slant" xvalue="-10"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-Italic" familyname="Overused Grotesk" stylename="Italic" filename="instances/OverusedGrotesk-Italic.ufo" stylemapfamilyname="Overused Grotesk" stylemapstylename="italic">
       <location>
-        <dimension name="weight" xvalue="400"/>
+        <dimension name="weight" xvalue="450"/>
         <dimension name="slant" xvalue="-10"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-MediumItalic" familyname="Overused Grotesk" stylename="Medium Italic" filename="instances/OverusedGrotesk-MediumItalic.ufo" stylemapfamilyname="Overused Grotesk Medium" stylemapstylename="italic">
       <location>
-        <dimension name="weight" xvalue="500"/>
+        <dimension name="weight" xvalue="525"/>
         <dimension name="slant" xvalue="-10"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-SemiBoldItalic" familyname="Overused Grotesk" stylename="SemiBold Italic" filename="instances/OverusedGrotesk-SemiBoldItalic.ufo" stylemapfamilyname="Overused Grotesk SemiBold" stylemapstylename="italic">
       <location>
-        <dimension name="weight" xvalue="600"/>
+        <dimension name="weight" xvalue="610"/>
         <dimension name="slant" xvalue="-10"/>
       </location>
     </instance>
     <instance name="OverusedGrotesk-BoldItalic" familyname="Overused Grotesk" stylename="Bold Italic" filename="instances/OverusedGrotesk-BoldItalic.ufo" stylemapfamilyname="Overused Grotesk" stylemapstylename="bold italic">
       <location>
-        <dimension name="weight" xvalue="700"/>
+        <dimension name="weight" xvalue="710"/>
         <dimension name="slant" xvalue="-10"/>
       </location>
     </instance>
