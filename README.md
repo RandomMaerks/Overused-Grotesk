@@ -111,7 +111,6 @@ For more information, see [CONTRIBUTING.md](https://github.com/RandomMaerks/Over
 ## Additional documentation
 This section is just here for additional references.
 - Donny Trương's [Vietnamese Typography](https://vietnamesetypography.com) book
-- Monotype's [Glossary of Typographic Terms and Definitions](https://www.monotype.com/resources/z-typographic-terms)
 - [Cyrillic Local Forms](https://localfonts.eu/typography-basics/fonts-the-importance-of-localisation/local-features/cyrillic-local-forms/)
 - RoboFont's [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
 - fontTools' [Creating a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html)
