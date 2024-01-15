@@ -166,7 +166,7 @@ for file in ttf/*.ttf; do ./sfnt2woff $file; done
 
 Refresh if needed. The `.woff` files will now be in the folder.
 
-### Designspace file
+### • Designspace file
 The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or whatever name is in the
 `path = "..."`.
 
