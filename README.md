@@ -1,9 +1,10 @@
 # Overused Grotesk
-Do you want a free alternative to Helvetica because you refuse to pay good money for high-quality typefaces, or that you think neo-grotesk Swiss-like type design is peak minimalism? Then this is probably a good choice.
+From a dumb mockery of the overutilised "Swiss" type design to a semi-serious workhorse, Overused Grotesk turns itself into a copycat by imitating the most distinguishing features of the ubiquitous Helvetica. However the typeface doesn't stop at purely being a copycat; it wants to be a multipurpose and multilingual, though quirky and nonserious one.
 
-Overused Grotesk is heavily based off the classic neo-grotesk type design, especially the epic look of the ubiquitous typeface, Helvetica. It may look like the other thousand neo-grotesk typefaces out there, but I can guarantee that "it has its own charm and uniqueness".
+This typeface was originally served as a form of "exhibition" for oblivious FontForge users. Unfortunately due to the superbly fast development, along with bad workflow and poor management, the project quickly became incomprehensible for an absolute beginner. Sooo oopsies
 
-If you like this typeface, download it, store it in your library, use it, share it with someone.
+The fonts are free & open-source, and any contributions would be greatly appreciated. If you are planning to show this typeface to someone or submit it to a font collection, please remember to **link this repository**. It's not mandatory, but it saves a lot of headaches (trust me).
+
 
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-f1.png)
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-e1.png)
@@ -114,10 +115,3 @@ This section is just here for additional references.
 - [Cyrillic Local Forms](https://localfonts.eu/typography-basics/fonts-the-importance-of-localisation/local-features/cyrillic-local-forms/)
 - RoboFont's [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
 - fontTools' [Creating a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html)
-
-## A small warning about distribution of this typeface
-When you share this typeface with someone else, or submitting it to a public font collection, please include the link to this repository.
-
-This typeface had already gone through multiple major updates throughout August, with many addtions like KERNING, ITALICS, WEBFONTS, even STYLISTIC SETS, BUG FIXES, CHARACTER VARIANTS, etc.
-
-It is VERY IMPORTANT that people are able to get the latest update. Outdated versions may cause a lot of problems and damages if used extensively.
