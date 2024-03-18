@@ -22,24 +22,24 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1690548111
-ModificationTime: 1705302260
+ModificationTime: 1710330629
 PfmFamily: 17
 TTFWeight: 300
 TTFWidth: 5
 LineGap: 0
 VLineGap: 180
-OS2TypoAscent: 2150
+OS2TypoAscent: 2000
 OS2TypoAOffset: 0
-OS2TypoDescent: -850
+OS2TypoDescent: -700
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 2150
+OS2WinAscent: 2000
 OS2WinAOffset: 0
-OS2WinDescent: 850
+OS2WinDescent: 700
 OS2WinDOffset: 0
-HheadAscent: 2150
+HheadAscent: 2000
 HheadAOffset: 0
-HheadDescent: -850
+HheadDescent: -700
 HheadDOffset: 0
 OS2CapHeight: 1300
 OS2XHeight: 1000
@@ -249,17 +249,17 @@ ChainSub2: class "'calt' Contextual Alternates lookup 26-1" 2 2 2 2
   FClassNames: "All_Others" "dieresis"
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
-OtfFeatName: 'ss01' 1033 "Single-storey 'a'"
-OtfFeatName: 'ss02' 1033 "Bottom-curled 'l'"
-OtfFeatName: 'ss03' 1033 "Rounded dots"
-OtfFeatName: 'ss04' 1033 "Spurless 'G'"
-OtfFeatName: 'ss05' 1033 "Straight-legged 'R'"
-OtfFeatName: 'ss06' 1033 "Alternative 'J'"
-OtfFeatName: 'ss07' 1033 "Alternative 'y'"
-OtfFeatName: 'ss08' 1033 "Arcless 't'"
-OtfFeatName: 'ss09' 1033 "Alternative asterisk"
-OtfFeatName: 'ss10' 1033 "Terminal-less 'u'"
 OtfFeatName: 'ss11' 1033 "Serif 'I'"
+OtfFeatName: 'ss10' 1033 "Terminal-less 'u'"
+OtfFeatName: 'ss09' 1033 "Alternative asterisk"
+OtfFeatName: 'ss08' 1033 "Arcless 't'"
+OtfFeatName: 'ss07' 1033 "Alternative 'y'"
+OtfFeatName: 'ss06' 1033 "Alternative 'J'"
+OtfFeatName: 'ss05' 1033 "Straight-legged 'R'"
+OtfFeatName: 'ss04' 1033 "Spurless 'G'"
+OtfFeatName: 'ss03' 1033 "Rounded dots"
+OtfFeatName: 'ss02' 1033 "Bottom-curled 'l'"
+OtfFeatName: 'ss01' 1033 "Single-storey 'a'"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -267,7 +267,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 825 25 17
+WinInfo: 0 25 17
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -19822,15 +19822,13 @@ SplineSet
  815 -20 994 181 994 482 c 0
  994 785 815 986 547 986 c 0
  293 986 123 785 123 482 c 0
-90 0 m 5xf4
- 189 0 l 5xe8
- 189 973 l 6
- 189 1198 316 1326 537 1326 c 4
- 728 1326 849 1237 867 1092 c 5
- 975 1092 l 5
- 946 1293 777 1426 537 1426 c 4
- 267 1426 90 1248 90 982 c 6
- 90 0 l 5xf4
+90 0 m 1xf4
+ 189 0 l 1xe8
+ 189 973 l 2
+ 189 1198 316 1326 537 1326 c 1
+ 537 1426 l 1
+ 267 1426 90 1248 90 982 c 2
+ 90 0 l 1xf4
 EndSplineSet
 EndChar
 
@@ -26531,25 +26529,7 @@ HStem: -16 102<372 807> 1215 104<346 759>
 VStem: 100 100<250 381 825 1085> 922 104<920 1049> 949 102<210 475>
 LayerCount: 2
 Fore
-SplineSet
-641 592 m 6xe8
- 490 611 l 6
- 238 642 100 754 100 945 c 4
- 100 1174 274 1318 555 1318 c 4
- 825 1318 1002 1168 1025 920 c 5
- 922 920 l 5xf0
- 891 1119 776 1215 553 1215 c 4
- 340 1215 199 1109 199 949 c 4
- 199 816 301 746 498 721 c 6
- 648 699 l 6
- 918 666 1051 549 1051 344 c 4
- 1051 125 871 -16 600 -16 c 4
- 299 -16 115 143 90 381 c 5
- 197 381 l 5
- 230 180 360 86 602 86 c 4
- 809 86 949 186 949 344 c 4
- 949 483 846 569 641 592 c 6xe8
-EndSplineSet
+Refer: 39 83 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0406
@@ -26557,19 +26537,13 @@ Encoding: 1030 1030 1103
 GlifName: uni0406
 Width: 318
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 1281 20G<109 211>
 VStem: 109 102<0 1301>
 AnchorPoint: "top1" 162 1400 basechar 0
 LayerCount: 2
 Fore
-SplineSet
-109 1301 m 1
- 211 1301 l 1
- 211 0 l 1
- 109 0 l 1
- 109 1301 l 1
-EndSplineSet
+Refer: 28 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0407
@@ -26596,17 +26570,7 @@ HStem: 0 96<53 324> 1262 39G<414 514>
 VStem: 414 100<197 1301>
 LayerCount: 2
 Fore
-SplineSet
-53 96 m 5
- 174 96 l 6
- 311 96 414 154 414 408 c 6
- 414 1301 l 5
- 514 1301 l 5
- 514 396 l 6
- 514 93 338 0 176 0 c 6
- 53 0 l 5
- 53 96 l 5
-EndSplineSet
+Refer: 40 74 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0409
@@ -26788,21 +26752,7 @@ HStem: 0 41G<70 200 1034 1162> 375 96<287 932> 1262 39G<546 688>
 AnchorPoint: "top1" 615 1400 basechar 0
 LayerCount: 2
 Fore
-SplineSet
-287 471 m 1
- 932 471 l 1
- 932 375 l 1
- 287 375 l 1
- 287 471 l 1
-1162 0 m 1
- 1049 0 l 1
- 613 1168 l 1
- 186 0 l 1
- 70 0 l 1
- 561 1301 l 1
- 674 1301 l 1
- 1162 0 l 1
-EndSplineSet
+Refer: 45 65 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0411
@@ -26845,28 +26795,7 @@ HStem: 0 96<211 887> 617 98<211 830> 1203 98<211 837>
 VStem: 109 102<96 617 715 1203> 922 105<807 1119> 982 105<192 501>
 LayerCount: 2
 Fore
-SplineSet
-693 1301 m 6xf4
- 892 1301 1027 1168 1027 969 c 4xf8
- 1027 828 959 721 850 670 c 5
- 996 621 1088 502 1088 342 c 4
- 1088 137 947 0 734 0 c 6
- 109 0 l 5
- 109 1301 l 5
- 693 1301 l 6xf4
-684 1203 m 6
- 211 1203 l 5
- 211 715 l 5
- 684 715 l 6
- 834 715 922 809 922 969 c 4
- 922 1119 834 1203 684 1203 c 6
-684 617 m 6
- 211 617 l 5
- 211 96 l 5
- 725 96 l 6
- 887 96 982 186 982 342 c 4xf4
- 982 516 872 617 684 617 c 6
-EndSplineSet
+Refer: 49 66 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0413
@@ -26894,7 +26823,7 @@ EndChar
 StartChar: uni0414
 Encoding: 1044 1044 1117
 GlifName: uni0414
-Width: 1335
+Width: 1245
 GlyphClass: 2
 Flags: HW
 HStem: -326 424<39 137 1197 1297> 0 98<141 174 258 1057 1156 1197> 1203 98<492 1057>
@@ -26902,24 +26831,24 @@ VStem: 39 102<-326 0> 1057 100<98 1203> 1197 100<-326 0>
 LayerCount: 2
 Fore
 SplineSet
-395 1301 m 5xbc
- 1156 1301 l 1
- 1156 98 l 1x7c
- 1297 98 l 1
- 1297 -326 l 1
- 1197 -326 l 1xbc
- 1197 0 l 1
+275 1301 m 1xbc
+ 1066 1301 l 1
+ 1066 98 l 1x7c
+ 1207 98 l 1
+ 1207 -326 l 1
+ 1107 -326 l 1xbc
+ 1107 0 l 1
  141 0 l 1x7c
  141 -326 l 1
  39 -326 l 1
  39 98 l 1
- 137 98 l 1
- 254 205 348 381 395 1301 c 5xbc
-258 98 m 1
- 1057 98 l 1
- 1057 1203 l 1
- 492 1203 l 5
- 449 349 346 203 258 98 c 1
+ 111 98 l 1
+ 185.372093023 205 245.124031008 381 275 1301 c 1xbc
+230 98 m 1
+ 967 98 l 1
+ 967 1203 l 1
+ 372 1203 l 1
+ 345.905982906 349 283.401709402 203 230 98 c 1
 EndSplineSet
 EndChar
 
@@ -26934,21 +26863,7 @@ VStem: 109 102<96 617 715 1203>
 AnchorPoint: "top1" 559 1400 basechar 0
 LayerCount: 2
 Fore
-SplineSet
-971 1301 m 5
- 971 1203 l 5
- 211 1203 l 5
- 211 715 l 5
- 914 715 l 5
- 914 617 l 5
- 211 617 l 5
- 211 96 l 5
- 971 96 l 5
- 971 0 l 5
- 109 0 l 5
- 109 1301 l 5
- 971 1301 l 5
-EndSplineSet
+Refer: 32 69 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0416
@@ -27091,7 +27006,7 @@ EndChar
 StartChar: uni041B
 Encoding: 1051 1051 1124
 GlifName: uni041B_
-Width: 1207
+Width: 1227
 GlyphClass: 2
 Flags: HW
 HStem: 0 98<55 197> 1203 98<428 998>
@@ -27100,14 +27015,14 @@ LayerCount: 2
 Fore
 SplineSet
 332 1301 m 1
- 1098 1301 l 1
- 1098 0 l 1
- 998 0 l 1
- 998 1203 l 1
+ 1118 1301 l 1
+ 1118 0 l 1
+ 1018 0 l 1
+ 1018 1203 l 1
  428 1203 l 1
- 408 139 350 0 55 0 c 1
- 55 98 l 1
- 274 98 311 192 332 1301 c 1
+ 407.410187668 139 347.699731903 0 44 0 c 1
+ 44 98 l 1
+ 271.696750903 98 310.166064982 192 332 1301 c 1
 EndSplineSet
 EndChar
 
@@ -27121,22 +27036,7 @@ HStem: 0 41G<109 211 660 791 1242 1342> 1262 39G<109 268 1176 1342>
 VStem: 109 102<0 1162> 1242 100<0 1162>
 LayerCount: 2
 Fore
-SplineSet
-775 0 m 1
- 676 0 l 1
- 211 1162 l 1
- 211 0 l 1
- 109 0 l 1
- 109 1301 l 1
- 252 1301 l 1
- 727 145 l 1
- 1191 1301 l 1
- 1342 1301 l 1
- 1342 0 l 1
- 1242 0 l 1
- 1242 1162 l 1
- 775 0 l 1
-EndSplineSet
+Refer: 30 77 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni041D
@@ -27144,26 +27044,12 @@ Encoding: 1053 1053 1126
 GlifName: uni041D_
 Width: 1218
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211 1010 1109> 623 98<211 1010> 1281 20G<109 211 1010 1109>
 VStem: 109 102<0 623 721 1301> 1010 99<0 623 721 1301>
 LayerCount: 2
 Fore
-SplineSet
-109 1301 m 5
- 211 1301 l 5
- 211 721 l 5
- 1010 721 l 5
- 1010 1301 l 5
- 1109 1301 l 5
- 1109 0 l 5
- 1010 0 l 5
- 1010 623 l 5
- 211 623 l 5
- 211 0 l 5
- 109 0 l 5
- 109 1301 l 5
-EndSplineSet
+Refer: 27 72 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni041E
@@ -27176,18 +27062,7 @@ HStem: -16 100<456 875> 1221 100<468 862>
 VStem: 90 105<373 912> 1135 105<373 912>
 LayerCount: 2
 Fore
-SplineSet
-90 635 m 0
- 90 1047 320 1320 666 1320 c 0
- 1010 1320 1240 1047 1240 635 c 0
- 1240 244 1010 -16 666 -16 c 0
- 320 -16 90 244 90 635 c 0
-1135 635 m 0
- 1135 1004 963 1221 666 1221 c 0
- 367 1221 195 1004 195 635 c 0
- 195 287 367 84 666 84 c 0
- 963 84 1135 287 1135 635 c 0
-EndSplineSet
+Refer: 35 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni041F
@@ -27223,22 +27098,7 @@ HStem: 0 41G<109 211> 498 96<211 782> 1203 98<211 783>
 VStem: 109 102<0 498 594 1203> 922 105<727 1070>
 LayerCount: 2
 Fore
-SplineSet
-604 1203 m 6
- 211 1203 l 5
- 211 594 l 5
- 604 594 l 6
- 803 594 922 705 922 893 c 4
- 922 1090 805 1203 604 1203 c 6
-623 498 m 6
- 211 498 l 5
- 211 0 l 5
- 109 0 l 5
- 109 1301 l 5
- 613 1301 l 6
- 861 1301 1027 1139 1027 893 c 4
- 1027 666 873 498 623 498 c 6
-EndSplineSet
+Refer: 51 80 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0421
@@ -27251,19 +27111,7 @@ HStem: -16 100<444 863> 1221 100<444 865>
 VStem: 90 105<377 930> 1078 105<277 428 879 1027>
 LayerCount: 2
 Fore
-SplineSet
-90 654 m 4
- 90 1054 311 1320 645 1320 c 4
- 946 1320 1164 1141 1184 879 c 5
- 1078 879 l 5
- 1068 1090 901 1221 645 1221 c 4
- 362 1221 195 1013 195 654 c 4
- 195 293 362 84 645 84 c 4
- 897 84 1064 215 1078 428 c 5
- 1184 428 l 5
- 1157 160 944 -16 645 -16 c 4
- 313 -16 90 252 90 654 c 4
-EndSplineSet
+Refer: 36 67 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0422
@@ -27271,22 +27119,12 @@ Encoding: 1058 1058 1131
 GlifName: uni0422
 Width: 1117
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<510 609> 1203 98<70 510 609 1049>
 VStem: 510 99<0 1203>
 LayerCount: 2
 Fore
-SplineSet
-1049 1301 m 1
- 1049 1203 l 1
- 609 1203 l 1
- 609 0 l 1
- 510 0 l 1
- 510 1203 l 1
- 70 1203 l 1
- 70 1301 l 1
- 1049 1301 l 1
-EndSplineSet
+Refer: 34 84 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0423
@@ -27358,21 +27196,7 @@ Flags: HW
 HStem: 0 41G<70 214 912 1064> 1262 39G<70 221 915 1064>
 LayerCount: 2
 Fore
-SplineSet
-70 1301 m 5
- 197 1301 l 5
- 564 699 l 5
- 939 1301 l 5
- 1064 1301 l 5
- 652 646 l 5
- 1064 0 l 5
- 936 0 l 5
- 570 598 l 5
- 189 0 l 5
- 70 0 l 5
- 482 650 l 5
- 70 1301 l 5
-EndSplineSet
+Refer: 43 88 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0426
@@ -27695,29 +27519,7 @@ VStem: 90 104<155 383 684 790> 789 102<439 469 648 801> 789 70<184 439>
 AnchorPoint: "top1" 506 1119 basechar 0
 LayerCount: 2
 Fore
-SplineSet
-891 650 m 2x78
- 891 0 l 1x78
- 789 0 l 1x74
- 789 652 l 2
- 789 816 666 920 506 920 c 0
- 322 920 223 842 205 684 c 1
- 98 684 l 1
- 112 887 270 1020 504 1020 c 0
- 725 1020 891 871 891 650 c 2x78
-859 439 m 1xb4
- 859 183 664 -20 420 -20 c 0
- 227 -20 90 99 90 271 c 0
- 90 425 195 525 371 537 c 2
- 680 559 l 2
- 770 565 789 584 789 648 c 1
- 793 469 l 1
- 402 441 l 2
- 263 431 193 375 193 271 c 0
- 193 154 289 80 439 80 c 0
- 640 80 789 232 789 439 c 1xb8
- 859 439 l 1xb4
-EndSplineSet
+Refer: 9 97 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0431
@@ -27848,22 +27650,7 @@ VStem: 178 18<473 568> 879 105<212 311 568 749>
 AnchorPoint: "top1" 543 1119 basechar 0
 LayerCount: 2
 Fore
-SplineSet
-90 504 m 0
- 90 822 268 1020 547 1020 c 0
- 809 1020 996 814 996 531 c 2
- 996 473 l 1
- 178 473 l 1
- 178 568 l 1
- 889 568 l 1
- 871 783 736 920 547 920 c 0
- 317 920 195 775 195 504 c 0
- 195 231 323 84 559 84 c 0
- 741 84 852 174 879 311 c 1
- 984 311 l 1
- 939 104 801 -16 559 -16 c 0
- 272 -16 90 184 90 504 c 0
-EndSplineSet
+Refer: 8 101 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0436
@@ -28097,18 +27884,7 @@ HStem: -16 100<369 724> 920 100<369 724>
 VStem: 90 105<280 727> 895 105<275 731>
 LayerCount: 2
 Fore
-SplineSet
-90 504 m 0
- 90 815 274 1020 547 1020 c 0
- 818 1020 1000 815 1000 504 c 0
- 1000 192 818 -16 547 -16 c 0
- 274 -16 90 192 90 504 c 0
-895 504 m 0
- 895 768 768 920 547 920 c 0
- 324 920 195 768 195 504 c 0
- 195 238 324 84 547 84 c 0
- 768 84 895 238 895 504 c 0
-EndSplineSet
+Refer: 6 111 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni043F
@@ -28144,23 +27920,7 @@ HStem: -16 100<382 739> 920 100<382 739> 961 39G<109 211>
 VStem: 109 102<-326 1000> 145 66<191 814> 908 105<275 731>
 LayerCount: 2
 Fore
-SplineSet
-109 1000 m 5xb4
- 211 1000 l 5
- 211 -326 l 5
- 109 -326 l 5
- 109 1000 l 5xb4
-145 504 m 4xcc
- 145 815 312 1020 566 1020 c 4
- 834 1020 1014 815 1014 504 c 4
- 1014 192 834 -16 566 -16 c 4
- 312 -16 145 192 145 504 c 4xcc
-908 504 m 4
- 908 768 782 920 561 920 c 4
- 338 920 211 768 211 504 c 4xd4
- 211 238 338 84 561 84 c 4
- 782 84 908 238 908 504 c 4
-EndSplineSet
+Refer: 13 112 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0441
@@ -28173,19 +27933,7 @@ HStem: -16 100<368 733> 920 100<367 734>
 VStem: 90 105<280 731> 879 105<215 348 639 776>
 LayerCount: 2
 Fore
-SplineSet
-90 504 m 4
- 90 815 274 1020 545 1020 c 4
- 789 1020 966 866 984 639 c 5
- 879 639 l 5
- 871 811 740 920 545 920 c 4
- 322 920 195 768 195 504 c 4
- 195 238 324 84 545 84 c 4
- 738 84 869 186 879 348 c 5
- 984 348 l 5
- 963 127 789 -16 545 -16 c 4
- 274 -16 90 192 90 504 c 4
-EndSplineSet
+Refer: 7 99 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0442
@@ -28221,21 +27969,7 @@ HStem: -309 105<121 394> 961 39G<70 199 861 992>
 AnchorPoint: "top1" 553 1119 basechar 0
 LayerCount: 2
 Fore
-SplineSet
-121 -203 m 1
- 264 -203 l 2
- 364 -203 414 -166 451 -61 c 2
- 475 0 l 1
- 70 1000 l 1
- 184 1000 l 1
- 533 133 l 1
- 877 1000 l 1
- 992 1000 l 1
- 564 -72 l 2
- 496 -240 423 -309 312 -309 c 2
- 121 -309 l 1
- 121 -203 l 1
-EndSplineSet
+Refer: 25 121 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0444
@@ -28280,21 +28014,7 @@ Flags: HW
 HStem: 0 41G<70 220 775 924> 961 39G<70 220 773 924>
 LayerCount: 2
 Fore
-SplineSet
-70 1000 m 5
- 193 1000 l 5
- 490 561 l 5
- 801 1000 l 5
- 924 1000 l 5
- 582 506 l 5
- 924 0 l 5
- 801 0 l 5
- 504 457 l 5
- 193 0 l 5
- 70 0 l 5
- 412 510 l 5
- 70 1000 l 5
-EndSplineSet
+Refer: 24 120 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0446
@@ -28726,25 +28446,7 @@ HStem: -16 98<312 705> 920 98<287 653>
 VStem: 100 100<188 301 631 841> 762 104<699 817> 789 102<155 368>
 LayerCount: 2
 Fore
-SplineSet
-561 441 m 6xe8
- 410 463 l 6
- 211 488 100 566 100 734 c 4
- 100 908 243 1018 475 1018 c 4
- 700 1018 845 896 865 699 c 5
- 762 699 l 5xf0
- 737 849 647 920 473 920 c 4
- 309 920 199 847 199 738 c 4
- 199 631 273 588 418 570 c 6
- 568 551 l 6
- 785 524 891 430 891 256 c 4
- 891 90 743 -16 520 -16 c 4
- 266 -16 111 112 90 301 c 5
- 197 301 l 5
- 222 151 328 82 521 82 c 4
- 681 82 789 151 789 256 c 4
- 789 363 715 423 561 441 c 6xe8
-EndSplineSet
+Refer: 10 115 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0456
@@ -28757,18 +28459,7 @@ HStem: 0 41G<109 211> 961 39G<109 211> 1146 139<96 225>
 VStem: 109 102<0 1000 1146 1285>
 LayerCount: 2
 Fore
-SplineSet
-96 1285 m 5
- 225 1285 l 5
- 225 1146 l 5
- 96 1146 l 5
- 96 1285 l 5
-109 1000 m 5
- 211 1000 l 5
- 211 0 l 5
- 109 0 l 5
- 109 1000 l 5
-EndSplineSet
+Refer: 4 105 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0457
@@ -28810,22 +28501,7 @@ HStem: -309 96<-72 84> 961 39G<109 211> 1146 139<96 225>
 VStem: 109 102<-191 1000 1146 1285>
 LayerCount: 2
 Fore
-SplineSet
--72 -213 m 5
- -10 -213 l 6
- 58 -213 109 -184 109 -61 c 6
- 109 1000 l 5
- 211 1000 l 5
- 211 -72 l 6
- 211 -252 96 -309 -8 -309 c 6
- -72 -309 l 5
- -72 -213 l 5
-96 1285 m 5
- 225 1285 l 5
- 225 1146 l 5
- 96 1146 l 5
- 96 1285 l 5
-EndSplineSet
+Refer: 22 106 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0459
