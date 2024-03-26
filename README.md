@@ -67,7 +67,7 @@ To reduce [**Cumulative Layout Shift**](https://web.dev/cls/) you can preload fo
       <h1>Static HTML is King 👑</h1>
     </main>
  
-    <! --
+    <!--
     https://fontfaceobserver.com/
     To load a font, call the load method on a FontFaceObserver instance.
     It’ll return a promise that resolves when the font loads, or rejected when the font fails to load.
