@@ -31,29 +31,60 @@ Traditionally, all possible weights and styles have been separated out into diff
 
 More information about variable font can be found on Google Fonts' [Introducing variable fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) article written by Elliot Jay Stocks.
 
-**fonts.css**
+**base.css**
 ```css
+:root {
+    --font-sans: "Overused Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-serif: Georgia, Times, serif;
+    --font-mono: Menlo, Courier, monospace;
+}
+
 @font-face {
-  font-family: 'Overused Grotesk';
+  font-family: "Overused Grotesk";
   src:
-    url('../fonts/OverusedGrotesk-VF.woff2') format('woff2 supports variations'),
-    url('../fonts/OverusedGrotesk-VF.woff2') format('woff2-variations');
+    url("../fonts/OverusedGrotesk-VF.woff2") format("woff2 supports variations"),
+    url("../fonts/OverusedGrotesk-VF.woff2") format("woff2-variations");
   font-weight: 300 900;
 }
 ```
-**base.css**
-```css
-@import "fonts.css";
 
-:root {
-    --font-sans: Overused Grotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-}
-```
-To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload the font in the head of your HTML document:
+To reduce [**Cumulative Layout Shift**](https://web.dev/cls/) you can preload font and use [**Font Face Observer**](https://fontfaceobserver.com/) to display font blazingly fast.
 
 **base.html**
 ```html
-<link rel="preload" href="/fonts/OverusedGrotesk-VF.woff2" as="font" type="font/woff2" crossorigin>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Static HTML is King 👑</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="preload" href="/fonts/OverusedGrotesk-VF.woff2" as="font" type="font/woff2" crossorigin>
+  </head>
+  <body>
+
+    <main>
+      <h1>Static HTML is King 👑</h1>
+    </main>
+ 
+    <! --
+    https://fontfaceobserver.com/
+    To load a font, call the load method on a FontFaceObserver instance.
+    It’ll return a promise that resolves when the font loads, or rejected when the font fails to load.
+    -->
+   <script src="/js/fontfaceobserver.js"></script>
+   <script>
+   var font = new FontFaceObserver('Overused Grotesk');
+
+   font.load().then(function () {
+     console.log('Overused Grotesk has loaded.');
+   }).catch(function () {
+     console.log('Overused Grotesk failed to load.');
+   });
+   </script>
+
+  </body>
+</html>
 ```
 
 ## Plans
