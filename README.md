@@ -99,34 +99,18 @@ _**After v2.0**_
 - New styles? Mono, Text, Micro? maybe not yet
 
 ### ⏳ In progress
-- Cyrillic
-- Kerning (LATIN, NUMBERS, etc.)
+- Fine tuning
+- Width expansion
 
-### ✅ Completed tasks
-- Add diacritical marks & accented characters ([Vietnamese support](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/image-6.png))✅ (05/08/2023)
-- Stylistic set + Accented characters ✅ (08/08/2023)
-- Sub- & superscript, denominators & numerators, slashed zero, tabular figures ✅ (14/08/2023)
-- Try to figure out why Black weight has massive vertical height ✅ (20/08/2023)
-- Circled + squared numbers (Character variant 01 - 04) ✅ (20/08/2023)
-  - 'cv01': Negative squared numbers
-  - 'cv02': Squared numbers
-  - 'cv03': Negative circled numbers
-  - 'cv04': Circled numbers
-- Arrows ✅ (25/08/2023)
-- Webfont support + css code ✅
-- More currency symbols ✅️ (24/09/2023)
-- Italic (for now) ✅️
-- IPA (for now) ✅️
-
-### ☑ Completed side quests
-- Add serif 'I' (20/09/2023)
-- Figure out why the WriteUFOLayer error occurs when merging sfds (20/09/2023)
-- Fix kerning for 'y' with Stylistic Set 07 (20/09/2023)
-- Add 'a.spur' for aesthetic reasons (cv05), although no accents (20/09/2023)
-- REMOVE UNIWIDTH (22/09/2023) - poorly designed
-- Add Discretionary Ligatures (fi, fl, ff, ffi, ffl) (10/12/2023)
-- Add fractions (10/12/2023)
-- Add a few mathematical notations (10/12/2023)
+### ✅ Notable features & additions
+- Includes Vietnamese & Cyrillic letters (w/ localised forms)
+- 12 Stylistic sets + 6 Character variants
+- Sub- & superscript, denominators & numerators, slashed zero, tabular figures, mathematical notations, fractions
+- .ttf, .otf, .woff, .woff2, and variable .ttf fonts
+- IPA letters (basic implementation)
+- Currency symbols: $¢£¤¥֏฿₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿
+- Arrows (way too much of them, 84 to be exact)
+- Script-like discretionary ligatures (fi, ff, fl, ffi, ffl)
 
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
