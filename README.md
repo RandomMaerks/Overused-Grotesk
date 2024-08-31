@@ -104,7 +104,7 @@ _**After v2.0**_
 
 ### ✅ Notable features & additions
 - Includes Vietnamese & Cyrillic letters (w/ localised forms)
-- 12 Stylistic sets + 6 Character variants
+- 12 Stylistic sets + 5 Character variants
 - Sub- & superscript, denominators & numerators, slashed zero, tabular figures, mathematical notations, fractions
 - .ttf, .otf, .woff, .woff2, and variable .ttf fonts
 - IPA letters (basic implementation)
