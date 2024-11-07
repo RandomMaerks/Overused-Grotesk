@@ -1,5 +1,5 @@
 # Overused Grotesk
-From a dumb mockery of the overutilised "Swiss" type design to a semi-serious workhorse, Overused Grotesk turns itself into a copycat by imitating the most distinguishing features of the ubiquitous Helvetica. However the typeface doesn't stop at purely being a copycat; it wants to be a multipurpose and multilingual, though quirky and nonserious one.
+From a dumb mockery of the overutilised "Swiss" type design to a semi-serious workhorse, Overused Grotesk turns itself into a copycat by imitating the most distinguishing features of the ubiquitous Helvetica. However, the typeface doesn't stop at purely being a copycat; it wants to be a multipurpose and multilingual, though quirky and nonserious one.
 
 This typeface was originally served as a form of "exhibition" for oblivious FontForge users. Unfortunately due to the superbly fast development, along with bad workflow and poor management, the project quickly became incomprehensible for an absolute beginner. Sooo oopsies
 
@@ -22,12 +22,29 @@ The fonts are free & open-source, and any contributions would be greatly appreci
 | ExtraBold | 800 | 100 | 0 | - | ExtraBold Italic | 800 | 100 | -10 |
 | Black | 900 | 100 | 0 | - | Black Italic | 900 | 100 | -10 |
 
-## Webfont usage
+## Notable features & additions
+- Includes Vietnamese & Cyrillic letters (w/ localised forms)
+- 12 Stylistic sets + 5 Character variants
+- Sub- & superscript, denominators & numerators, slashed zero, tabular figures, mathematical notations, fractions
+- .ttf, .otf, .woff, .woff2, and variable .ttf fonts
+- IPA letters (semifunctional diacritics and tone letters, still very basic)
+- Currency symbols: $¢£¤¥֏฿₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿
+- Arrows (way too much of them, 84 to be exact)
+- Script-like discretionary ligatures (fi, ff, fl, ffi, ffl)
 
-### Variable fonts
-Traditionally, all possible weights and styles have been separated out into different font files, whereas variable fonts combine all of those variations into one. Because of this, overall file size is greatly reduced compared to loading multiple individual font files—and that’s a key consideration for web typography.
+## Plans
+_**After v1.0 - Before v2.0**_
+- More widths (5 static widths: Compressed - Condensed - Normal - Extended - Wide)
+- Greek
+- Small caps
+- Building more accented letters (Latin-specific)
 
-More information about variable font can be found on Google Fonts' [Introducing variable fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) article written by Elliot Jay Stocks.
+### ⏳ In progress
+- Fine tuning
+- Finishing italics
+
+## Variable fonts for the web
+Both the source and the release folder include a .woff2 variable font. You can refer to the font using CSS; for instance:
 
 **base.css**
 ```css
@@ -85,46 +102,10 @@ To reduce [**Cumulative Layout Shift**](https://web.dev/cls/) you can preload fo
 </html>
 ```
 
-## Plans
-_**Before v1.0**_
-- More widths (5 static widths: Compressed - Condensed - Normal - Extended - Wide)
-  - 3 width masters * 2 weight masters * 2 slant masters = 12 total masters
-
-_**After v1.0 - Before v2.0**_
-- Greek
-- Small caps
-- Building more accented letters (Latin-specific)
-
-_**After v2.0**_
-- New styles? Mono, Text, Micro? maybe not yet
-
-### ⏳ In progress
-- Fine tuning
-- Width expansion
-
-### ✅ Notable features & additions
-- Includes Vietnamese & Cyrillic letters (w/ localised forms)
-- 12 Stylistic sets + 5 Character variants
-- Sub- & superscript, denominators & numerators, slashed zero, tabular figures, mathematical notations, fractions
-- .ttf, .otf, .woff, .woff2, and variable .ttf fonts
-- IPA letters (semifunctional diacritics and tone letters, still very basic)
-- Currency symbols: $¢£¤¥֏฿₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿
-- Arrows (way too much of them, 84 to be exact)
-- Script-like discretionary ligatures (fi, ff, fl, ffi, ffl)
-
 ## License
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
-
 
 ## Contributing
 You can contribute to this project by opening an issue, creating a pull request, or by directly editing the source.
 
 For more information, see [CONTRIBUTING.md](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/CONTRIBUTING.md).
-
-
-## Additional documentation
-This section is just here for additional references.
-- Donny Trương's [Vietnamese Typography](https://vietnamesetypography.com) book
-- [Cyrillic Local Forms](https://localfonts.eu/typography-basics/fonts-the-importance-of-localisation/local-features/cyrillic-local-forms/)
-- RoboFont's [Creating designspace files with designSpaceLib](https://robofont.com/documentation/tutorials/creating-designspace-files/#creating-designspace-files-with-designspacelib)
-- fontTools' [Creating a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html)
