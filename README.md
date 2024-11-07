@@ -44,7 +44,7 @@ _**After v1.0 - Before v2.0**_
 - Finishing italics
 
 ## Variable fonts for the web
-Both the source and the release folder include a .woff2 variable font. You can refer to the font using CSS; for instance:
+Both the source and the release folder include a .woff2 variable font, which you can include in your website and refer to using CSS by including something along the lines of:
 
 **base.css**
 ```css
