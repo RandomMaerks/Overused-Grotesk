@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1690548111
-ModificationTime: 1725204190
+ModificationTime: 1733237480
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -201,7 +201,7 @@ KernClass2: 57 80 "OverusedGrotesk-Black-'kern' Horizontal Kerning in Latin look
  70 D Eth Thorn Dcaron Dcroat Gcircumflex.ss04 Gbreve.ss04 Gdotaccent.ss04
  513 E Z bracketleft braceleft AE Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron OE Zacute Zdotaccent Zcaron uni01E2 AEacute uni1EB8 uni1EBA uni1EBC uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6 Edieresis.ss03 Edotaccent.ss03 Zdotaccent.ss03 uni1EB8.ss03 uni1EC6.ss03 I.ss11 Igrave.ss11 Iacute.ss11 Icircumflex.ss11 Idieresis.ss11 Itilde.ss11 Imacron.ss11 Ibreve.ss11 Iogonek.ss11 Idotaccent.ss11 uni01CF.ss11 uni1EC8.ss11 uni1ECA.ss11 Idieresis.ss11.ss03 Idotaccent.ss11.ss03 uni1ECA.ss11.ss03
  1 F
- 307 G g q u ugrave uacute ucircumflex udieresis Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 dotlessi tbar utilde umacron ubreve uring uhungarumlaut uogonek uni0237 uni1EE5 uni1EE7 uniFB00 Gdotaccent.ss03 a.ss01 dotlessi.ss03 gdotaccent.ss03 uni0122.ss03 uni0123.ss03 uni1EE5.ss03
+ 300 G g q u ugrave uacute ucircumflex udieresis Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 dotlessi tbar utilde umacron ubreve uring uhungarumlaut uogonek uni0237 uni1EE5 uni1EE7 uniFB00 Gdotaccent.ss03 dotlessi.ss03 gdotaccent.ss03 uni0122.ss03 uni0123.ss03 uni1EE5.ss03
  353 H I M N d i l Igrave Iacute Icircumflex Ntilde Hcircumflex Itilde Imacron Ibreve Iogonek iogonek Idotaccent lacute uni013C Nacute uni0145 Ncaron Eng uni1EC8 uni1EC9 uni1ECA uni1ECB Idotaccent.ss03 i.ss03 iogonek.ss03 udieresis.ss03 uni013C.ss03 uni0145.ss03 uni1ECA.ss03 uni1ECB.ss03 Idieresis.calt idieresis.calt Idieresis.calt.ss03 idieresis.calt.ss03
  379 J U Ugrave Uacute Ucircumflex Udieresis IJ Jcircumflex Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni1EE4 uni1EE6 J.ss06 Udieresis.ss03 u.ss10 uni1EE4.ss03 Jcircumflex.ss06 ugrave.ss10 uacute.ss10 ucircumflex.ss10 udieresis.ss10 utilde.ss10 umacron.ss10 ubreve.ss10 uring.ss10 uhungarumlaut.ss10 uogonek.ss10 uni1EE5.ss10 uni1EE7.ss10 udieresis.ss03.ss10 uni1EE5.ss03.ss10
  22 K uni0136 uni0136.ss03
@@ -248,7 +248,7 @@ KernClass2: 57 80 "OverusedGrotesk-Black-'kern' Horizontal Kerning in Latin look
  58 icircumflex idieresis itilde imacron ibreve idieresis.ss03
  24 Idieresis Idieresis.ss03
  3 one
- 359 agrave.ss01 aacute.ss01 acircumflex.ss01 atilde.ss01 adieresis.ss01 aring.ss01 amacron.ss01 abreve.ss01 aogonek.ss01 uni1EA1.ss01 uni1EA3.ss01 uni1EA5.ss01 uni1EA7.ss01 uni1EA9.ss01 uni1EAB.ss01 uni1EAD.ss01 uni1EAF.ss01 uni1EB1.ss01 uni1EB3.ss01 uni1EB5.ss01 uni1EB7.ss01 adieresis.ss01.ss03 uni1EA1.ss01.ss03 uni1EAD.ss01.ss03 uni1EB7.ss01.ss03 uni01CE.ss01
+ 366 a.ss01 agrave.ss01 aacute.ss01 acircumflex.ss01 atilde.ss01 adieresis.ss01 aring.ss01 amacron.ss01 abreve.ss01 aogonek.ss01 uni1EA1.ss01 uni1EA3.ss01 uni1EA5.ss01 uni1EA7.ss01 uni1EA9.ss01 uni1EAB.ss01 uni1EAD.ss01 uni1EAF.ss01 uni1EB1.ss01 uni1EB3.ss01 uni1EB5.ss01 uni1EB7.ss01 adieresis.ss01.ss03 uni1EA1.ss01.ss03 uni1EAD.ss01.ss03 uni1EB7.ss01.ss03 uni01CE.ss01
  22 question question.ss03
  236 quotedbl quotesingle quoteleft quoteright quotereversed quotedblleft quotedblright uni201F minute second uni2034 uni2035 uni2036 uni2037 quoteleft.ss03 quoteright.ss03 quotereversed.ss03 quotedblleft.ss03 quotedblright.ss03 uni201F.ss03
  253 slash A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni01E2 AEacute uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 Adieresis.ss03 uni1EA0.ss03 uni1EAC.ss03 uni1EB6.ss03
@@ -479,7 +479,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 200 25 6
+WinInfo: 546 26 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -543,7 +543,7 @@ Encoding: 78 110 0
 GlifName: n
 Width: 1019
 GlyphClass: 2
-Flags: W
+Flags: WO
 HStem: 0 21G<109 211 811 910> 920 100<360.866 694.942> 980 20G<109 211>
 VStem: 109 102<0 1000> 152 59<645 879> 811 99<0 801.042>
 AnchorPoint: "middle 1" 862 457 basechar 0
@@ -30347,18 +30347,18 @@ Encoding: 631 1082 1155
 GlifName: uni043A_
 Width: 933
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "top1" 486 1119 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 365 517 m 257
- 752 0 l 257
+ 758 0 l 257
  878 0 l 257
- 479 531 l 257
- 477 505 l 257
+ 479 525 l 257
+ 477 499 l 257
  861 1000 l 257
- 739 1000 l 257
+ 732 1000 l 257
  365 517 l 257
 109 1000 m 257
  109 0 l 257
@@ -30370,7 +30370,6 @@ SplineSet
  211 1000 l 257
  109 1000 l 257
 EndSplineSet
-Validated: 5
 Substitution2: "'ss12' Style Set 12 lookup 28-1" uni043A.loclBGR
 Substitution2: "'locl' Localized Forms lookup 27-1" uni043A.loclBGR
 Colour: ffff
@@ -31270,14 +31269,13 @@ Encoding: 665 1116 1189
 GlifName: uni045C_
 Width: 933
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1119 262
 VStem: 387 330
 LayerCount: 2
 Fore
 Refer: 116 769 N 1 0 0 1 174 119 2
 Refer: 1155 1082 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni045D
@@ -31530,7 +31528,7 @@ Encoding: 676 1179 1200
 GlifName: uni049B_
 Width: 1021
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -31543,7 +31541,6 @@ SplineSet
  752 98 l 5
 EndSplineSet
 Refer: 1155 1082 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: uni04A2
@@ -35393,38 +35390,41 @@ EndChar
 StartChar: uni0436.loclBGR
 Encoding: 1356 -1 1307
 GlifName: uni0436.loclB_G_R_
-Width: 1367
-Flags: W
-HStem: 0 21G<59 210.549 633 734 1156.45 1309> 457 98<594 633 734 773> 980 20G<59 211.022 1155.98 1309> 1380.21 20G<633 734>
-VStem: 633 101<0 457 555 1400.21>
+Width: 1434
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-633 1400.21289062 m 1
- 734 1400.21289062 l 1
- 734 555 l 1
- 773 555 l 1
- 1174 1000 l 1
- 1309 1000 l 1
- 865 506 l 1
- 1309 0 l 1
- 1174 0 l 1
- 773 457 l 1
- 734 457 l 1
- 734 0 l 1
- 633 0 l 1
- 633 457 l 1
- 594 457 l 1
- 193 0 l 1
- 59 0 l 1
- 502 506 l 1
- 59 1000 l 1
- 193 1000 l 1
- 594 555 l 1
- 633 555 l 1
- 633 1400.21289062 l 1
+666 1400 m 257
+ 666 566 l 257
+ 468 566 l 257
+ 468 468 l 257
+ 666 468 l 257
+ 666 0 l 257
+ 768 0 l 257
+ 768 468 l 257
+ 966 468 l 257
+ 966 566 l 257
+ 768 566 l 257
+ 768 1400 l 257
+ 666 1400 l 257
+912 517 m 257
+ 1280 0 l 257
+ 1404 0 l 257
+ 1025 531 l 257
+ 1023 505 l 257
+ 1390 1000 l 257
+ 1270 1000 l 257
+ 912 517 l 257
+522 517 m 257
+ 164 1000 l 257
+ 44 1000 l 257
+ 411 505 l 257
+ 409 531 l 257
+ 30 0 l 257
+ 154 0 l 257
+ 522 517 l 257
 EndSplineSet
-Validated: 1
 Colour: ffff
 EndChar
 
@@ -35517,29 +35517,29 @@ StartChar: uni043A.loclBGR
 Encoding: 1360 -1 1311
 GlifName: uni043A_.loclB_G_R_
 Width: 933
-Flags: W
-HStem: 0 21G<109 211 715.056 863> 445 98<211 355> 980 20G<715.501 863> 1380.25 20G<109 211>
-VStem: 109 102<0 445 543 1400.25>
+Flags: HW
 AnchorPoint: "top1" 486 1119 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-109 1400.24609375 m 1
- 211 1400.24609375 l 1
- 211 543 l 1
- 355 543 l 1
- 732 1000 l 1
- 863 1000 l 1
- 439 494 l 1
- 863 0 l 1
- 732 0 l 1
- 355 445 l 1
- 211 445 l 1
- 211 0 l 1
- 109 0 l 1
- 109 1400.24609375 l 1
+365 517 m 261
+ 762 0 l 257
+ 878 0 l 257
+ 479 531 l 257
+ 477 505 l 257
+ 861 1000 l 257
+ 737 1000 l 257
+ 365 517 l 261
+109 1400 m 257
+ 109 0 l 257
+ 211 0 l 257
+ 211 468 l 257
+ 419 468 l 257
+ 419 566 l 257
+ 211 566 l 257
+ 211 1400 l 257
+ 109 1400 l 257
 EndSplineSet
-Validated: 1
 Colour: ffff
 EndChar
 
