@@ -5,7 +5,7 @@ This typeface was originally served as a form of "exhibition" for oblivious Font
 
 The fonts are free & open-source, and any contributions would be greatly appreciated. If you are planning to show this typeface to someone or submit it to a font collection, please remember to **link this repository**. It's not mandatory, but it saves a lot of headaches (trust me).
 
-Also: ~thank yall for 500 stars~ nvm someone just unstarred, thanks buster
+Also: ~thank yall for 500 stars~ ~nvm someone just unstarred, thanks buster~ we're so back
 
 
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-f1.png)
@@ -46,62 +46,34 @@ _**After v1.0 - Before v2.0**_
 - Finishing italics
 
 ## Variable fonts for the web
-Both the source and the release folder include a .woff2 variable font, which you can include in your website and refer to using CSS by including something along the lines of:
+Both the source and the release folder include a .woff2 variable font, which you can include in your website and refer to using CSS.
 
-**base.css**
+If you host the fonts yourself, you can insert the following:
 ```css
-:root {
-    --font-sans: "Overused Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    --font-serif: Georgia, Times, serif;
-    --font-mono: Menlo, Courier, monospace;
-}
-
 @font-face {
-  font-family: "Overused Grotesk";
-  src:
-    url("../fonts/OverusedGrotesk-VF.woff2") format("woff2 supports variations"),
-    url("../fonts/OverusedGrotesk-VF.woff2") format("woff2-variations");
-  font-weight: 300 900;
+    font-family: "Overused Grotesk";
+    src: url("../fonts/OverusedGrotesk-VF.woff2") format("woff2-variations");
+    font-weight: 300 900;
 }
 ```
 
-To reduce [**Cumulative Layout Shift**](https://web.dev/cls/) you can preload font and use [**Font Face Observer**](https://fontfaceobserver.com/) to display font blazingly fast.
+Or, if you want to rip the variable font directly from this repository, put the source as:
+```css
+src: url('https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGroteskRoman-VF.ttf')
+```
 
-**base.html**
+To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload the fonts using [**Font Face Observer**](https://fontfaceobserver.com/). For example, you can put the following JS script inside of an HTML file:
+
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Static HTML is King 👑</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="preload" href="/fonts/OverusedGrotesk-VF.woff2" as="font" type="font/woff2" crossorigin>
-  </head>
-  <body>
-
-    <main>
-      <h1>Static HTML is King 👑</h1>
-    </main>
- 
-    <!--
-    https://fontfaceobserver.com/
-    To load a font, call the load method on a FontFaceObserver instance.
-    It’ll return a promise that resolves when the font loads, or rejected when the font fails to load.
-    -->
-   <script src="/js/fontfaceobserver.js"></script>
-   <script>
-   var font = new FontFaceObserver('Overused Grotesk');
-
-   font.load().then(function () {
-     console.log('Overused Grotesk has loaded.');
-   }).catch(function () {
-     console.log('Overused Grotesk failed to load.');
-   });
-   </script>
-
-  </body>
-</html>
+<script src="/js/fontfaceobserver.js"></script>
+<script>
+    var font = new FontFaceObserver('Overused Grotesk');
+    font.load().then(function () {
+      console.log('Overused Grotesk has loaded.');
+    }).catch(function () {
+      console.log('Overused Grotesk failed to load.');
+    });
+</script>
 ```
 
 ## License
