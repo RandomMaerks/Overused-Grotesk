@@ -1,12 +1,17 @@
+## ❗❕ Foreword
+
+This typeface is currently not under development, and it will stay this way until late June. This is due to the fact that a) I am the only contributor, and b) my real-life schedule will not be allowing me to take a breather until the end of June.
+
+Please understand that I will not be able to respond to issues/pull requests or fix any issues, and there will not be any updates during this time. I apologise for the inconvenience, and I promise to continue this project as soon as I have more spare time.
+
+
+
 # Overused Grotesk
 From a dumb mockery of the overutilised "Swiss" type design to a semi-serious workhorse, Overused Grotesk turns itself into a copycat by imitating the most distinguishing features of the ubiquitous Helvetica. However, the typeface doesn't stop at purely being a copycat; it wants to be a multipurpose and multilingual, though quirky and nonserious one.
 
 This typeface was originally served as a form of "exhibition" for oblivious FontForge users. Unfortunately due to the superbly fast development, along with bad workflow and poor management, the project quickly became incomprehensible for an absolute beginner. Sooo oopsies
 
 The fonts are free & open-source, and any contributions would be greatly appreciated. If you are planning to show this typeface to someone or submit it to a font collection, please remember to **link this repository**. It's not mandatory, but it saves a lot of headaches (trust me).
-
-Also: ~thank yall for 500 stars~ ~nvm someone just unstarred, thanks buster~ we're so back
-
 
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-f1.png)
 ![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/og-e1.png)
