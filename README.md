@@ -41,7 +41,7 @@ The fonts are free & open-source, and any contributions would be greatly appreci
 
 ## Plans
 _**After v1.0 - Before v2.0**_
-- More widths (5 static widths: Compressed - Condensed - Normal - Extended - Wide)
+- More widths (5 static widths: Tight - Narrow - Normal - Ample - Wide)
 - Greek
 - Small caps
 - Building more accented letters (Latin-specific)
