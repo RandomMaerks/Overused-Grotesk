@@ -11,7 +11,7 @@ This typeface was originally served as a form of "exhibition" for oblivious Font
 
 The fonts are free & open-source, and any contributions would be greatly appreciated. If you are planning to show this typeface to someone or submit it to a font collection, please remember to **link this repository**. It's not mandatory, but it saves a lot of headaches (trust me).
 
-![Overused Grotesk](https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/collection-h/og-h1.png)
+<img src="https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/collection%20h/og-h1.png" />
 
 ---
 ## Styles
@@ -34,7 +34,6 @@ The fonts are free & open-source, and any contributions would be greatly appreci
 - IPA letters (semifunctional diacritics and tone letters, still very basic)
 - Currency symbols: $¢£¤¥֏฿₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿
 - Arrows (way too much of them, 84 to be exact)
-- Script-like discretionary ligatures (fi, ff, fl, ffi, ffl)
 
 ## Plans
 _**After v1.0 - Before v2.0**_
@@ -47,7 +46,7 @@ _**After v1.0 - Before v2.0**_
 - Fine tuning
 - Finishing italics
 
-## Variable fonts for the web
+## Web variable font
 Both the source and the release folder include a .woff2 variable font, which you can include in your website and refer to using CSS.
 
 If you host the fonts yourself, you can insert the following:
