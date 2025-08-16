@@ -3,7 +3,7 @@ FontName: OverusedGrotesk-Light
 FullName: Overused Grotesk Light
 FamilyName: Overused Grotesk
 Weight: Light
-Copyright: Copyright (c) 2023-2024, Bao Nguyen (RandomMaerks) (rmforbusiness@gmail.com)
+Copyright: Copyright (c) 2023-2025, Bao Nguyen (RandomMaerks) (rmforbusiness@gmail.com)
 Version: 0.5
 ItalicAngle: 0
 UnderlinePosition: -199
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1690548111
-ModificationTime: 1755359166
+ModificationTime: 1755361238
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -460,7 +460,7 @@ ChainSub2: class "'calt' Contextual Alternates lookup 26-1" 3 3 3 2
   BClassNames: "All_Others" "dieresis" "dieresis_squished"
   FClassNames: "All_Others" "dieresis" "dieresis_squished"
 EndFPST
-LangName: 1033 "" "" "" "" "" "" "" "" "" "RandomMaerks" "" "" "" "Copyright (c) 2023-2024, Bao Nguyen (RandomMaerks) (rmforbusiness@gmail.com). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "RandomMaerks" "" "" "" "Copyright (c) 2023-2025, Bao Nguyen (RandomMaerks) (rmforbusiness@gmail.com). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 OtfFeatName: 'ss01' 1033 "Single-storey 'a'"
 OtfFeatName: 'ss02' 1033 "Bottom-curled 'l'"
 OtfFeatName: 'ss03' 1033 "Rounded dots"
