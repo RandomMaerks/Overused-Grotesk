@@ -1,10 +1,8 @@
-## ❗❕ Foreword
+## ❗❕ Update (16/08/2025)
 
-This typeface is currently not under development, and it will stay this way until late June. This is due to the fact that a) I am the only contributor, and b) my real-life schedule will not be allowing me to take a breather until the end of June.
+After one and a half months of procrastination, I have finally got up the courage to work on this project again. It has been quite a while now, hasn't it? When was the last release? A year ago ....? umm..,,,,llll;;;; uhh;'''''
 
-Please understand that I will not be able to respond to issues/pull requests or fix any issues, and there will not be any updates during this time. I apologise for the inconvenience, and I promise to continue this project as soon as I have more spare time.
-
-
+anyway, expect some commits being committed very soon !
 
 # Overused Grotesk
 From a dumb mockery of the overutilised "Swiss" type design to a semi-serious workhorse, Overused Grotesk turns itself into a copycat by imitating the most distinguishing features of the ubiquitous Helvetica. However, the typeface doesn't stop at purely being a copycat; it wants to be a multipurpose and multilingual, though quirky and nonserious one.
