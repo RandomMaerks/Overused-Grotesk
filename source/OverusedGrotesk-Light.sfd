@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1690548111
-ModificationTime: 1733237480
+ModificationTime: 1755359166
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -479,7 +479,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 546 26 6
+WinInfo: 0 25 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -543,7 +543,7 @@ Encoding: 78 110 0
 GlifName: n
 Width: 1019
 GlyphClass: 2
-Flags: WO
+Flags: W
 HStem: 0 21G<109 211 811 910> 920 100<360.866 694.942> 980 20G<109 211>
 VStem: 109 102<0 1000> 152 59<645 879> 811 99<0 801.042>
 AnchorPoint: "middle 1" 862 457 basechar 0
@@ -874,34 +874,33 @@ Encoding: 83 115 10
 GlifName: s
 Width: 971
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -16 98<306.809 700.408> 920 98<301.716 658.896>
 VStem: 85 107<193.94 301> 115 99<628.791 844.345> 767 103<699 816.725> 784 102<155.48 372.58>
 AnchorPoint: "middle 1" 502 497 basechar 0
 AnchorPoint: "bottom1" 516 0 basechar 0
-AnchorPoint: "top1" 468 1119 basechar 0
+AnchorPoint: "top1" 478 1119 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-566 442 m 2xe4
- 415 461 l 2
- 221.552845177 485.341032726 115 564.760147601 115 734 c 0
- 115 908 254.186666667 1018 480 1018 c 0
- 705 1018 850 896 870 699 c 1
- 767 699 l 1
- 742 849 652 920 478 920 c 0
- 319.98540146 920 214 847 214 738 c 0xd8
- 214 631 283.603210708 587.656926644 423 570 c 2
- 573 551 l 2
- 780.694326582 524.692051966 886 430 886 256 c 0
+576 442 m 2xe4
+ 425 461 l 2
+ 231.552845177 485.341032726 125 564.760147601 125 734 c 0
+ 125 908 264.186666667 1018 490 1018 c 0
+ 715 1018 860 896 880 699 c 1
+ 777 699 l 1
+ 752 849 662 920 488 920 c 0
+ 329.98540146 920 224 847 224 738 c 0xd8
+ 224 631 293.603210708 587.656926644 433 570 c 2
+ 583 551 l 2
+ 784.058725094 524.692051966 886 430 886 256 c 0
  886 90 738 -16 515 -16 c 0
  261 -16 106 112 85 301 c 1
  192 301 l 1
  217 151 323 82 516 82 c 0
  676 82 784 151 784 256 c 0
- 784 363.578378378 715.520119161 423.186210172 566 442 c 2xe4
+ 784 363.578378378 718.661398099 423.186210172 576 442 c 2xe4
 EndSplineSet
-Validated: 1
 Colour: ffff
 EndChar
 
@@ -1116,7 +1115,7 @@ Encoding: 82 114 17
 GlifName: r
 Width: 587
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 912 108<344.194 537> 980 20G<109 211>
 VStem: 109 102<0 1000> 152 59<645 879>
 AnchorPoint: "middle 1" 163 457 basechar 0
@@ -1125,20 +1124,19 @@ AnchorPoint: "top1" 320 1119 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-537 912 m 1xc8
- 500 912 l 2
- 338 912 211 797 211 633 c 1xd0
+537 902 m 5xc8
+ 500 902 l 6
+ 338 902 211 791.121863799 211 633 c 1xd0
  152 645 l 1
- 152 879 332 1020 498 1020 c 2
- 537 1020 l 1
- 537 912 l 1xc8
+ 152 872.76 332 1010 498 1010 c 6
+ 537 1010 l 5
+ 537 902 l 5xc8
 109 1000 m 1xb0
  211 1000 l 1
  211 0 l 1
  109 0 l 1
  109 1000 l 1xb0
 EndSplineSet
-Validated: 5
 Colour: ffff
 EndChar
 
@@ -1339,16 +1337,16 @@ Encoding: 89 121 25
 GlifName: y
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962>
 AnchorPoint: "bottom1" 697 0 basechar 0
 AnchorPoint: "top1" 523 1119 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-141 -203 m 1
- 194 -203 l 2
- 315.390374332 -203 376.085561497 -166 421 -61 c 2
+101 -203 m 5
+ 204 -203 l 2
+ 320.042780749 -203 378.064171123 -166 421 -61 c 2
  445 0 l 1
  40 1000 l 1
  154 1000 l 1
@@ -1357,10 +1355,9 @@ SplineSet
  962 1000 l 1
  534 -72 l 2
  465.418130727 -243.775149208 356.630952381 -309 217 -309 c 2
- 141 -309 l 1
- 141 -203 l 1
+ 101 -309 l 5
+ 101 -203 l 5
 EndSplineSet
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" y.ss07
 Colour: ffff
 EndChar
@@ -2025,7 +2022,7 @@ Fore
 SplineSet
 565 559 m 1xdc
  665 598 l 1xbc
- 919.23054755 598 1018.3599514 514.356997717 1042 307 c 6
+ 919.23054755 598 1018.3599514 514.356997717 1042 307 c 2
  1077 0 l 1
  978 0 l 1
  945 293 l 2
@@ -3398,31 +3395,31 @@ VStem: 70 106<721.865 1120.09> 594 105<721.865 1120.09> 969 105<184.865 582.452>
 LayerCount: 2
 Fore
 SplineSet
-969 385 m 4xb3c0
- 969 623 1094 779 1283 779 c 4
- 1471 779 1598 623 1598 385 c 4
- 1598 145 1471 -16 1283 -16 c 4
- 1094 -16 969 145 969 385 c 4xb3c0
-1492 385 m 4
- 1492 573 1416 680 1283 680 c 4
- 1150 680 1074 573 1074 385 c 4
- 1074 196 1150 84 1283 84 c 4
- 1416 84 1492 196 1492 385 c 4
-1047 1301 m 5x77c0
- 1158 1301 l 5
- 621 0 l 5
- 510 0 l 5
- 1047 1301 l 5x77c0
-70 922 m 4
- 70 1160 198 1318 387 1318 c 4x3bc0
- 575 1318 699 1160 699 922 c 4
- 699 682 575 521 387 521 c 4
- 198 521 70 682 70 922 c 4
-594 922 m 4
- 594 1110 520 1219 387 1219 c 4
- 254 1219 176 1110 176 922 c 4
- 176 733 254 621 387 621 c 4
- 520 621 594 733 594 922 c 4
+969 385 m 0xb3c0
+ 969 623 1094 779 1283 779 c 0
+ 1471 779 1598 623 1598 385 c 0
+ 1598 145 1471 -16 1283 -16 c 0
+ 1094 -16 969 145 969 385 c 0xb3c0
+1492 385 m 0
+ 1492 573 1416 680 1283 680 c 0
+ 1150 680 1074 573 1074 385 c 0
+ 1074 196 1150 84 1283 84 c 0
+ 1416 84 1492 196 1492 385 c 0
+1047 1301 m 1x77c0
+ 1158 1301 l 1
+ 621 0 l 1
+ 510 0 l 1
+ 1047 1301 l 1x77c0
+70 922 m 0
+ 70 1160 198 1318 387 1318 c 0x3bc0
+ 575 1318 699 1160 699 922 c 0
+ 699 682 575 521 387 521 c 0
+ 198 521 70 682 70 922 c 0
+594 922 m 0
+ 594 1110 520 1219 387 1219 c 0
+ 254 1219 176 1110 176 922 c 0
+ 176 733 254 621 387 621 c 0
+ 520 621 594 733 594 922 c 0
 EndSplineSet
 Validated: 1
 Colour: ffff
@@ -5044,14 +5041,13 @@ Encoding: 188 253 172
 GlifName: yacute
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1119 262
 VStem: 423 330
 LayerCount: 2
 Fore
 Refer: 116 769 N 1 0 0 1 210 119 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" yacute.ss07
 EndChar
 
@@ -5060,14 +5056,13 @@ Encoding: 190 255 173
 GlifName: ydieresis
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1146 141<288 417 609 737>
 VStem: 288 129<1146 1287> 609 128<1146 1287>
 LayerCount: 2
 Fore
 Refer: 121 776 N 1 0 0 1 210 119 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" ydieresis.ss07
 Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" ydieresis.ss03
 EndChar
@@ -5837,14 +5832,13 @@ Encoding: 276 341 223
 GlifName: racute
 Width: 587
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 912 108<344.194 537> 980 20G<109 211> 1119 262
 VStem: 109 102<0 1000> 152 59<645 879> 221 330
 LayerCount: 2
 Fore
 Refer: 116 769 N 1 0 0 1 8 119 2
 Refer: 17 114 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Rcaron
@@ -5868,14 +5862,13 @@ Encoding: 280 345 225
 GlifName: rcaron
 Width: 587
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 912 108<344.194 537> 980 20G<109 211> 1119 281
 VStem: 4 637 109 102<0 1000> 152 59<645 879>
 LayerCount: 2
 Fore
 Refer: 124 780 N 1 0 0 1 8 119 2
 Refer: 17 114 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Sacute
@@ -5899,14 +5892,13 @@ Encoding: 282 347 227
 GlifName: sacute
 Width: 971
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -16 98<306.809 700.408> 920 98<301.716 658.896> 1119 262
 VStem: 85 107<193.94 301> 115 99<628.791 844.345> 368 330 767 103<699 816.725> 784 102<155.48 372.58>
 LayerCount: 2
 Fore
 Refer: 116 769 N 1 0 0 1 155 119 2
 Refer: 10 115 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'locl' Localized Forms in Latin lookup 26-1" sacute.polish
 EndChar
 
@@ -5930,14 +5922,13 @@ Encoding: 284 349 229
 GlifName: scircumflex
 Width: 971
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -16 98<306.809 700.408> 920 98<301.716 658.896> 1119 281
 VStem: 85 107<193.94 301> 115 99<628.791 844.345> 137 637 767 103<699 816.725> 784 102<155.48 372.58>
 LayerCount: 2
 Fore
 Refer: 117 770 N 1 0 0 1 155 119 2
 Refer: 10 115 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Scaron
@@ -5960,14 +5951,13 @@ Encoding: 288 353 231
 GlifName: scaron
 Width: 971
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -16 98<306.809 700.408> 920 98<301.716 658.896> 1119 281
 VStem: 85 107<193.94 301> 115 99<628.791 844.345> 151 637 767 103<699 816.725> 784 102<155.48 372.58>
 LayerCount: 2
 Fore
 Refer: 124 780 N 1 0 0 1 155 119 2
 Refer: 10 115 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Tcaron
@@ -6159,14 +6149,13 @@ Encoding: 310 375 244
 GlifName: ycircumflex
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1119 281
 VStem: 192 637
 LayerCount: 2
 Fore
 Refer: 117 770 N 1 0 0 1 210 119 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" ycircumflex.ss07
 EndChar
 
@@ -6585,14 +6574,13 @@ Encoding: 286 351 263
 GlifName: scedilla
 Width: 971
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -414 92<386 616.75> -176 96<540 615.22> -16 98<306.809 700.408> 920 98<301.716 658.896>
 VStem: 85 107<193.94 301> 115 99<628.791 844.345> 623 95<-313.813 -183.071> 767 103<699 816.725> 784 102<155.48 372.58>
 LayerCount: 2
 Fore
 Refer: 252 807 N 1 0 0 1 196 0 2
 Refer: 10 115 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0162
@@ -7032,14 +7020,13 @@ Encoding: 278 343 283
 GlifName: uni0157
 Width: 587
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -441 68<63 153.841> -217 141<98 176> 0 21G<109 211> 912 108<344.194 537> 980 20G<109 211>
 VStem: 98 129<-217 -76> 109 102<0 1000> 152 59<645 879> 176 51<-343.571 -217>
 LayerCount: 2
 Fore
 Refer: 273 806 N 1 0 0 1 -158 0 2
 Refer: 17 114 N 1 0 0 1 0 0 3
-Validated: 5
 Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni0157.ss03
 EndChar
 
@@ -7129,16 +7116,16 @@ SplineSet
  0 680 l 1
 330 1203 m 1
  330 96 l 1
- 662 96 l 6
- 988.775390625 96 1180 291 1180 627 c 4
- 1180 992 977.237304688 1203 623 1203 c 6
+ 662 96 l 2
+ 988.775390625 96 1180 291 1180 627 c 0
+ 1180 992 977.237304688 1203 623 1203 c 2
  330 1203 l 1
-643 1301 m 6
- 1028.83789062 1301 1288 1031 1288 627 c 4
- 1288 250 1047.10546875 0 684 0 c 6
+643 1301 m 2
+ 1028.83789062 1301 1288 1031 1288 627 c 0
+ 1288 250 1047.10546875 0 684 0 c 2
  228 0 l 1
  228 1301 l 1
- 643 1301 l 6
+ 643 1301 l 2
 EndSplineSet
 Validated: 5
 Colour: ffff
@@ -7326,32 +7313,12 @@ Encoding: 207 272 292
 GlifName: D_croat
 Width: 1375
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 96<330 889.146> 584 96<0 744> 1203 98<330 861.33>
 VStem: 228 102<96 1203> 1180 108<387.271 885.711>
 LayerCount: 2
 Fore
-SplineSet
-0 680 m 1
- 744 680 l 1
- 744 584 l 1
- 0 584 l 1
- 0 680 l 1
-330 1203 m 1
- 330 96 l 1
- 662 96 l 6
- 988.775390625 96 1180 291 1180 627 c 4
- 1180 992 977.237304688 1203 623 1203 c 6
- 330 1203 l 1
-643 1301 m 6
- 1028.83789062 1301 1288 1031 1288 627 c 4
- 1288 250 1047.10546875 0 684 0 c 6
- 228 0 l 1
- 228 1301 l 1
- 643 1301 l 6
-EndSplineSet
-Validated: 5
-Colour: ffff
+Refer: 286 208 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dcroat
@@ -8070,23 +8037,23 @@ Encoding: 158 223 322
 GlifName: germandbls
 Width: 1069
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 100<388 744.694> 676 100<428 707> 696 60<607 698.572> 1316 100<373.092 719.317>
 VStem: 109 102<0 1143.09> 607 100<676 696 756 776> 843 107<874.097 1196.27> 875 105<222.648 565.942>
 LayerCount: 2
 Fore
 SplineSet
-556 1316 m 4xde
- 341.225352113 1316 211 1176 211 951 c 2
+546 1316 m 0xde
+ 337.450704226 1316 211 1176 211 951 c 2
  211 0 l 1
  109 0 l 1
  109 965 l 2
- 109 1229 287.01750547 1416 556 1416 c 4
- 774.888888889 1416 950 1254.45040214 950 1053 c 0
- 950 839.967302452 813.966005666 696 607 696 c 1xbe
- 607 776 l 1
- 758.577235772 776 843 877.341463415 843 1053 c 0
- 843 1205.21245421 722.403908795 1316 556 1316 c 4xde
+ 109 1229 283.03501094 1416 546 1416 c 0
+ 764.888888889 1416 940 1254.45040214 940 1053 c 0
+ 940 859.967302452 796.033994335 696 577 696 c 5xbe
+ 577 776 l 5
+ 741.422764227 776 833 897.341463415 833 1053 c 0
+ 833 1205.21245421 712.403908795 1316 546 1316 c 0xde
 707 776 m 1xdc
  707 676 l 1
  428 676 l 1
@@ -8102,7 +8069,6 @@ SplineSet
  875 573.830188679 777 676 607 676 c 1xdd
  607 756 l 1xbd
 EndSplineSet
-Validated: 5
 Colour: ffff
 EndChar
 
@@ -10582,14 +10548,13 @@ Encoding: 791 7923 438
 GlifName: ygrave
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1119 262
 VStem: 288 330
 LayerCount: 2
 Fore
 Refer: 113 768 N 1 0 0 1 210 119 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" ygrave.ss07
 EndChar
 
@@ -10614,14 +10579,13 @@ Encoding: 793 7925 440
 GlifName: uni1E_F_5
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> -285 139<634 761> 980 20G<40 162.005 841.155 962>
 VStem: 634 127<-285 -146>
 LayerCount: 2
 Fore
 Refer: 354 803 N 1 0 0 1 396 0 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" uni1EF5.ss07
 Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni1EF5.ss03
 EndChar
@@ -10646,14 +10610,13 @@ Encoding: 795 7927 442
 GlifName: uni1E_F_7
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1119 21G<462 567> 1412 78<446.642 618.331>
 VStem: 327 98<1332 1391.43> 462 105<1119 1197.07> 626 92<1272.77 1403.7>
 LayerCount: 2
 Fore
 Refer: 353 777 N 1 0 0 1 210 119 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" uni1EF7.ss07
 EndChar
 
@@ -10677,14 +10640,13 @@ Encoding: 797 7929 444
 GlifName: uni1E_F_9
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1111 88<569.554 722.655> 1275 88<296.189 440.372>
 VStem: 181 90<1119 1253.18> 749 86<1220.58 1351>
 LayerCount: 2
 Fore
 Refer: 118 771 N 1 0 0 1 210 119 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" uni1EF9.ss07
 EndChar
 
@@ -11832,7 +11794,7 @@ Encoding: 1139 -1 496
 GlifName: idieresis.ss03
 Width: 318
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 980 20G<109 211> 1107 168<-52.9841 94.9841 203.016 350.984>
 VStem: -63 168<1117.02 1264.98> 109 102<0 1000> 193 168<1117.02 1264.98>
 LayerCount: 2
@@ -11843,18 +11805,17 @@ SplineSet
  211 0 l 1
  109 0 l 1
  109 1000 l 1xf8
--63 1191 m 0
- -63 1238 -26 1275 21 1275 c 0
- 68 1275 105 1238 105 1191 c 0
- 105 1144 68 1107 21 1107 c 0
- -26 1107 -63 1144 -63 1191 c 0
-193 1191 m 0xf4
- 193 1238 230 1275 277 1275 c 0
- 324 1275 361 1238 361 1191 c 0
- 361 1144 324 1107 277 1107 c 0
- 230 1107 193 1144 193 1191 c 0xf4
+-63 1242 m 0
+ -63 1289 -26 1326 21 1326 c 0
+ 68 1326 105 1289 105 1242 c 0
+ 105 1195 68 1158 21 1158 c 0
+ -26 1158 -63 1195 -63 1242 c 0
+193 1242 m 0xf4
+ 193 1289 230 1326 277 1326 c 0
+ 324 1326 361 1289 361 1242 c 0
+ 361 1195 324 1158 277 1158 c 0
+ 230 1158 193 1195 193 1242 c 0xf4
 EndSplineSet
-Validated: 1
 Substitution2: "dieresis-1" idieresis.calt.ss03
 Decomposition: "+ATEDCAAA"
 Colour: ffff
@@ -11898,14 +11859,13 @@ Encoding: 1142 -1 499
 GlifName: ydieresis.ss03
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1111 168<281.016 428.984 597.016 744.984>
 VStem: 271 168<1121.02 1268.98> 587 168<1121.02 1268.98>
 LayerCount: 2
 Fore
 Refer: 450 -1 N 1 0 0 1 210 119 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" ydieresis.ss03.ss07
 Decomposition: "y+AwgA"
 EndChar
@@ -12442,14 +12402,13 @@ Encoding: 1176 -1 533
 GlifName: uni1E_F_5.ss03
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> -301 168<623.016 770.984> 980 20G<40 162.005 841.155 962>
 VStem: 613 168<-290.984 -143.016>
 LayerCount: 2
 Fore
 Refer: 453 -1 N 1 0 0 1 396 0 2
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" uni1EF5.ss03.ss07
 Decomposition: "y+AyMA"
 EndChar
@@ -12676,14 +12635,13 @@ Encoding: 1190 -1 547
 GlifName: uni0157.ss03
 Width: 587
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -418 66<82 173.507> -244 168<88.0159 185.211> 0 21G<109 211> 912 108<344.194 537> 980 20G<109 211>
 VStem: 82 164<-379 -352 -235.82 -86.0159> 109 102<0 1000> 152 59<645 879> 186 60<-335.734 -240>
 LayerCount: 2
 Fore
 Refer: 454 -1 N 1 0 0 1 -158 0 2
 Refer: 17 114 N 1 0 0 1 0 0 3
-Validated: 5
 Decomposition: "r+AyYA"
 EndChar
 
@@ -23522,7 +23480,7 @@ Encoding: 393 642 914
 GlifName: uni0282
 Width: 978
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -326 96<219.034 352> -16 98<324.248 706.255> 920 98<286.878 653.896>
 VStem: 90 99<-197.003 301 641.396 832.043> 762 103<699 816.725> 789 102<155.48 367.149>
 AnchorPoint: "top1" 468 1119 basechar 0
@@ -23538,25 +23496,24 @@ SplineSet
  189 -78 l 2
  189 -201 252 -230 330 -230 c 2
  352 -230 l 1xf0
-561 441 m 2
- 410 463 l 2
- 211 490 100 566 100 734 c 0
- 100 908 243 1018 475 1018 c 0
- 700 1018 845 896 865 699 c 1
- 762 699 l 1xf8
- 737 849 647 920 473 920 c 0
- 309 920 199 847 199 738 c 0
- 199 631 273 590 418 570 c 2
- 568 551 l 2
- 785 522 891 430 891 256 c 0
- 891 90 750 -16 539 -16 c 0
- 297 -16 152 112 131 301 c 1
+572 441 m 2
+ 421 463 l 2
+ 222 490 111 566 111 734 c 0
+ 111 908 254 1018 486 1018 c 0
+ 711 1018 856 896 876 699 c 1
+ 773 699 l 1xf8
+ 748 849 658 920 484 920 c 0
+ 320 920 210 847 210 738 c 0
+ 210 631 284 590 429 570 c 2
+ 579 551 l 2
+ 788.609907121 522 891 430 891 256 c 0
+ 891 90 745.994318182 -16 529 -16 c 0
+ 267 -16 132 92 121 301 c 1
  189 301 l 1
  216 151 322 82 521 82 c 0
  681 82 789 151 789 256 c 0xf4
- 789 363 715 421 561 441 c 2
+ 789 363 718.570175439 421 572 441 c 2
 EndSplineSet
-Validated: 5
 Colour: ffff
 EndChar
 
@@ -24083,7 +24040,7 @@ Encoding: 409 658 931
 GlifName: uni0292
 Width: 1031
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -400 99<337.823 716.486> 338 94<557 713.328> 904 96<90 953>
 VStem: 94 105<-167.973 -47> 855 108<-161.896 197.269>
 AnchorPoint: "top1" 531 1119 basechar 0
@@ -24095,21 +24052,20 @@ SplineSet
  953 902 l 1
  90 904 l 1
  90 1000 l 1
-557 432 m 1
- 823 422 963 278 963 16 c 0
+497 432 m 1
+ 802.310344828 422 963 278 963 16 c 0
  963 -234 789 -400 529 -400 c 0
  289 -400 123 -262 94 -47 c 1
  199 -47 l 1
  217 -203 338 -301 529 -301 c 0
  736 -301 855 -185 855 16 c 0
- 855 221 738 338 531 338 c 2
- 449 338 l 1
- 449 438 l 1
+ 855 221 716.333333333 338 471 338 c 2
+ 389 338 l 1
+ 389 438 l 1
  871 949 l 1
  953 902 l 1
- 557 432 l 1
+ 497 432 l 1
 EndSplineSet
-Validated: 5
 Colour: ffff
 EndChar
 
@@ -27011,13 +26967,12 @@ GlifName: uni02B_3
 Width: 439
 VWidth: 2150
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 400 14.7G<70 141.4> 1038.4 75.6<234.636 369.6> 1086 14G<70 141.4>
 VStem: 70 71.4<400 1100> 100.1 41.3<851.5 1015.3>
 LayerCount: 2
 Fore
 Refer: 17 114 N 0.7 0 0 0.7 -6.3 400 2
-Validated: 5
 EndChar
 
 StartChar: uni02B4
@@ -27085,12 +27040,11 @@ GlifName: uni02B_8
 Width: 785
 VWidth: 2150
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 183.7 74.2<140.7 286.776> 1086 14G<70 155.403 630.809 715.4>
 LayerCount: 2
 Fore
 Refer: 25 121 N 0.7 0 0 0.7 42 400 2
-Validated: 1
 EndChar
 
 StartChar: uni02B9
@@ -27947,13 +27901,12 @@ GlifName: uni02E_2
 Width: 700
 VWidth: 2099
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 388.8 68.6<225.266 500.786> 1044 68.6<221.701 471.727>
 VStem: 70 74.9<535.758 610.7> 91 69.3<840.154 991.042> 547.4 72.1<889.3 971.707> 559.3 71.4<508.836 660.806>
 LayerCount: 2
 Fore
 Refer: 10 115 N 0.7 0 0 0.7 10.5 400 2
-Validated: 1
 EndChar
 
 StartChar: uni02E3
@@ -30563,13 +30516,12 @@ Encoding: 640 1091 1164
 GlifName: uni0443
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962>
 AnchorPoint: "top1" 553 1119 basechar 0
 LayerCount: 2
 Fore
 Refer: 25 121 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" uni0443.ss07
 EndChar
 
@@ -31086,13 +31038,12 @@ Encoding: 658 1109 1182
 GlifName: uni0455
 Width: 971
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -16 98<306.809 700.408> 920 98<301.716 658.896>
 VStem: 85 107<193.94 301> 115 99<628.791 844.345> 767 103<699 816.725> 784 102<155.48 372.58>
 LayerCount: 2
 Fore
 Refer: 10 115 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni0456
@@ -31300,7 +31251,7 @@ Encoding: 667 1118 1191
 GlifName: uni045E_
 Width: 1002
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -309 106<141 349.68> 980 20G<40 162.005 841.155 962> 1119 81<374.612 653.611>
 VStem: 198 102<1268.39 1379> 726 101<1266.67 1379>
 LayerCount: 2
@@ -31315,7 +31266,6 @@ SplineSet
  827 1379 l 1
 EndSplineSet
 Refer: 1164 1091 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" uni045E.ss07
 EndChar
 
@@ -34866,29 +34816,28 @@ Encoding: 1339 -1 1290
 GlifName: idieresis.ss03.calt
 Width: 318
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 980 20G<109 211> 1107 168<32.036 129.964 188.036 285.964>
 VStem: 27 108<1108.06 1273.92> 109 102<0 1000> 183 108<1108.06 1273.92>
 LayerCount: 2
 Fore
 SplineSet
-27 1191 m 0xf0
- 27 1244.6846467 46.4884414069 1275 81 1275 c 0
- 115.511558593 1275 135 1244.6846467 135 1191 c 0
- 135 1136.78488476 115.852574082 1107 81 1107 c 0
- 46.1474259176 1107 27 1136.78488476 27 1191 c 0xf0
-183 1191 m 0xe4
- 183 1244.6846467 202.488441407 1275 237 1275 c 0
- 271.511558593 1275 291 1244.6846467 291 1191 c 0
- 291 1136.78488476 271.852574082 1107 237 1107 c 0
- 202.147425918 1107 183 1136.78488476 183 1191 c 0xe4
+27 1238 m 4xf0
+ 27 1291.6846467 46.4884414069 1322 81 1322 c 4
+ 115.511558593 1322 135 1291.6846467 135 1238 c 4
+ 135 1183.78488476 115.852574082 1154 81 1154 c 4
+ 46.1474259176 1154 27 1183.78488476 27 1238 c 4xf0
+183 1238 m 4xe4
+ 183 1291.6846467 202.488441407 1322 237 1322 c 4
+ 271.511558593 1322 291 1291.6846467 291 1238 c 4
+ 291 1183.78488476 271.852574082 1154 237 1154 c 4
+ 202.147425918 1154 183 1183.78488476 183 1238 c 4xe4
 109 1000 m 1xe8
  211 1000 l 1
  211 0 l 1
  109 0 l 1
  109 1000 l 1xe8
 EndSplineSet
-Validated: 1
 Colour: ffff
 EndChar
 
@@ -35971,7 +35920,7 @@ StartChar: uni0457.ss03
 Encoding: 1377 -1 1328
 GlifName: uni0457.ss03
 Width: 318
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 980 20G<109 211> 1107 168<-52.9841 94.9841 203.016 350.984>
 VStem: -63 168<1117.02 1264.98> 109 102<0 1000> 193 168<1117.02 1264.98>
 LayerCount: 2
@@ -36135,12 +36084,12 @@ StartChar: uni0457.calt.ss03
 Encoding: 1388 -1 1339
 GlifName: uni0457.calt.ss03
 Width: 318
-Flags: W
+Flags: HW
 HStem: 0 21G<109 211> 980 20G<109 211> 1107 168<32.036 129.964 188.036 285.964>
 VStem: 27 108<1108.06 1273.92> 109 102<0 1000> 183 108<1108.06 1273.92>
 LayerCount: 2
 Fore
-Refer: 1290 -1 N 1 0 0 1 0 0 2
+Refer: 1290 -1 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni04DC
