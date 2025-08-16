@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1691315371
-ModificationTime: 1755361237
+ModificationTime: 1755363372
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -56,7 +56,6 @@ Lookup: 1 0 0 "Tone-3" { "Tone-3-1"  } []
 Lookup: 1 0 0 "Tone-2" { "Tone-2-1"  } []
 Lookup: 1 0 0 "Tone-1" { "Tone-1-1"  } []
 Lookup: 6 0 0 "'calt' Contextual Alternates lookup 26" { "'calt' Contextual Alternates lookup 26-1"  } ['calt' ('DFLT' <'dflt' > 'bopo' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 23" { "'dlig' Discretionary Ligatures lookup 23-1"  } ['dlig' ('DFLT' <'dflt' > 'bopo' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 22" { "'frac' Diagonal Fractions lookup 22-1"  } ['frac' ('DFLT' <'dflt' > 'bopo' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss12' Style Set 12 lookup 28" { "'ss12' Style Set 12 lookup 28-1" ("loclBGR") } ['ss12' ('DFLT' <'dflt' > 'bopo' <'dflt' > 'cyrl' <'BGR ' 'dflt' > 'grek' <'dflt' > 'latn' <'PLK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'ss11' Style Set 11 in Latin lookup 21" { "'ss11' Style Set 11 in Latin lookup 21-1" ("ss11") } ['ss11' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -475,12 +474,13 @@ OtfFeatName: 'ss10' 1033 "Terminal-less 'u'"
 OtfFeatName: 'ss11' 1033 "Serif 'I'"
 OtfFeatName: 'ss12' 1033 "Bulgarian Localised"
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -36
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 26 7
+WinInfo: 1045 19 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -33357,92 +33357,24 @@ EndChar
 StartChar: uniFB01
 Encoding: 1065 64257 1258
 GlifName: uniF_B_01
-Width: 1690
+Width: 2000
 GlyphClass: 3
-Flags: W
-HStem: -365 316<564.356 674.529> 0 21G<1225 1606> 703 297<30 171 801 1225> 1104 296<575.407 811> 1105 355<1222 1610>
-VStem: 171 380<-40.3373 703 1000 1085.57> 717 375<-13.228 382.354> 1225 381<0 703 1105 1460>
+Flags: H
 LayerCount: 2
-Fore
-SplineSet
-1222 1460 m 5xef
- 1610 1460 l 5
- 1610 1105 l 1
- 1222 1105 l 1
- 1222 1460 l 5xef
-811 1104 m 1xf7
- 690 1104 l 2
- 592 1104 551 1075 551 1008 c 2
- 551 1000 l 1
- 1606 1000 l 1
- 1606 0 l 1
- 1225 0 l 1
- 1225 703 l 1
- 801 703 l 1
- 980 580 1092 368 1092 152 c 0
- 1092 -158 902 -365 618 -365 c 0
- 336 -365 171 -205 171 68 c 2
- 171 703 l 1
- 30 703 l 1
- 30 1000 l 1
- 171 1000 l 1
- 171 1021 l 2
- 171 1260 340 1400 628 1400 c 2
- 811 1400 l 1
- 811 1104 l 1xf7
-551 703 m 1
- 551 82 l 2
- 551 -10 571 -49 618 -49 c 0
- 681 -49 717 48 717 217 c 0
- 717 460 658 631 551 703 c 1
-EndSplineSet
 LCarets2: 1 1172
 Substitution2: "ss03StyleSet3inLatinlookup2 subtable" uniFB01.ss03
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f i
 Colour: ffff
 EndChar
 
 StartChar: uniFB02
 Encoding: 1066 64258 1259
 GlifName: uniF_B_02
-Width: 1693
+Width: 2000
 GlyphClass: 3
-Flags: W
-HStem: -365 316<568.241 679.202> 0 21G<1225 1606> 703 297<30 171 799 994.33> 1104 296<562.703 811>
-VStem: 171 380<-40.3373 703 1000 1078.52> 717 375<-12.7088 392.415> 1225 381<0 987 1265.08 1400>
+Flags: H
 LayerCount: 2
-Fore
-SplineSet
-551 703 m 1
- 551 82 l 2
- 551 -10 572 -49 622 -49 c 0
- 683 -49 717 48 717 217 c 0
- 717 460 658 631 551 703 c 1
-811 1104 m 1
- 690 1104 l 2
- 592 1104 551 1077 551 1012 c 2
- 551 1000 l 1
- 1062 1000 1123 1036 1225 1400 c 1
- 1606 1400 l 1
- 1606 0 l 1
- 1225 0 l 1
- 1225 987 l 1
- 1169 779 1055 703 799 703 c 1
- 978 593 1092 381 1092 158 c 0
- 1092 -156 900 -365 612 -365 c 0
- 334 -365 171 -205 171 68 c 2
- 171 703 l 1
- 30 703 l 1
- 30 1000 l 1
- 171 1000 l 1
- 171 1025 l 2
- 171 1261 340 1400 628 1400 c 2
- 811 1400 l 1
- 811 1104 l 1
-EndSplineSet
 LCarets2: 1 1172
 Substitution2: "ss02StyleSet2inLatinlookup1 subtable" uniFB02.ss02
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f l
 Colour: ffff
 EndChar
 
@@ -33670,171 +33602,35 @@ EndChar
 StartChar: uniFB00
 Encoding: 1064 64256 1268
 GlifName: uniF_B_00
-Width: 2215
+Width: 2000
 GlyphClass: 3
-Flags: W
-HStem: -365 316<568.241 679.202 1618.66 1728.7> 703 297<30 171 799 994.33 1856 2143> 1104 296<562.703 811>
-VStem: 171 380<-40.3373 703 1000 1078.52> 717 375<-12.7088 392.415> 1225 381<-40.3373 703 1265.08 1400> 1772 375<-11.7019 382.354>
+Flags: H
 LayerCount: 2
-Fore
-SplineSet
-1606 703 m 1
- 1606 82 l 2
- 1606 -10 1625 -49 1672 -49 c 0
- 1735 -49 1772 48 1772 217 c 0
- 1772 460 1713 631 1606 703 c 1
-551 703 m 1
- 551 82 l 2
- 551 -10 572 -49 622 -49 c 0
- 683 -49 717 48 717 217 c 0
- 717 460 658 631 551 703 c 1
-2143 703 m 1
- 1856 703 l 1
- 2035 580 2147 368 2147 152 c 0
- 2147 -158 1956 -365 1672 -365 c 0
- 1390 -365 1225 -205 1225 68 c 2
- 1225 987 l 1
- 1169 779 1055 703 799 703 c 1
- 978 593 1092 381 1092 158 c 0
- 1092 -156 900 -365 612 -365 c 0
- 334 -365 171 -205 171 68 c 2
- 171 703 l 1
- 30 703 l 1
- 30 1000 l 1
- 171 1000 l 1
- 171 1025 l 2
- 171 1261 340 1400 628 1400 c 2
- 811 1400 l 1
- 811 1104 l 1
- 690 1104 l 2
- 592 1104 551 1077 551 1012 c 2
- 551 1000 l 1
- 1062 1000 1123 1036 1225 1400 c 1
- 1606 1400 l 1
- 1606 1000 l 1
- 2143 1000 l 1
- 2143 703 l 1
-EndSplineSet
 LCarets2: 1 1172
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f f
 Colour: ffff
 EndChar
 
 StartChar: uniFB03
 Encoding: 1067 64259 1269
 GlifName: uniF_B_03
-Width: 2744
+Width: 2000
 GlyphClass: 3
-Flags: W
-HStem: -365 316<568.241 679.202 1618.66 1728.7> 0 21G<2280 2661> 703 297<30 171 799 994.33 1856 2280> 1104 296<562.703 811> 1105 355<2276 2664>
-VStem: 171 380<-40.3373 703 1000 1078.52> 717 375<-12.7088 392.415> 1225 381<-40.3373 703 1265.08 1400> 1772 375<-11.7019 382.354> 2280 381<0 703 1105 1460>
+Flags: H
 LayerCount: 2
-Fore
-SplineSet
-2276 1460 m 5xefc0
- 2664 1460 l 5
- 2664 1105 l 1
- 2276 1105 l 1
- 2276 1460 l 5xefc0
-1606 703 m 1
- 1606 82 l 2
- 1606 -10 1625 -49 1672 -49 c 0
- 1735 -49 1772 48 1772 217 c 0
- 1772 460 1713 631 1606 703 c 1
-551 703 m 1
- 551 82 l 2
- 551 -10 572 -49 622 -49 c 0
- 683 -49 717 48 717 217 c 0
- 717 460 658 631 551 703 c 1
-1856 703 m 1
- 2035 580 2147 368 2147 152 c 0
- 2147 -158 1956 -365 1672 -365 c 0
- 1390 -365 1225 -205 1225 68 c 2
- 1225 987 l 1
- 1169 779 1055 703 799 703 c 1
- 978 593 1092 381 1092 158 c 0
- 1092 -156 900 -365 612 -365 c 0
- 334 -365 171 -205 171 68 c 2
- 171 703 l 1
- 30 703 l 1
- 30 1000 l 1
- 171 1000 l 1
- 171 1025 l 2
- 171 1261 340 1400 628 1400 c 2
- 811 1400 l 1
- 811 1104 l 1
- 690 1104 l 2
- 592 1104 551 1077 551 1012 c 2
- 551 1000 l 1
- 1062 1000 1123 1036 1225 1400 c 1
- 1606 1400 l 1xf7c0
- 1606 1000 l 1
- 2661 1000 l 1
- 2661 0 l 1
- 2280 0 l 1
- 2280 703 l 1
- 1856 703 l 1
-EndSplineSet
 LCarets2: 2 1172 2227
 Substitution2: "ss03StyleSet3inLatinlookup2 subtable" uniFB03.ss03
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f f i
 Colour: ffff
 EndChar
 
 StartChar: uniFB04
 Encoding: 1068 64260 1270
 GlifName: uniF_B_04
-Width: 2748
+Width: 2000
 GlyphClass: 3
-Flags: W
-HStem: -365 316<568.238 679.202 1618.66 1728.7> 0 21G<2280 2661> 703 297<30 170 799 994.33 1856 2049.33> 1104 296<574.407 811>
-VStem: 170 381<-40.3373 703 1000 1078.52> 717 375<-12.7088 392.415> 1225 381<-40.3373 703 1265.08 1400> 1772 375<-11.7019 382.354> 2280 381<0 987 1265.08 1400>
+Flags: H
 LayerCount: 2
-Fore
-SplineSet
-1606 703 m 1
- 1606 82 l 2
- 1606 -10 1625 -49 1672 -49 c 0
- 1735 -49 1772 48 1772 217 c 0
- 1772 460 1713 631 1606 703 c 1
-551 703 m 1
- 551 82 l 2
- 551 -10 572 -49 622 -49 c 0
- 683 -49 717 48 717 217 c 0
- 717 460 658 631 551 703 c 1
-1856 703 m 1
- 2035 580 2147 368 2147 152 c 0
- 2147 -158 1956 -365 1672 -365 c 0
- 1390 -365 1225 -205 1225 68 c 2
- 1225 987 l 1
- 1169 779 1055 703 799 703 c 1
- 978 593 1092 381 1092 158 c 0
- 1092 -156 900 -365 612 -365 c 0
- 334 -365 170 -205 170 68 c 2
- 170 703 l 1
- 30 703 l 1
- 30 1000 l 1
- 170 1000 l 1
- 170 1025 l 2
- 170 1261 339 1400 627 1400 c 2
- 811 1400 l 1
- 811 1104 l 1
- 690 1104 l 2
- 592 1104 551 1077 551 1012 c 2
- 551 1000 l 1
- 1062 1000 1123 1036 1225 1400 c 1
- 1606 1400 l 1
- 1606 1000 l 1
- 2117 1000 2178 1036 2280 1400 c 1
- 2661 1400 l 1
- 2661 0 l 1
- 2280 0 l 1
- 2280 987 l 1
- 2224 780 2110 704 1856 703 c 1
-EndSplineSet
 LCarets2: 2 1172 2227
 Substitution2: "ss02StyleSet2inLatinlookup1 subtable" uniFB04.ss02
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f f l
 Colour: ffff
 EndChar
 
@@ -33881,7 +33677,6 @@ SplineSet
  717 460 658 631 551 703 c 1
 EndSplineSet
 LCarets2: 1 1172
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f i.ss03
 Colour: ffff
 EndChar
 
@@ -33941,7 +33736,6 @@ SplineSet
  1856 703 l 1
 EndSplineSet
 LCarets2: 2 1172 2227
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f f i.ss03
 Colour: ffff
 EndChar
 
@@ -33988,7 +33782,6 @@ SplineSet
  717 460 658 631 551 703 c 1
 EndSplineSet
 LCarets2: 1 1172
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f l.ss02
 Colour: ffff
 EndChar
 
@@ -34048,7 +33841,6 @@ SplineSet
  2224 780 2110 704 1856 703 c 1
 EndSplineSet
 LCarets2: 2 1172 2227
-Ligature2: "'dlig' Discretionary Ligatures lookup 23-1" f f l.ss02
 Colour: ffff
 EndChar
 
