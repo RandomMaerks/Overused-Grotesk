@@ -12,6 +12,7 @@ This typeface was originally served as a form of "exhibition" for oblivious Font
 The fonts are free & open-source, and any contributions would be greatly appreciated. If you are planning to show this typeface to someone or submit it to a font collection, please remember to **link this repository**. It's not mandatory, but it saves a lot of headaches (trust me).
 
 <img src="https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/collection%20h/og-h1.png" />
+<img src="https://github.com/RandomMaerks/Overused-Grotesk/blob/main/documentation/collection%20h/og-h2.png" />
 
 ---
 ## Styles
