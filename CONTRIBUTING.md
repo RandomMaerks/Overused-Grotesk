@@ -7,7 +7,7 @@ change the command lines appropriately.
 
 ---
 
-## Report an issue ❗
+## ❗ Report an issue
 If you find any issue with the design, features, or the source, please [open an issue](https://github.com/RandomMaerks/Overused-Grotesk/issues/new/choose). But if you're
 just here to have a conversation or discuss certain things, you can [create a discussion](https://github.com/RandomMaerks/Overused-Grotesk/discussions/new/choose).
 
@@ -26,7 +26,7 @@ You can follow this template when you're creating an issue:
 You also need to make sure that the issue you're reporting has not already been reported before.
 
 
-## Build 🔨
+## 🔨 Build
 
 ### • Requirements
 This typeface is designed using [FontForge](https://github.com/fontforge/fontforge). FontForge 
@@ -176,7 +176,7 @@ and fonttools' [Scripting a designspace](https://fonttools.readthedocs.io/en/lat
 
 ---
 
-## Warning
+## ⚠ Warning
 
 This is an oversimplification of what you can actually do with these tools. I've only included the
 necessities required to build and run.
