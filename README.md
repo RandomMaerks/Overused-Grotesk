@@ -4,7 +4,7 @@ After one and a half months of procrastination, I have finally got up the courag
 
 anyway, expect some commits being committed very soon !
 
-# Overused Grotesk
+# 🌐 Overused Grotesk
 From a dumb mockery of the overutilised "Swiss" type design to a semi-serious workhorse, Overused Grotesk turns itself into a copycat by imitating the most distinguishing features of the ubiquitous Helvetica. However, the typeface doesn't stop at purely being a copycat; it wants to be a multipurpose and multilingual, though quirky and nonserious one.
 
 This typeface was originally served as a form of "exhibition" for oblivious FontForge users. Unfortunately due to the superbly fast development, along with bad workflow and poor management, the project quickly became incomprehensible for an absolute beginner. Sooo oopsies
