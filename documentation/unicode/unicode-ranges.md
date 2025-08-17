@@ -23,7 +23,7 @@ This information can be found here: FontForge > Elements > Font Info > Unicode R
 | Currency Symbols | <img width="542" height="270" src="https://github.com/user-attachments/assets/984fb815-df7f-4d6e-ad8d-7879300b6faa" /> | U+20A0 - U+20CF | 32/33 |
 | Letterlike Symbols | <img width="296" height="142" src="https://github.com/user-attachments/assets/074c3b3e-8ef3-4830-8332-5c6505be32e9" /> | U+2100 - U+214F | 9/80 |
 | Number Forms | <img width="296" height="276" src="https://github.com/user-attachments/assets/9b8b5875-874b-41f6-82a5-89df65a67513" /> | U+2150 - U+218F | 19/60 |
-| Arrows | <img width="538" height="544" src="https://github.com/user-attachments/assets/a929dfa1-7c0e-48ab-8071-ff104b7fdd2d" /> | U+2190 - U+21FF | 85/112 |
+| Arrows | <img width="296" height="168" src="https://github.com/user-attachments/assets/2330c6fc-5e2b-4ef2-9128-e89fe0f1aac4" /> | U+2190 - U+21FF | 22/112 |
 | Mathematical Operators | <img width="394" height="206" src="https://github.com/user-attachments/assets/9a79edfe-9f6a-4641-82a7-ca4e478fcb87" /> | U+2200 - U+22FF | 18/256 |
 | Enclosed Alphanumerics | <img width="252" height="210" src="https://github.com/user-attachments/assets/6856404d-d432-4d75-8857-f2fc34d9a17c" /> | U+2460 - U+24FF | 11/160 |
 | Geometric Shapes | <img width="346" height="278" src="https://github.com/user-attachments/assets/25d89e34-b70d-4caa-809f-dd4ceaf65ffa" /> | U+25A0 - U+25FF | 23/96 |
