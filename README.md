@@ -34,7 +34,7 @@ The fonts are free & open-source, and any contributions would be greatly appreci
 - .ttf, .otf, .woff, .woff2, and variable .ttf fonts
 - IPA letters (semifunctional diacritics and tone letters, still very basic)
 - Currency symbols: $¢£¤¥֏฿₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿
-- Arrows (way too much of them, 84 to be exact)
+- Arrows (reasonable amount of them)
 
 ## Plans
 _**After v1.0 - Before v2.0**_
