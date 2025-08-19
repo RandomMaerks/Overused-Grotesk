@@ -16,6 +16,7 @@ a1.minimum = 300
 a1.default = 300
 a1.name = "weight"
 a1.tag = "wght"
+a1.map = [(300, 300), (350, 375), (400, 450), (500, 525), (600, 610), (700, 710), (800, 800), (900, 900)]
 doc.addAxis(a1)
 
 a2 = AxisDescriptor()
@@ -258,24 +259,6 @@ i15.styleMapFamilyName = "Overused Grotesk Black"
 i15.styleMapStyleName = "italic"
 doc.addInstance(i15)
 
-#-------
-# rules
-#-------
-# Currently dropping support for a_spur because i'm lazy
-# and it will take a long time to add accents for it
-# It looks cool but I'm not so just ignore it
-"""
-r1 = RuleDescriptor()
-r1.name = 'latin-a_spur-wght'
-r1.conditionSets = [
-    [
-        { 'name': "weight", 'minimum': 300, 'maximum': 650 },
-        { 'name': "slant", 'minimum': -10, 'maximum': 0 },
-    ]
-]
-r1.subs = [("a", "a.spur")]
-doc.addRule(
-"""
 #--------
 # saving
 #--------

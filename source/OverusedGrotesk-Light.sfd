@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1690548111
-ModificationTime: 1755423894
+ModificationTime: 1755510840
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -235,7 +235,7 @@ KernClass2: 57 80 "OverusedGrotesk-Black-'kern' Horizontal Kerning in Latin look
  58 Ohorn uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 uni1EE2.ss03
  211 ohorn uhorn uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1 uni1EE3.ss03 uni1EF1.ss03 uhorn.ss10 uni1EE9.ss10 uni1EEB.ss10 uni1EED.ss10 uni1EEF.ss10 uni1EF1.ss10 uni1EF1.ss03.ss10
  58 Uhorn uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0 uni1EF0.ss03
- 51 l.ss02 lacute.ss02 a.spur uniFB02.ss02 uniFB04.ss02
+ 25 l.ss02 lacute.ss02 a.spur
  44 dcaron lcaron tcaron lcaron.ss02 tcaron.ss08
  9 parenleft
  75 plus hyphen uni00AD periodcentered endash emdash bullet periodcentered.ss03
@@ -265,7 +265,7 @@ KernClass2: 57 80 "OverusedGrotesk-Black-'kern' Horizontal Kerning in Latin look
  83 a s ae aogonek scedilla uni01CE uni01DD uni01E3 aeacute uni1EA1 uni1EA1.ss03 a.spur
  147 c e g o q ccedilla eth dcroat eogonek oe ohorn uni01D2 uni1EB9 uni1ECD a.ss01 aogonek.ss01 uni1EA1.ss01 uni1EA1.ss01.ss03 uni1EB9.ss03 uni1ECD.ss03
  158 d egrave eacute ograve oacute cacute cdotaccent dcaron edotaccent uni1EBB uni1ECF uni1EDB uni1EDD uni1EDF uni1EE3 cdotaccent.ss03 edotaccent.ss03 uni1EE3.ss03
- 142 f t uni0163 tcaron uniFB00 uniFB01 uniFB02 uniFB03 uniFB04 t.ss08 uni0163.ss08 tcaron.ss08 uniFB01.ss03 uniFB03.ss03 uniFB02.ss02 uniFB04.ss02
+ 50 f t uni0163 tcaron t.ss08 uni0163.ss08 tcaron.ss08
  11 i ij i.ss03
  8 j j.ss03
  97 m n p r dotlessi kgreenlandic nacute uni0146 ncaron eng racute uni1E9E dotlessi.ss03 uni0146.ss03
@@ -460,18 +460,18 @@ ChainSub2: class "'calt' Contextual Alternates lookup 26-1" 3 3 3 2
   FClassNames: "All_Others" "dieresis" "dieresis_squished"
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "RandomMaerks" "" "" "" "Copyright (c) 2023-2025, Bao Nguyen (RandomMaerks) (rmforbusiness@gmail.com). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
-OtfFeatName: 'ss12' 1033 "Bulgarian Localised"
-OtfFeatName: 'ss11' 1033 "Serif 'I'"
-OtfFeatName: 'ss10' 1033 "Terminal-less 'u'"
-OtfFeatName: 'ss09' 1033 "Alternative asterisk"
-OtfFeatName: 'ss08' 1033 "Arcless 't'"
-OtfFeatName: 'ss07' 1033 "Alternative 'y'"
-OtfFeatName: 'ss06' 1033 "Alternative 'J'"
-OtfFeatName: 'ss05' 1033 "Straight-legged 'R'"
-OtfFeatName: 'ss04' 1033 "Spurless 'G'"
-OtfFeatName: 'ss03' 1033 "Rounded dots"
-OtfFeatName: 'ss02' 1033 "Bottom-curled 'l'"
 OtfFeatName: 'ss01' 1033 "Single-storey 'a'"
+OtfFeatName: 'ss02' 1033 "Bottom-curled 'l'"
+OtfFeatName: 'ss03' 1033 "Rounded dots"
+OtfFeatName: 'ss04' 1033 "Spurless 'G'"
+OtfFeatName: 'ss05' 1033 "Straight-legged 'R'"
+OtfFeatName: 'ss06' 1033 "Alternative 'J'"
+OtfFeatName: 'ss07' 1033 "Alternative 'y'"
+OtfFeatName: 'ss08' 1033 "Arcless 't'"
+OtfFeatName: 'ss09' 1033 "Alternative asterisk"
+OtfFeatName: 'ss10' 1033 "Terminal-less 'u'"
+OtfFeatName: 'ss11' 1033 "Serif 'I'"
+OtfFeatName: 'ss12' 1033 "Bulgarian Localised"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -479,7 +479,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 800 25 7
+WinInfo: 1200 25 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -536,7 +536,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 209715 104857 69905 524288 1048576 69905 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom-mark" "'mkmk' Mark to Mark lookup 5-1" "top-mark" "'mkmk' Mark to Mark lookup 5-1" "middle 1" "'mark' Mark Positioning lookup 2-1" "bottom 2"""  "top3" "'mark' Mark Positioning lookup 2-1" "top2" "'mark' Mark Positioning lookup 2-1" "bottom2" "'mark' Mark Positioning lookup 2-1" "bottom1" "'mark' Mark Positioning lookup 2-1" "top1" "'mark' Mark Positioning lookup 2-1"
-BeginChars: 65893 1366
+BeginChars: 65893 1362
 
 StartChar: n
 Encoding: 110 110 0
@@ -18082,7 +18082,7 @@ Encoding: 8597 8597 751
 GlifName: arrowupdn
 Width: 942
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 1300.31 20G<35 74.786>
 VStem: 4 98<58 1242.31>
 LayerCount: 2
@@ -30942,6 +30942,7 @@ SplineSet
  1492 285 1424 332 1305 332 c 2
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0
 Ligature2: "'frac' Diagonal Fractions lookup 22-1" three slash eight
 Colour: ffff
 EndChar
@@ -31653,7 +31654,6 @@ GlyphClass: 3
 Flags: H
 LayerCount: 2
 LCarets2: 1 1172
-Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uniFB01.ss03
 Colour: ffff
 EndChar
 
@@ -31665,7 +31665,6 @@ GlyphClass: 3
 Flags: H
 LayerCount: 2
 LCarets2: 1 1172
-Substitution2: "'ss02' Style Set 2 in Latin lookup 1-1" uniFB02.ss02
 Colour: ffff
 EndChar
 
@@ -31914,7 +31913,6 @@ GlyphClass: 3
 Flags: H
 LayerCount: 2
 LCarets2: 2 1172 2227
-Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uniFB03.ss03
 Colour: ffff
 EndChar
 
@@ -31926,226 +31924,11 @@ GlyphClass: 3
 Flags: H
 LayerCount: 2
 LCarets2: 2 1172 2227
-Substitution2: "'ss02' Style Set 2 in Latin lookup 1-1" uniFB04.ss02
-Colour: ffff
-EndChar
-
-StartChar: uniFB01.ss03
-Encoding: 65790 -1 1212
-GlifName: uniF_B_01.ss03
-Width: 1222
-GlyphClass: 3
-Flags: W
-HStem: -350 96<394.329 608.772> 0 21G<1013 1115> 904 96<50 244 457 1013> 1154 168<990.016 1137.98> 1305 95<403.097 625>
-VStem: 244 99<-201.057 904 1000 1247.96> 716 106<-111.438 427.85> 980 168<1164.02 1311.98> 1013 102<0 904>
-LayerCount: 2
-Fore
-SplineSet
-980 1238 m 0xf7
- 980 1285 1017 1322 1064 1322 c 0
- 1111 1322 1148 1285 1148 1238 c 0
- 1148 1191 1111 1154 1064 1154 c 0
- 1017 1154 980 1191 980 1238 c 0xf7
-625 1305 m 1xee80
- 542 1305 l 2
- 403 1305 343 1241 343 1094 c 2
- 343 1000 l 1
- 1115 1000 l 1
- 1115 0 l 1
- 1013 0 l 1
- 1013 904 l 1
- 457 904 l 1
- 678 747 822 448 822 146 c 0
- 822 -150 692 -350 498 -350 c 0
- 347 -350 244 -240 244 -78 c 2
- 244 904 l 1
- 50 904 l 1
- 50 1000 l 1
- 244 1000 l 1
- 244 1105 l 2
- 244 1289 356 1400 541 1400 c 2
- 625 1400 l 1
- 625 1305 l 1xee80
-343 904 m 1
- 343 -66 l 2
- 343 -179 405 -254 501 -254 c 0
- 634 -254 716 -101 716 145 c 0
- 716 472 587 734 343 904 c 1
-EndSplineSet
-Validated: 1
-LCarets2: 1 1172
-Colour: ffff
-EndChar
-
-StartChar: uniFB03.ss03
-Encoding: 65791 -1 1213
-GlifName: uniF_B_03.ss03
-Width: 1980
-GlyphClass: 3
-Flags: W
-HStem: -350 96<382.829 597.272 1151.83 1366.33> 0 21G<1771 1873> 904 96<50 232 445 657.032 1214 1771> 1154 168<1748.02 1895.98> 1305 95<391.097 613>
-VStem: 232 100<-201.057 904 1000 1247.96> 705 105<-111.438 427.85> 1001 100<-201.057 904 1000 1234 1309.39 1400> 1474 106<-111.438 427.85> 1738 168<1164.02 1311.98> 1771 102<0 904>
-LayerCount: 2
-Fore
-SplineSet
-1738 1238 m 0xf7c0
- 1738 1285 1775 1322 1822 1322 c 0
- 1869 1322 1906 1285 1906 1238 c 0
- 1906 1191 1869 1154 1822 1154 c 0
- 1775 1154 1738 1191 1738 1238 c 0xf7c0
-1101 904 m 1
- 1101 -66 l 2
- 1101 -179 1163 -254 1259 -254 c 0
- 1392 -254 1474 -101 1474 145 c 0
- 1474 472 1345 734 1101 904 c 1
-332 904 m 1
- 332 -66 l 2
- 332 -179 394 -254 490 -254 c 0
- 623 -254 705 -101 705 145 c 0
- 705 472 576 734 332 904 c 1
-1214 904 m 1
- 1435 747 1580 448 1580 146 c 0
- 1580 -150 1449 -350 1255 -350 c 0
- 1104 -350 1001 -240 1001 -78 c 2
- 1001 1234 l 1
- 854 1012 672 904 445 904 c 1
- 666 747 810 448 810 146 c 0
- 810 -150 680 -350 486 -350 c 0
- 335 -350 232 -240 232 -78 c 2
- 232 904 l 1
- 50 904 l 1
- 50 1000 l 1
- 232 1000 l 1
- 232 1105 l 2
- 232 1289 344 1400 529 1400 c 2
- 613 1400 l 1
- 613 1305 l 1
- 531 1305 l 2
- 392 1305 332 1241 332 1094 c 2
- 332 1000 l 1
- 713 1000 885 1103 1001 1400 c 1
- 1101 1400 l 1
- 1101 1000 l 1
- 1873 1000 l 1
- 1873 0 l 1
- 1771 0 l 1
- 1771 904 l 1xefa0
- 1214 904 l 1
-EndSplineSet
-Validated: 1
-LCarets2: 2 1172 2227
-Colour: ffff
-EndChar
-
-StartChar: uniFB02.ss02
-Encoding: 65792 -1 1214
-GlifName: uniF_B_02.ss02
-Width: 1333
-GlyphClass: 3
-Flags: W
-HStem: -350 96<382.585 596.506> 0 96<1134.34 1263> 904 96<50 232 446 660.631> 1305 95<390.661 613>
-VStem: 232 100<-200.621 904 1000 1247.57> 705 105<-111.508 447.069> 1001 102<125.986 1237 1290.63 1400>
-LayerCount: 2
-Fore
-SplineSet
-613 1305 m 1
- 531 1305 l 2
- 393 1305 332 1240 332 1094 c 2
- 332 1000 l 1
- 716 1000 913 1118 1001 1400 c 1
- 1103 1400 l 1
- 1103 248 l 2
- 1103 143 1146 96 1242 96 c 2
- 1263 96 l 1
- 1263 0 l 1
- 1240 0 l 2
- 1091 0 1001 88 1001 236 c 2
- 1001 1237 l 1
- 886 1034 670 904 446 904 c 1
- 670 759 810 468 810 147 c 0
- 810 -151 688 -350 506 -350 c 0
- 343 -350 232 -239 232 -78 c 2
- 232 904 l 1
- 50 904 l 1
- 50 1000 l 1
- 232 1000 l 1
- 232 1105 l 2
- 232 1289 343 1400 529 1400 c 2
- 613 1400 l 1
- 613 1305 l 1
-332 904 m 1
- 332 -66 l 2
- 332 -179 394 -254 490 -254 c 0
- 623 -254 705 -101 705 145 c 0
- 705 472 576 734 332 904 c 1
-EndSplineSet
-Validated: 1
-LCarets2: 1 1172
-Colour: ffff
-EndChar
-
-StartChar: uniFB04.ss02
-Encoding: 65793 -1 1215
-GlifName: uniF_B_04.ss02
-Width: 2103
-GlyphClass: 3
-Flags: W
-HStem: -350 96<382.829 597.272 1151.83 1366.33> 0 96<1903.51 2033> 904 96<50 232 445 657.265 1214 1429.81> 1305 95<391.097 613>
-VStem: 232 100<-200.621 904 1000 1247.96> 705 105<-111.438 427.729> 1001 100<-200.621 904 1000 1234 1309.39 1400> 1474 106<-111.438 427.729> 1771 102<125.986 1236 1301.56 1400>
-LayerCount: 2
-Fore
-SplineSet
-1101 904 m 1
- 1101 -66 l 2
- 1101 -179 1163 -254 1259 -254 c 0
- 1392 -254 1474 -101 1474 145 c 0
- 1474 472 1345 734 1101 904 c 1
-332 904 m 1
- 332 -66 l 2
- 332 -179 394 -254 490 -254 c 0
- 623 -254 705 -101 705 145 c 0
- 705 472 576 734 332 904 c 1
-1214 904 m 1
- 1434 748 1580 447 1580 146 c 0
- 1580 -150 1449 -350 1255 -350 c 0
- 1104 -350 1001 -239 1001 -78 c 2
- 1001 1234 l 1
- 855 1013 673 904 445 904 c 1
- 665 748 810 447 810 146 c 0
- 810 -150 680 -350 486 -350 c 0
- 335 -350 232 -239 232 -78 c 2
- 232 904 l 1
- 50 904 l 1
- 50 1000 l 1
- 232 1000 l 1
- 232 1105 l 2
- 232 1289 344 1400 529 1400 c 2
- 613 1400 l 1
- 613 1305 l 1
- 531 1305 l 2
- 392 1305 332 1241 332 1094 c 2
- 332 1000 l 1
- 713 1000 886 1103 1001 1400 c 1
- 1101 1400 l 1
- 1101 1000 l 1
- 1485 1000 1682 1117 1771 1400 c 1
- 1873 1400 l 1
- 1873 248 l 2
- 1873 143 1915 96 2011 96 c 2
- 2033 96 l 1
- 2033 0 l 1
- 2009 0 l 2
- 1860 0 1771 88 1771 236 c 2
- 1771 1236 l 1
- 1655 1032 1440 904 1214 904 c 1
-EndSplineSet
-Validated: 1
-LCarets2: 2 1172 2227
 Colour: ffff
 EndChar
 
 StartChar: uni0E3F
-Encoding: 3647 3647 1216
+Encoding: 3647 3647 1212
 GlifName: uni0E_3F_
 Width: 1056
 GlyphClass: 2
@@ -32186,7 +31969,7 @@ Colour: ffff
 EndChar
 
 StartChar: comma.tabl
-Encoding: 65794 -1 1217
+Encoding: 65794 -1 1213
 GlifName: comma.tabl
 Width: 318
 GlyphClass: 2
@@ -32211,7 +31994,7 @@ Colour: ffff
 EndChar
 
 StartChar: semicolon.tabl
-Encoding: 65795 -1 1218
+Encoding: 65795 -1 1214
 GlifName: semicolon.tabl
 Width: 318
 GlyphClass: 2
@@ -32241,7 +32024,7 @@ Colour: ffff
 EndChar
 
 StartChar: less.tabl
-Encoding: 65796 -1 1219
+Encoding: 65796 -1 1215
 GlifName: less.tabl
 Width: 1089
 GlyphClass: 2
@@ -32264,7 +32047,7 @@ Colour: ffff
 EndChar
 
 StartChar: equal.tabl
-Encoding: 65797 -1 1220
+Encoding: 65797 -1 1216
 GlifName: equal.tabl
 Width: 1089
 GlyphClass: 2
@@ -32289,7 +32072,7 @@ Colour: ffff
 EndChar
 
 StartChar: greater.tabl
-Encoding: 65798 -1 1221
+Encoding: 65798 -1 1217
 GlifName: greater.tabl
 Width: 1089
 GlyphClass: 2
@@ -32312,7 +32095,7 @@ Colour: ffff
 EndChar
 
 StartChar: comma.tabl.ss03
-Encoding: 65799 -1 1222
+Encoding: 65799 -1 1218
 GlifName: comma.tabl.ss03
 Width: 318
 GlyphClass: 2
@@ -32340,7 +32123,7 @@ Colour: ffff
 EndChar
 
 StartChar: semicolon.tabl.ss03
-Encoding: 65800 -1 1223
+Encoding: 65800 -1 1219
 GlifName: semicolon.tabl.ss03
 Width: 318
 GlyphClass: 2
@@ -32373,7 +32156,7 @@ Colour: ffff
 EndChar
 
 StartChar: Idieresis.calt
-Encoding: 65801 -1 1224
+Encoding: 65801 -1 1220
 GlifName: I_dieresis.calt
 Width: 318
 GlyphClass: 2
@@ -32405,7 +32188,7 @@ Colour: ffff
 EndChar
 
 StartChar: idieresis.calt
-Encoding: 65802 -1 1225
+Encoding: 65802 -1 1221
 GlifName: idieresis.calt
 Width: 318
 GlyphClass: 2
@@ -32437,7 +32220,7 @@ Colour: ffff
 EndChar
 
 StartChar: Idieresis.calt.ss03
-Encoding: 65803 -1 1226
+Encoding: 65803 -1 1222
 GlifName: I_dieresis.ss03.calt
 Width: 318
 GlyphClass: 2
@@ -32468,7 +32251,7 @@ Colour: ffff
 EndChar
 
 StartChar: idieresis.calt.ss03
-Encoding: 65804 -1 1227
+Encoding: 65804 -1 1223
 GlifName: idieresis.ss03.calt
 Width: 318
 GlyphClass: 2
@@ -32498,7 +32281,7 @@ Colour: ffff
 EndChar
 
 StartChar: Oacute.polish
-Encoding: 65805 -1 1228
+Encoding: 65805 -1 1224
 GlifName: O_acute.polish
 Width: 1328
 GlyphClass: 2
@@ -32529,7 +32312,7 @@ Colour: ffff
 EndChar
 
 StartChar: oacute.polish
-Encoding: 65806 -1 1229
+Encoding: 65806 -1 1225
 GlifName: oacute.polish
 Width: 1089
 GlyphClass: 2
@@ -32560,7 +32343,7 @@ Colour: ffff
 EndChar
 
 StartChar: Cacute.polish
-Encoding: 65807 -1 1230
+Encoding: 65807 -1 1226
 GlifName: C_acute.polish
 Width: 1273
 GlyphClass: 2
@@ -32592,7 +32375,7 @@ Colour: ffff
 EndChar
 
 StartChar: cacute.polish
-Encoding: 65808 -1 1231
+Encoding: 65808 -1 1227
 GlifName: cacute.polish
 Width: 1072
 GlyphClass: 2
@@ -32624,7 +32407,7 @@ Colour: ffff
 EndChar
 
 StartChar: Nacute.polish
-Encoding: 65809 -1 1232
+Encoding: 65809 -1 1228
 GlifName: N_acute.polish
 Width: 1218
 GlyphClass: 2
@@ -32656,7 +32439,7 @@ Colour: ffff
 EndChar
 
 StartChar: nacute.polish
-Encoding: 65810 -1 1233
+Encoding: 65810 -1 1229
 GlifName: nacute.polish
 Width: 1019
 GlyphClass: 2
@@ -32691,7 +32474,7 @@ Colour: ffff
 EndChar
 
 StartChar: Sacute.polish
-Encoding: 65811 -1 1234
+Encoding: 65811 -1 1230
 GlifName: S_acute.polish
 Width: 1138
 GlyphClass: 2
@@ -32729,7 +32512,7 @@ Colour: ffff
 EndChar
 
 StartChar: sacute.polish
-Encoding: 65812 -1 1235
+Encoding: 65812 -1 1231
 GlifName: sacute.polish
 Width: 978
 GlyphClass: 2
@@ -32767,7 +32550,7 @@ Colour: ffff
 EndChar
 
 StartChar: Zacute.polish
-Encoding: 65813 -1 1236
+Encoding: 65813 -1 1232
 GlifName: Z_acute.polish
 Width: 1103
 GlyphClass: 2
@@ -32798,7 +32581,7 @@ Colour: ffff
 EndChar
 
 StartChar: zacute.polish
-Encoding: 65814 -1 1237
+Encoding: 65814 -1 1233
 GlifName: zacute.polish
 Width: 923
 GlyphClass: 2
@@ -32829,7 +32612,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0414.loclBGR
-Encoding: 65815 -1 1238
+Encoding: 65815 -1 1234
 GlifName: uni0414.loclB_G_R_
 Width: 1302
 Flags: W
@@ -32861,7 +32644,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni041B.loclBGR
-Encoding: 65816 -1 1239
+Encoding: 65816 -1 1235
 GlifName: uni041B_.loclB_G_R_
 Width: 1212
 Flags: W
@@ -32883,7 +32666,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0424.loclBGR
-Encoding: 65817 -1 1240
+Encoding: 65817 -1 1236
 GlifName: uni0424.loclB_G_R_
 Width: 1559
 Flags: W
@@ -32917,7 +32700,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0432.loclBGR
-Encoding: 65818 -1 1241
+Encoding: 65818 -1 1237
 GlifName: uni0432.loclB_G_R_
 Width: 1013
 Flags: W
@@ -32951,7 +32734,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0433.loclBGR
-Encoding: 65819 -1 1242
+Encoding: 65819 -1 1238
 GlifName: uni0433.loclB_G_R_
 Width: 971
 Flags: W
@@ -32980,7 +32763,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0434.loclBGR
-Encoding: 65820 -1 1243
+Encoding: 65820 -1 1239
 GlifName: uni0434.loclB_G_R_
 Width: 1103
 Flags: W
@@ -32993,7 +32776,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0436.loclBGR
-Encoding: 65821 -1 1244
+Encoding: 65821 -1 1240
 GlifName: uni0436.loclB_G_R_
 Width: 1434
 Flags: HW
@@ -33034,7 +32817,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0437.loclBGR
-Encoding: 65822 -1 1245
+Encoding: 65822 -1 1241
 GlifName: uni0437.loclB_G_R_
 Width: 1002
 Flags: W
@@ -33067,7 +32850,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0438.loclBGR
-Encoding: 65823 -1 1246
+Encoding: 65823 -1 1242
 GlifName: uni0438.loclB_G_R_
 Width: 1023
 Flags: W
@@ -33097,7 +32880,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0439.loclBGR
-Encoding: 65824 -1 1247
+Encoding: 65824 -1 1243
 GlifName: uni0439.loclB_G_R_
 Width: 1023
 Flags: W
@@ -33114,12 +32897,12 @@ SplineSet
  655 1200 721 1264.07386364 735 1379 c 1
  836 1379 l 1x36
 EndSplineSet
-Refer: 1246 -1 N 1 0 0 1 0 0 2
+Refer: 1242 -1 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
 
 StartChar: uni043A.loclBGR
-Encoding: 65825 -1 1248
+Encoding: 65825 -1 1244
 GlifName: uni043A_.loclB_G_R_
 Width: 933
 Flags: HW
@@ -33149,7 +32932,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni043B.loclBGR
-Encoding: 65826 -1 1249
+Encoding: 65826 -1 1245
 GlifName: uni043B_.loclB_G_R_
 Width: 1002
 Flags: W
@@ -33171,7 +32954,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0442.loclBGR
-Encoding: 65827 -1 1250
+Encoding: 65827 -1 1246
 GlifName: uni0442.loclB_G_R_
 Width: 1638
 Flags: W
@@ -33209,7 +32992,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0446.loclBGR
-Encoding: 65828 -1 1251
+Encoding: 65828 -1 1247
 GlifName: uni0446.loclB_G_R_
 Width: 1075
 Flags: W
@@ -33243,7 +33026,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0448.loclBGR
-Encoding: 65829 -1 1252
+Encoding: 65829 -1 1248
 GlifName: uni0448.loclB_G_R_
 Width: 1638
 Flags: W
@@ -33281,7 +33064,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0449.loclBGR
-Encoding: 65830 -1 1253
+Encoding: 65830 -1 1249
 GlifName: uni0449.loclB_G_R_
 Width: 1687
 Flags: W
@@ -33324,7 +33107,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni044A.loclBGR
-Encoding: 65831 -1 1254
+Encoding: 65831 -1 1250
 GlifName: uni044A_.loclB_G_R_
 Width: 1177
 Flags: W
@@ -33355,7 +33138,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni044C.loclBGR
-Encoding: 65832 -1 1255
+Encoding: 65832 -1 1251
 GlifName: uni044C_.loclB_G_R_
 Width: 984
 Flags: W
@@ -33384,7 +33167,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni044E.loclBGR
-Encoding: 65833 -1 1256
+Encoding: 65833 -1 1252
 GlifName: uni044E_.loclB_G_R_
 Width: 1433
 Flags: W
@@ -33418,7 +33201,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni043F.loclBGR
-Encoding: 65834 -1 1257
+Encoding: 65834 -1 1253
 GlifName: uni043F_.loclB_G_R_
 Width: 1007
 Flags: W
@@ -33446,7 +33229,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni045D.loclBGR
-Encoding: 65835 -1 1258
+Encoding: 65835 -1 1254
 GlifName: uni045D_.loclB_G_R_
 Width: 1023
 Flags: W
@@ -33454,12 +33237,12 @@ HStem: -20 100<333.486 655.299> 0 21G<815 915> 980 20G<109 211 815 915> 1119 262
 VStem: 109 102<209.5 1000> 297 330 815 57<131 377> 815 100<377 1000>
 LayerCount: 2
 Fore
-Refer: 1246 -1 N 1 0 0 1 0 0 2
+Refer: 1242 -1 N 1 0 0 1 0 0 2
 Refer: 113 768 N 1 0 0 1 219 119 2
 EndChar
 
 StartChar: uni042F.ss05
-Encoding: 65836 -1 1259
+Encoding: 65836 -1 1255
 GlifName: uni042F_.ss05
 Width: 1117
 Flags: W
@@ -33492,7 +33275,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni044F.ss05
-Encoding: 65837 -1 1260
+Encoding: 65837 -1 1256
 GlifName: uni044F_.ss05
 Width: 996
 Flags: W
@@ -33525,7 +33308,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0430.ss01
-Encoding: 65838 -1 1261
+Encoding: 65838 -1 1257
 GlifName: uni0430.ss01
 Width: 1103
 HStem: -16 100<370.369 718.715> 920 100<370.369 718.715>
@@ -33536,7 +33319,7 @@ Refer: 73 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0401.ss03
-Encoding: 65839 -1 1262
+Encoding: 65839 -1 1258
 GlifName: uni0401.ss03
 Width: 1098
 Flags: W
@@ -33548,7 +33331,7 @@ Refer: 490 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0407.ss03
-Encoding: 65840 -1 1263
+Encoding: 65840 -1 1259
 GlifName: uni0407.ss03
 Width: 318
 Flags: W
@@ -33561,7 +33344,7 @@ Substitution2: "dieresis-1" uni0407.calt.ss03
 EndChar
 
 StartChar: uni0456.ss03
-Encoding: 65841 -1 1264
+Encoding: 65841 -1 1260
 GlifName: uni0456.ss03
 Width: 318
 Flags: W
@@ -33573,7 +33356,7 @@ Refer: 75 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0457.ss03
-Encoding: 65842 -1 1265
+Encoding: 65842 -1 1261
 GlifName: uni0457.ss03
 Width: 318
 Flags: HW
@@ -33586,7 +33369,7 @@ Substitution2: "dieresis-1" uni0457.calt.ss03
 EndChar
 
 StartChar: uni0458.ss03
-Encoding: 65843 -1 1266
+Encoding: 65843 -1 1262
 GlifName: uni0458.ss03
 Width: 318
 Flags: W
@@ -33598,7 +33381,7 @@ Refer: 76 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0408.ss06
-Encoding: 65844 -1 1267
+Encoding: 65844 -1 1263
 GlifName: uni0408.ss06
 Width: 987
 Flags: W
@@ -33610,7 +33393,7 @@ Refer: 79 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni040E.ss07
-Encoding: 65845 -1 1268
+Encoding: 65845 -1 1264
 GlifName: uni040E_.ss07
 Width: 1138
 Flags: W
@@ -33627,11 +33410,11 @@ SplineSet
  698 1481 764 1545.07386364 778 1660 c 1
  879 1660 l 1
 EndSplineSet
-Refer: 1269 -1 N 1 0 0 1 0 0 3
+Refer: 1265 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0423.ss07
-Encoding: 65846 -1 1269
+Encoding: 65846 -1 1265
 GlifName: uni0423.ss07
 Width: 1138
 Flags: W
@@ -33654,7 +33437,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0443.ss07
-Encoding: 65847 -1 1270
+Encoding: 65847 -1 1266
 GlifName: uni0443.ss07
 Width: 1002
 Flags: W
@@ -33666,7 +33449,7 @@ Refer: 80 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni045E.ss07
-Encoding: 65848 -1 1271
+Encoding: 65848 -1 1267
 GlifName: uni045E_.ss07
 Width: 1002
 Flags: W
@@ -33683,11 +33466,11 @@ SplineSet
  646 1200 712 1264.07386364 726 1379 c 1
  827 1379 l 1
 EndSplineSet
-Refer: 1270 -1 N 1 0 0 1 0 0 3
+Refer: 1266 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0451.ss03
-Encoding: 65849 -1 1272
+Encoding: 65849 -1 1268
 GlifName: uni0451.ss03
 Width: 1076
 Flags: W
@@ -33699,7 +33482,7 @@ Refer: 495 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0407.calt
-Encoding: 65850 -1 1273
+Encoding: 65850 -1 1269
 GlifName: uni0407.calt
 Width: 318
 Flags: W
@@ -33707,12 +33490,12 @@ HStem: 0 21G<109 211> 1281 20G<109 211> 1427 141<33 128 191 285>
 VStem: 33 95<1427 1568> 109 102<0 1301> 191 94<1427 1568>
 LayerCount: 2
 Fore
-Refer: 1224 -1 N 1 0 0 1 0 0 2
+Refer: 1220 -1 N 1 0 0 1 0 0 2
 Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni0407.calt.ss03
 EndChar
 
 StartChar: uni0457.calt
-Encoding: 65851 -1 1274
+Encoding: 65851 -1 1270
 GlifName: uni0457.calt
 Width: 318
 Flags: W
@@ -33720,12 +33503,12 @@ HStem: 0 21G<109 211> 980 20G<109 211> 1146 141<33 128 191 285>
 VStem: 33 95<1146 1287> 109 102<0 1000> 191 94<1146 1287>
 LayerCount: 2
 Fore
-Refer: 1225 -1 N 1 0 0 1 0 0 2
+Refer: 1221 -1 N 1 0 0 1 0 0 2
 Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni0457.calt.ss03
 EndChar
 
 StartChar: uni0407.calt.ss03
-Encoding: 65852 -1 1275
+Encoding: 65852 -1 1271
 GlifName: uni0407.calt.ss03
 Width: 318
 Flags: W
@@ -33733,11 +33516,11 @@ HStem: 0 21G<109 211> 1281 20G<109 211> 1388 168<32.036 129.964 188.036 285.964>
 VStem: 27 108<1389.06 1554.92> 109 102<0 1301> 183 108<1389.06 1554.92>
 LayerCount: 2
 Fore
-Refer: 1226 -1 N 1 0 0 1 0 0 2
+Refer: 1222 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0457.calt.ss03
-Encoding: 65853 -1 1276
+Encoding: 65853 -1 1272
 GlifName: uni0457.calt.ss03
 Width: 318
 Flags: HW
@@ -33745,11 +33528,11 @@ HStem: 0 21G<109 211> 980 20G<109 211> 1107 168<32.036 129.964 188.036 285.964>
 VStem: 27 108<1108.06 1273.92> 109 102<0 1000> 183 108<1108.06 1273.92>
 LayerCount: 2
 Fore
-Refer: 1227 -1 S 1 0 0 1 0 0 2
+Refer: 1223 -1 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni04DC
-Encoding: 1244 1244 1277
+Encoding: 1244 1244 1273
 GlifName: uni04D_C_
 Width: 1760
 Flags: W
@@ -33763,7 +33546,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04DC.ss03
 EndChar
 
 StartChar: uni04DD
-Encoding: 1245 1245 1278
+Encoding: 1245 1245 1274
 GlifName: uni04D_D_
 Width: 1434
 Flags: W
@@ -33777,7 +33560,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04DD.ss03
 EndChar
 
 StartChar: uni04E6
-Encoding: 1254 1254 1279
+Encoding: 1254 1254 1275
 GlifName: uni04E_6
 Width: 1368
 HStem: -16 100<468.019 902.841> 1221 99<473.652 897.235> 1427 141<454 583 775 903>
@@ -33790,7 +33573,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04E6.ss03
 EndChar
 
 StartChar: uni04E7
-Encoding: 1255 1255 1280
+Encoding: 1255 1255 1276
 GlifName: uni04E_7
 Width: 1080
 HStem: -16 100<363.741 718.662> 920 100<363.741 718.662> 1146 141<306 435 627 755>
@@ -33803,7 +33586,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04E7.ss03
 EndChar
 
 StartChar: uni04DE
-Encoding: 1246 1246 1281
+Encoding: 1246 1246 1277
 GlifName: uni04D_E_
 Width: 1140
 HStem: -16 102<376.976 805.836> 605 98<412 830.302> 1215 103<374.15 785.724> 1427 141<342 471 663 791>
@@ -33816,7 +33599,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04DE.ss03
 EndChar
 
 StartChar: uni04DF
-Encoding: 1247 1247 1282
+Encoding: 1247 1247 1278
 GlifName: uni04D_F_
 Width: 992
 HStem: -16 100<317.562 702.384> 449 102<363 733.872> 922 99<327.024 682.897> 1141 141<275.402 404.402 596.402 724.402>
@@ -33829,7 +33612,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04DF.ss03
 EndChar
 
 StartChar: uni04E4
-Encoding: 1252 1252 1283
+Encoding: 1252 1252 1279
 GlifName: uni04E_4
 Width: 1218
 HStem: 1427 141<399 528 720 848>
@@ -33842,7 +33625,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04E4.ss03
 EndChar
 
 StartChar: uni04E5
-Encoding: 1253 1253 1284
+Encoding: 1253 1253 1280
 GlifName: uni04E_5
 Width: 1023
 HStem: 0 21G<109 217.179 812 914> 980 20G<109 209 788.721 914> 1146 141<297 426 618 746>
@@ -33855,7 +33638,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04E5.ss03
 EndChar
 
 StartChar: uni04F4
-Encoding: 1268 1268 1285
+Encoding: 1268 1268 1281
 GlifName: uni04F_4
 Width: 1156
 HStem: 0 21G<945 1047> 505 100<367.908 797.166> 1281 20G<109 209 945 1047> 1427 141<360 489 681 809>
@@ -33868,7 +33651,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04F4.ss03
 EndChar
 
 StartChar: uni04F5
-Encoding: 1269 1269 1286
+Encoding: 1269 1269 1282
 GlifName: uni04F_5
 Width: 1000
 HStem: 0 21G<789 891> 383 100<306.126 706.265> 980 20G<109 209 789 891> 1146 141<286 415 607 735>
@@ -33881,7 +33664,7 @@ Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" uni04F5.ss03
 EndChar
 
 StartChar: uni04DC.ss03
-Encoding: 65854 -1 1287
+Encoding: 65854 -1 1283
 GlifName: uni04D_C_.ss03
 Width: 1760
 Flags: W
@@ -33894,7 +33677,7 @@ Refer: 1056 1046 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04DD.ss03
-Encoding: 65855 -1 1288
+Encoding: 65855 -1 1284
 GlifName: uni04D_D_.ss03
 Width: 1434
 Flags: W
@@ -33907,7 +33690,7 @@ Refer: 1088 1078 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04DE.ss03
-Encoding: 65856 -1 1289
+Encoding: 65856 -1 1285
 GlifName: uni04D_E_.ss03
 Width: 1140
 Flags: W
@@ -33920,7 +33703,7 @@ Refer: 1057 1047 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04DF.ss03
-Encoding: 65857 -1 1290
+Encoding: 65857 -1 1286
 GlifName: uni04D_F_.ss03
 Width: 992
 Flags: W
@@ -33933,7 +33716,7 @@ Refer: 1089 1079 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04E4.ss03
-Encoding: 65858 -1 1291
+Encoding: 65858 -1 1287
 GlifName: uni04E_4.ss03
 Width: 1218
 Flags: W
@@ -33946,7 +33729,7 @@ Refer: 1058 1048 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04E5.ss03
-Encoding: 65859 -1 1292
+Encoding: 65859 -1 1288
 GlifName: uni04E_5.ss03
 Width: 1023
 Flags: W
@@ -33959,7 +33742,7 @@ Refer: 1090 1080 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04E6.ss03
-Encoding: 65860 -1 1293
+Encoding: 65860 -1 1289
 GlifName: uni04E_6.ss03
 Width: 1368
 Flags: W
@@ -33972,7 +33755,7 @@ Refer: 1064 1054 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04E7.ss03
-Encoding: 65861 -1 1294
+Encoding: 65861 -1 1290
 GlifName: uni04E_7.ss03
 Width: 1080
 Flags: W
@@ -33985,7 +33768,7 @@ Refer: 1096 1086 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04F4.ss03
-Encoding: 65862 -1 1295
+Encoding: 65862 -1 1291
 GlifName: uni04F_4.ss03
 Width: 1156
 Flags: W
@@ -33998,7 +33781,7 @@ Refer: 1073 1063 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04F5.ss03
-Encoding: 65863 -1 1296
+Encoding: 65863 -1 1292
 GlifName: uni04F_5.ss03
 Width: 1000
 Flags: W
@@ -34011,7 +33794,7 @@ Refer: 1105 1095 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni058F
-Encoding: 1423 1423 1297
+Encoding: 1423 1423 1293
 GlifName: uni058F_
 Width: 1171
 Flags: W
@@ -34044,7 +33827,7 @@ Colour: ffff
 EndChar
 
 StartChar: estimated
-Encoding: 8494 8494 1298
+Encoding: 8494 8494 1294
 GlifName: estimated
 Width: 1574
 Flags: W
@@ -34080,7 +33863,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0305
-Encoding: 773 773 1299
+Encoding: 773 773 1295
 GlifName: uni0305
 Width: 0
 Flags: W
@@ -34098,7 +33881,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni2C71
-Encoding: 11377 11377 1300
+Encoding: 11377 11377 1296
 GlifName: uni2C_71
 Width: 1201
 Flags: W
@@ -34126,7 +33909,7 @@ Colour: ffff
 EndChar
 
 StartChar: beta
-Encoding: 946 946 1301
+Encoding: 946 946 1297
 GlifName: uni03B_2
 Width: 1069
 Flags: W
@@ -34166,7 +33949,7 @@ Colour: ffff
 EndChar
 
 StartChar: theta
-Encoding: 952 952 1302
+Encoding: 952 952 1298
 GlifName: uni03B_8
 Width: 1208
 Flags: W
@@ -34197,7 +33980,7 @@ Colour: ffff
 EndChar
 
 StartChar: chi
-Encoding: 967 967 1303
+Encoding: 967 967 1299
 GlifName: uni03C_7
 Width: 934
 Flags: W
@@ -34224,7 +34007,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0325
-Encoding: 805 805 1304
+Encoding: 805 805 1300
 GlifName: uni0325
 Width: 607
 Flags: W
@@ -34239,7 +34022,7 @@ Refer: 123 778 S 1 0 0 1 -6 -1470 2
 EndChar
 
 StartChar: uni0324
-Encoding: 804 804 1305
+Encoding: 804 804 1301
 GlifName: uni0324
 Width: 599
 Flags: W
@@ -34267,7 +34050,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni033A
-Encoding: 826 826 1306
+Encoding: 826 826 1302
 GlifName: uni033A_
 Width: 1021
 Flags: W
@@ -34293,7 +34076,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni033C
-Encoding: 828 828 1307
+Encoding: 828 828 1303
 GlifName: uni033C_
 Width: 1021
 Flags: W
@@ -34322,7 +34105,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni033B
-Encoding: 827 827 1308
+Encoding: 827 827 1304
 GlifName: uni033B_
 Width: 1021
 Flags: W
@@ -34349,7 +34132,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni031A
-Encoding: 794 794 1309
+Encoding: 794 794 1305
 GlifName: uni031A_
 Width: 654
 Flags: W
@@ -34373,7 +34156,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0339
-Encoding: 825 825 1310
+Encoding: 825 825 1306
 GlifName: uni0339
 Width: 607
 Flags: W
@@ -34397,7 +34180,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni031C
-Encoding: 796 796 1311
+Encoding: 796 796 1307
 GlifName: uni031C_
 Width: 607
 Flags: W
@@ -34421,7 +34204,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni031F
-Encoding: 799 799 1312
+Encoding: 799 799 1308
 GlifName: uni031F_
 Width: 607
 Flags: W
@@ -34451,7 +34234,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0320
-Encoding: 800 800 1313
+Encoding: 800 800 1309
 GlifName: uni0320
 Width: 607
 Flags: W
@@ -34473,7 +34256,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0334
-Encoding: 820 820 1314
+Encoding: 820 820 1310
 GlifName: uni0334
 Width: 552
 Flags: W
@@ -34499,7 +34282,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni033D
-Encoding: 829 829 1315
+Encoding: 829 829 1311
 GlifName: uni033D_
 Width: 619
 VWidth: 1398
@@ -34530,7 +34313,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni031D
-Encoding: 797 797 1316
+Encoding: 797 797 1312
 GlifName: uni031D_
 Width: 607
 Flags: W
@@ -34556,7 +34339,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0329
-Encoding: 809 809 1317
+Encoding: 809 809 1313
 GlifName: uni0329
 Width: 607
 Flags: W
@@ -34578,7 +34361,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni031E
-Encoding: 798 798 1318
+Encoding: 798 798 1314
 GlifName: uni031E_
 Width: 607
 Flags: W
@@ -34604,7 +34387,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni032F
-Encoding: 815 815 1319
+Encoding: 815 815 1315
 GlifName: uni032F_
 Width: 599
 Flags: W
@@ -34615,11 +34398,11 @@ AnchorPoint: "bottom-mark" 304 -400 basemark 0
 AnchorPoint: "bottom1" 304 0 mark 0
 LayerCount: 2
 Fore
-Refer: 1335 785 S 1 0 0 1 -3 -1400 2
+Refer: 1331 785 S 1 0 0 1 -3 -1400 2
 EndChar
 
 StartChar: uni0318
-Encoding: 792 792 1320
+Encoding: 792 792 1316
 GlifName: uni0318
 Width: 607
 Flags: W
@@ -34645,7 +34428,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0319
-Encoding: 793 793 1321
+Encoding: 793 793 1317
 GlifName: uni0319
 Width: 607
 Flags: W
@@ -34671,7 +34454,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni030F
-Encoding: 783 783 1322
+Encoding: 783 783 1318
 GlifName: uni030F_
 Width: 599
 Flags: W
@@ -34698,7 +34481,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni035C
-Encoding: 860 860 1323
+Encoding: 860 860 1319
 GlifName: uni035C_
 Width: 0
 Flags: W
@@ -34718,7 +34501,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0361
-Encoding: 865 865 1324
+Encoding: 865 865 1320
 GlifName: uni0361
 Width: 0
 Flags: W
@@ -34738,7 +34521,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni032A
-Encoding: 810 810 1325
+Encoding: 810 810 1321
 GlifName: uni032A_
 Width: 1021
 Flags: W
@@ -34764,7 +34547,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni032C
-Encoding: 812 812 1326
+Encoding: 812 812 1322
 GlifName: uni032C_
 Width: 599
 Flags: W
@@ -34779,7 +34562,7 @@ Refer: 124 780 N 1 0 0 1 0 -1400 2
 EndChar
 
 StartChar: uni0330
-Encoding: 816 816 1327
+Encoding: 816 816 1323
 GlifName: uni0330
 Width: 599
 Flags: W
@@ -34807,7 +34590,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni27E8
-Encoding: 10216 10216 1328
+Encoding: 10216 10216 1324
 GlifName: uni27E_8
 Width: 541
 Flags: W
@@ -34827,7 +34610,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni27E9
-Encoding: 10217 10217 1329
+Encoding: 10217 10217 1325
 GlifName: uni27E_9
 Width: 541
 Flags: W
@@ -34847,7 +34630,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni27EA
-Encoding: 10218 10218 1330
+Encoding: 10218 10218 1326
 GlifName: uni27E_A_
 Width: 839
 Flags: W
@@ -34873,7 +34656,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni27EB
-Encoding: 10219 10219 1331
+Encoding: 10219 10219 1327
 GlifName: uni27E_B_
 Width: 839
 Flags: W
@@ -34899,7 +34682,7 @@ Colour: ffff
 EndChar
 
 StartChar: u1DF04
-Encoding: 65864 122628 1332
+Encoding: 65864 122628 1328
 GlifName: u1D_F_04
 Width: 887
 Flags: W
@@ -34933,7 +34716,7 @@ Colour: ffff
 EndChar
 
 StartChar: u1DF08
-Encoding: 65865 122632 1333
+Encoding: 65865 122632 1329
 GlifName: u1D_F_08
 Width: 735
 Flags: W
@@ -34969,7 +34752,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni030D
-Encoding: 781 781 1334
+Encoding: 781 781 1330
 GlifName: uni030D_
 Width: 607
 Flags: W
@@ -34991,7 +34774,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni0311
-Encoding: 785 785 1335
+Encoding: 785 785 1331
 GlifName: uni0311
 Width: 599
 Flags: W
@@ -35006,7 +34789,7 @@ Refer: 120 774 N -1 0 0 -1 605 2260 2
 EndChar
 
 StartChar: uni0346
-Encoding: 838 838 1336
+Encoding: 838 838 1332
 GlifName: uni0346
 Width: 599
 Flags: W
@@ -35017,11 +34800,11 @@ AnchorPoint: "top-mark" 312 900 mark 0
 AnchorPoint: "top1" 312 1000 mark 0
 LayerCount: 2
 Fore
-Refer: 1325 810 N 1 0 0 1 -199 1474 2
+Refer: 1321 810 N 1 0 0 1 -199 1474 2
 EndChar
 
 StartChar: uni0357
-Encoding: 855 855 1337
+Encoding: 855 855 1333
 GlifName: uni0357
 Width: 599
 Flags: W
@@ -35032,11 +34815,11 @@ AnchorPoint: "top-mark" 312 1467 basemark 0
 AnchorPoint: "top1" 312 1000 mark 0
 LayerCount: 2
 Fore
-Refer: 1310 825 N 1 0 0 1 -20 1599 2
+Refer: 1306 825 N 1 0 0 1 -20 1599 2
 EndChar
 
 StartChar: uni0351
-Encoding: 849 849 1338
+Encoding: 849 849 1334
 GlifName: uni0351
 Width: 599
 Flags: W
@@ -35047,11 +34830,11 @@ AnchorPoint: "top-mark" 312 900 mark 0
 AnchorPoint: "top1" 312 1000 mark 0
 LayerCount: 2
 Fore
-Refer: 1311 796 N 1 0 0 1 30 1599 2
+Refer: 1307 796 N 1 0 0 1 30 1599 2
 EndChar
 
 StartChar: uni0324.ss03
-Encoding: 65866 -1 1339
+Encoding: 65866 -1 1335
 GlifName: uni0324.ss03
 Width: 599
 Flags: W
@@ -35066,7 +34849,7 @@ Refer: 450 -1 N 1 0 0 1 0 -1294 2
 EndChar
 
 StartChar: uni02E5.5
-Encoding: 65867 -1 1340
+Encoding: 65867 -1 1336
 GlifName: uni02E_5.5
 Width: 330
 Flags: W
@@ -35085,7 +34868,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E6.5
-Encoding: 65868 -1 1341
+Encoding: 65868 -1 1337
 GlifName: uni02E_6.5
 Width: 332
 Flags: W
@@ -35105,7 +34888,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E7.5
-Encoding: 65869 -1 1342
+Encoding: 65869 -1 1338
 GlifName: uni02E_7.5
 Width: 352
 Flags: W
@@ -35125,7 +34908,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E8.5
-Encoding: 65870 -1 1343
+Encoding: 65870 -1 1339
 GlifName: uni02E_8.5
 Width: 422
 Flags: W
@@ -35145,7 +34928,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E9.5
-Encoding: 65871 -1 1344
+Encoding: 65871 -1 1340
 GlifName: uni02E_9.5
 Width: 492
 Flags: W
@@ -35165,7 +34948,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E5.4
-Encoding: 65872 -1 1345
+Encoding: 65872 -1 1341
 GlifName: uni02E_5.4
 Width: 322
 Flags: W
@@ -35185,7 +34968,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E6.4
-Encoding: 65873 -1 1346
+Encoding: 65873 -1 1342
 GlifName: uni02E_6.4
 Width: 330
 Flags: W
@@ -35193,11 +34976,11 @@ HStem: 903 96<70 452>
 VStem: 70 382<903 999>
 LayerCount: 2
 Fore
-Refer: 1340 -1 N 1 0 0 1 0 -301 2
+Refer: 1336 -1 N 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uni02E7.4
-Encoding: 65874 -1 1347
+Encoding: 65874 -1 1343
 GlifName: uni02E_7.4
 Width: 332
 Flags: W
@@ -35205,11 +34988,11 @@ HStem: 602 397
 VStem: 62 392
 LayerCount: 2
 Fore
-Refer: 1341 -1 N 1 0 0 1 0 -301 2
+Refer: 1337 -1 N 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uni02E8.4
-Encoding: 65875 -1 1348
+Encoding: 65875 -1 1344
 GlifName: uni02E_8.4
 Width: 352
 Flags: W
@@ -35217,11 +35000,11 @@ HStem: 979 20G<407.426 474>
 VStem: 44 430
 LayerCount: 2
 Fore
-Refer: 1342 -1 N 1 0 0 1 0 -301 2
+Refer: 1338 -1 N 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uni02E9.4
-Encoding: 65876 -1 1349
+Encoding: 65876 -1 1345
 GlifName: uni02E_9.4
 Width: 422
 Flags: W
@@ -35229,11 +35012,11 @@ HStem: 979 20G<477.523 544>
 VStem: 34 510
 LayerCount: 2
 Fore
-Refer: 1343 -1 N 1 0 0 1 0 -301 2
+Refer: 1339 -1 N 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uni02E5.3
-Encoding: 65877 -1 1350
+Encoding: 65877 -1 1346
 GlifName: uni02E_5.3
 Width: 352
 Flags: W
@@ -35253,7 +35036,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E6.3
-Encoding: 65878 -1 1351
+Encoding: 65878 -1 1347
 GlifName: uni02E_6.3
 Width: 322
 Flags: W
@@ -35261,11 +35044,11 @@ HStem: 602 397
 VStem: 62 382
 LayerCount: 2
 Fore
-Refer: 1345 -1 S 1 0 0 1 0 -301 2
+Refer: 1341 -1 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uni02E7.3
-Encoding: 65879 -1 1352
+Encoding: 65879 -1 1348
 GlifName: uni02E_7.3
 Width: 330
 Flags: W
@@ -35273,11 +35056,11 @@ HStem: 602 96<70 452>
 VStem: 70 382<602 698>
 LayerCount: 2
 Fore
-Refer: 1340 -1 N 1 0 0 1 0 -602 2
+Refer: 1336 -1 N 1 0 0 1 0 -602 2
 EndChar
 
 StartChar: uni02E8.3
-Encoding: 65880 -1 1353
+Encoding: 65880 -1 1349
 GlifName: uni02E_8.3
 Width: 332
 Flags: W
@@ -35285,11 +35068,11 @@ HStem: 301 397
 VStem: 62 392
 LayerCount: 2
 Fore
-Refer: 1341 -1 S 1 0 0 1 0 -602 2
+Refer: 1337 -1 S 1 0 0 1 0 -602 2
 EndChar
 
 StartChar: uni02E9.3
-Encoding: 65881 -1 1354
+Encoding: 65881 -1 1350
 GlifName: uni02E_9.3
 Width: 352
 Flags: W
@@ -35297,11 +35080,11 @@ HStem: 678 20G<407.426 474>
 VStem: 44 430
 LayerCount: 2
 Fore
-Refer: 1342 -1 S 1 0 0 1 0 -602 2
+Refer: 1338 -1 S 1 0 0 1 0 -602 2
 EndChar
 
 StartChar: uni02E5.2
-Encoding: 65882 -1 1355
+Encoding: 65882 -1 1351
 GlifName: uni02E_5.2
 Width: 422
 Flags: W
@@ -35321,7 +35104,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E6.2
-Encoding: 65883 -1 1356
+Encoding: 65883 -1 1352
 GlifName: uni02E_6.2
 Width: 352
 Flags: W
@@ -35329,11 +35112,11 @@ HStem: 979 20G<91.4 134.661>
 VStem: 44 430
 LayerCount: 2
 Fore
-Refer: 1350 -1 S 1 0 0 1 0 -301 2
+Refer: 1346 -1 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uni02E7.2
-Encoding: 65884 -1 1357
+Encoding: 65884 -1 1353
 GlifName: uni02E_7.2
 Width: 322
 Flags: W
@@ -35341,11 +35124,11 @@ HStem: 301 397
 VStem: 62 382
 LayerCount: 2
 Fore
-Refer: 1345 -1 S 1 0 0 1 0 -602 2
+Refer: 1341 -1 S 1 0 0 1 0 -602 2
 EndChar
 
 StartChar: uni02E8.2
-Encoding: 65885 -1 1358
+Encoding: 65885 -1 1354
 GlifName: uni02E_8.2
 Width: 330
 Flags: W
@@ -35353,11 +35136,11 @@ HStem: 301 96<70 452>
 VStem: 70 382<301 397>
 LayerCount: 2
 Fore
-Refer: 1340 -1 S 1 0 0 1 0 -903 2
+Refer: 1336 -1 S 1 0 0 1 0 -903 2
 EndChar
 
 StartChar: uni02E9.2
-Encoding: 65886 -1 1359
+Encoding: 65886 -1 1355
 GlifName: uni02E_9.2
 Width: 332
 Flags: W
@@ -35365,11 +35148,11 @@ HStem: 0 397
 VStem: 62 392
 LayerCount: 2
 Fore
-Refer: 1341 -1 S 1 0 0 1 0 -903 2
+Refer: 1337 -1 S 1 0 0 1 0 -903 2
 EndChar
 
 StartChar: uni02E5.1
-Encoding: 65887 -1 1360
+Encoding: 65887 -1 1356
 GlifName: uni02E_5.1
 Width: 492
 Flags: W
@@ -35389,7 +35172,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni02E6.1
-Encoding: 65888 -1 1361
+Encoding: 65888 -1 1357
 GlifName: uni02E_6.1
 Width: 422
 Flags: W
@@ -35397,11 +35180,11 @@ HStem: 979 20G<92.566 131.347>
 VStem: 44 500
 LayerCount: 2
 Fore
-Refer: 1355 -1 S 1 0 0 1 0 -301 2
+Refer: 1351 -1 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uni02E7.1
-Encoding: 65889 -1 1362
+Encoding: 65889 -1 1358
 GlifName: uni02E_7.1
 Width: 352
 Flags: W
@@ -35409,11 +35192,11 @@ HStem: 678 20G<91.4 134.661>
 VStem: 44 430
 LayerCount: 2
 Fore
-Refer: 1350 -1 S 1 0 0 1 0 -602 2
+Refer: 1346 -1 S 1 0 0 1 0 -602 2
 EndChar
 
 StartChar: uni02E8.1
-Encoding: 65890 -1 1363
+Encoding: 65890 -1 1359
 GlifName: uni02E_8.1
 Width: 322
 Flags: W
@@ -35421,11 +35204,11 @@ HStem: 0 397
 VStem: 62 382
 LayerCount: 2
 Fore
-Refer: 1345 -1 S 1 0 0 1 0 -903 2
+Refer: 1341 -1 S 1 0 0 1 0 -903 2
 EndChar
 
 StartChar: uni02E9.1
-Encoding: 65891 -1 1364
+Encoding: 65891 -1 1360
 GlifName: uni02E_9.1
 Width: 330
 Flags: W
@@ -35433,11 +35216,11 @@ HStem: -1 96<70 452>
 VStem: 70 382<-1 95>
 LayerCount: 2
 Fore
-Refer: 1340 -1 S 1 0 0 1 0 -1205 2
+Refer: 1336 -1 S 1 0 0 1 0 -1205 2
 EndChar
 
 StartChar: stem
-Encoding: 65892 -1 1365
+Encoding: 65892 -1 1361
 GlifName: stem
 Width: 322
 Flags: W

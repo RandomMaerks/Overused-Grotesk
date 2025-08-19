@@ -1,7 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="wght" name="weight" minimum="300" maximum="900" default="300"/>
+    <axis tag="wght" name="weight" minimum="300" maximum="900" default="300">
+      <map input="300" output="300"/>
+      <map input="350" output="375"/>
+      <map input="400" output="450"/>
+      <map input="500" output="525"/>
+      <map input="600" output="610"/>
+      <map input="700" output="710"/>
+      <map input="800" output="800"/>
+      <map input="900" output="900"/>
+    </axis>
     <axis tag="slnt" name="slant" minimum="-10" maximum="0" default="0"/>
   </axes>
   <sources>
