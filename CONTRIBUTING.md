@@ -6,9 +6,7 @@ you are using a Windows machine. If you are using other operating systems like M
 change the command lines appropriately.
 
 ---
----
----
----
+
 
 ‎ 
 ‎ 
@@ -127,9 +125,7 @@ For more information on how to edit designspace files, check out RoboFont's
 and fonttools' [Scripting a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html).
 
 ---
----
----
----
+
 
 ‎ 
 ‎ 
