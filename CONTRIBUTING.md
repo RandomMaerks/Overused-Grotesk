@@ -6,6 +6,12 @@ you are using a Windows machine. If you are using other operating systems like M
 change the command lines appropriately.
 
 ---
+---
+---
+---
+
+‎ 
+‎ 
 
 ## ❗ Report an issue
 If you find any issue with the design, features, or the source, please [open an issue](https://github.com/RandomMaerks/Overused-Grotesk/issues/new/choose). But if you're
@@ -25,22 +31,26 @@ You can follow this template when you're creating an issue:
 ```
 You also need to make sure that the issue you're reporting has not already been reported before.
 
+‎
+‎ 
 
 ## 🔨 Build
 
-### • Requirements
+### ▶ Requirements
 This typeface is designed using [FontForge](https://github.com/fontforge/fontforge). FontForge 
 allows you to open and edit the .sfd files included in the source folder, export .ttf, .otf, or
 .ufo for other uses.
 
-[fontmake](https://github.com/googlefonts/fontmake) was also used to create variable font and
+[fontmake](https://github.com/googlefonts/fontmake) is also used to create variable font and
 generate instances.
 
-For `woff` and `woff2` compression, Google's [`woff2`](https://github.com/google/woff2) and
-samboy's [`WOFF`](https://github.com/samboy/WOFF) libraries are used. Other tools _can_ also 
-be used.
+By installing fontmake, [fonttools](https://github.com/fonttools/fonttools) is automatically included, 
+which is used for compressing `.otf` fonts into `.woff` and `.woff2` fonts. Though, you 
+will also need to install [brotli](https://github.com/google/brotli) as well.
 
-### • Installation & Setup
+‎
+
+### ▶ Installation & Setup
 You can download FontForge from their [repository](https://github.com/fontforge/fontforge) or their [official website](https://fontforge.org/en-US/).
 
 Before installing fontmake, you have to make sure that you already installed Python 3.8 or later.
@@ -50,7 +60,10 @@ Note that you can also create a virtual environment so none of the installed dep
 with any other libraries. But if you're dumb like me, just directly install it on your machine like
 normal. (yes that's bad advice, i'm just not good at this stuff)
 
-Open **Run** and type `cmd`. Then run `py -m pip install fontmake` to install `fontmake`.
+Open **Run** and type `cmd`.
+
+Run `py -m pip install fontmake` to install `fontmake`.
+Run `py -m pip install brotli` to install `brotli`.
 
 Once the installation is complete, enter `cd` and drag in the source directory (assuming you've
 downloaded the .zip and extracted it). For example:
@@ -58,55 +71,19 @@ downloaded the .zip and extracted it). For example:
 cd "C:\Users\...\Overused-Grotesk-main\source"
 ```
 
-At this point, you don't need to install anything anymore. But, if you want to generate webfonts, you
-must also install WSL. The libraries used for webfont generation can only be run with Ubuntu or lack
-thereof.
+‎ 
 
-Open the command prompt as administrator (or use PowerShell). Run the command `wsl --install` or
-`wsl --install -d Ubuntu` to install WSL and the Ubuntu distribution of Linux. For more information,
-go to Microsoft's [Linux installation article](https://learn.microsoft.com/en-us/windows/wsl/install).
-
-After installation, Ubuntu can be run as a program. Enter a name, password, set up the necessities, etc.
-
-To begin, run the following commands:
-```
-sudo apt update 
-sudo apt install build-essential
-```
-
-For `woff2`, clone Google's [`woff2`](https://github.com/google/woff2) library:
-```
-git clone --recursive https://github.com/google/woff2.git
-cd woff2
-make clean all
-```
-
-For `woff`, install the zlib library (Ubuntu) and clone samboy's [`WOFF`](https://github.com/samboy/WOFF) 
-(in all caps) library:
-```
-sudo apt install zlib1g zlib1g-dev -y
-git clone https://github.com/samboy/WOFF
-cd WOFF
-make
-```
-
-Since you've installed WSL, there should be a subsystem called 'Linux' in the file explorer:
-
-![image](https://github.com/RandomMaerks/Overused-Grotesk/assets/109415614/a51f44e7-3769-43cf-86d5-703ae5e511b9)
-
-Every time you want to generate webfonts, you have to work with them here.
-
-### • Generate
+### ▶ Generate
 - Variable font (.ttf) using Python/fontmake
 
-If you want to build variable font, use:
+If you want to build variable font, do:
 ```
 py -m fontmake -m OverusedGrotesk.designspace -o variable
 ```
 
 - Static fonts — Desktop (.ttf, .otf) using Python/fontmake
 
-You can generate instances by copy-and-pasting all of the commands below or run `source/build_instances.bat`: 
+You can generate instances by copy-and-pasting all of the commands below: 
 ```
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Light
 py -m fontmake -m OverusedGrotesk.designspace -i OverusedGrotesk-Book
@@ -131,40 +108,15 @@ The output font files will be in either `instance_otf` / `instance_ttf` (instanc
 also be in `instance`.
 
 
-- Webfont (Variable + Static) with WSL
+- Webfont (Variable + Static)
 
-_**woff2**_
+You can compress the `.otf` fonts in the `instance_otf` folder into `.woff2` and `.woff` fonts by
+running the `webfont_gen.py` file in the source folder:
 
-(Special thanks to [@husenlovedisney](https://github.com/husenlovedisney) for helping with the
-compression.)
+If your fonts are in a different location, or you want to improve on the code, consider changing
+the script to your liking.
 
-Copy the .ttf files into the `woff2` directory (which could be found in \\wsl.localhost\Ubuntu\home\..\woff2).
-You can also create a new separate folder for the font files (for example: woff2\ttf).
-
-Run `./woff2_compress ttf/OverusedGrotesk-VF.ttf` (replace name if necessary) to generate .woff2 for
-variable font.
-
-Or, run this command to compress all .ttf fonts to .woff2:
-```
-for file in ttf/*.ttf; do ./woff2_compress $file; done
-```
-
-Refresh if needed. The `.woff2` files will now be in the folder.
-
-_**woff**_
-
-Copy the .ttf files into the `WOFF` directory (which could be found in \\wsl.localhost\Ubuntu\home\..\WOFF). 
-You can also create a new separate folder for the font files (for example: WOFF\ttf).
-
-Run `./sfnt2woff ttf/OverusedGrotesk-VF.ttf` (replace name if necessary) to generate .woff for
-variable font.
-
-Or, run this command to compress all .ttf fonts to .woff:
-```
-for file in ttf/*.ttf; do ./sfnt2woff $file; done
-```
-
-Refresh if needed. The `.woff` files will now be in the folder.
+‎ 
 
 ### • Designspace file
 The `make_designspace.py` allows you to build `OverusedGrotesk.designspace` or whatever name is in the
@@ -175,6 +127,12 @@ For more information on how to edit designspace files, check out RoboFont's
 and fonttools' [Scripting a designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/scripting.html).
 
 ---
+---
+---
+---
+
+‎ 
+‎ 
 
 ## ⚠ Warning
 
