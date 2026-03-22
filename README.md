@@ -1,8 +1,11 @@
-## ❗❕ Update (16/08/2025)
+## ❗❕ Update (22/03/2026)
 
-After one and a half months of procrastination, I have finally got up the courage to work on this project again. It has been quite a while now, hasn't it? When was the last release? A year ago ....? umm..,,,,llll;;;; uhh;'''''
+Some notes about the future of this project:
 
-anyway, expect some commits being committed very soon !
+Firstly, [`v0.5-alpha.2`](https://github.com/RandomMaerks/Overused-Grotesk/releases/tag/v0.5-alpha.2) is the last release where this typeface is developed in FontForge. There are lots of bugs which make it hard to maintain a project of this scale, and the lack of native variable font support is not at all helping with that issue.  
+From this release, I will continue development using FontLab. While the software to use it is proprietary, the source file will be open-sourced, and I'll still include .sfd source files if possible.
+
+Secondly, future versions will have a lot less glyphs. The sheer amount of glyphs for features like IPA has been discouraging me from working on Italics, plus I don't think that many people will find much of a use for... tone letters. Some fonts already do a good job providing support for them, so I personally don't find them necessary for this typeface anymore.
 
 # 🌐 Overused Grotesk
 From a dumb mockery of the overutilised "Swiss" type design to a semi-serious workhorse, Overused Grotesk turns itself into a copycat by imitating the most distinguishing features of the ubiquitous Helvetica. However, the typeface doesn't stop at purely being a copycat; it wants to be a multipurpose and multilingual, though quirky and nonserious one.
