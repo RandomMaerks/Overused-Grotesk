@@ -69,6 +69,9 @@ cd "C:\Users\...\Overused-Grotesk-main\source"
 ### ▶ Getting the appropriate files to generate the fonts
 FontLab has a feature to export both `.designspace` and `.ufo` files at the same time. To do that, go to `File > Export Font As` or press `Ctrl + E`. The export menu will pop up, and you can select the option to export `DesignSpace + UFO`.
 
+<img width="292" height="588" alt="image" src="https://github.com/user-attachments/assets/a06882ca-875d-4f42-afc6-f7dba6aa9825" />
+
+
 The `.ufo` files (or folders) contain the information for each font master, and the `.designspace` file contains instruction to connect all masters together.
 
 
