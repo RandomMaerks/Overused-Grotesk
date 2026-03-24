@@ -1,5 +1,4 @@
 python
-fontforge
 fontmake
 fonttools
 brotli
