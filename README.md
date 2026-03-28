@@ -64,7 +64,7 @@ If you host the fonts yourself, you can insert the following:
 
 Or, if you want to rip the variable font directly from this repository, put the source as:
 ```css
-src: url('https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGroteskRoman-VF.ttf')
+src: url('https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGrotesk-VF.ttf')
 ```
 
 To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload the fonts using [**Font Face Observer**](https://fontfaceobserver.com/). For example, you can put the following JS script inside of an HTML file:
