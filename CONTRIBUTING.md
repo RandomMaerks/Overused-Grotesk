@@ -51,13 +51,24 @@ By installing fontmake, [fonttools](https://github.com/fonttools/fonttools) is a
 
 Before installing **fontmake**, you have to make sure that you already installed Python 3.9 or later. A more detailed instruction can be found in the [fontmake repository](https://github.com/googlefonts/fontmake).
 
-Note that you can also create a virtual environment so none of the installed dependencies interfere with any other libraries. But if you're dumb like me, just directly install it on your machine like normal. (yes that's bad advice, i'm just not good at this stuff)
-
-Open the command prompt. To install `fontmake` and `brotli`, run:
+Note that you can also create a virtual environment so none of the installed dependencies interfere with any other libraries. Do:
 
 ```
-py -m pip install fontmake
-py -m pip install brotli
+py -m venv venv
+```
+
+where the second `venv` is the relative path to the virtual environment. You can change it to wherever you want, as long as you know where it is stored. Afterwards, activate the environment by doing:
+
+```
+venv\Scripts\activate
+```
+
+If successful, the `(venv)` prefix will appear in front of your command line. If you want to deactivate this at any time, type `deactivate`, press Enter, and it will automatically leave the virtual environment.
+
+To install `fontmake`, run:
+
+```
+pip install fontmake
 ```
 
 Once complete, redirect the current directory to the source folder. For example:
@@ -91,11 +102,11 @@ You can generate instances by using:
 py -m fontmake -m OverusedGrotesk.designspace -i
 ```
 
-The output font files will be in either `instance_otf` / `instance_ttf` (instance generation) or `variable_ttf` (variable font). When you generate instances, their respective .ufo file will also be in `instance`.
+The output font files will be in either `instance_otf` / `instance_ttf` (instance generation) or `variable_ttf` (variable font). When you generate instances, their respective `.ufo` file will also be in `instance`.
 
 
 - _**Compression (`.woff`, `.woff2`)**_
 
-You can compress the `.otf` fonts in the `instance_otf` folder into `.woff2` and `.woff` fonts by running the `webfont_gen.py` file in the source folder. Note that you need to create the folders `instance_woff` and `instance_woff2` in the same directory as the script file beforehand.
+You can compress the `.otf` fonts in the `instance_otf` folder into `.woff2` and `.woff` fonts by running the `webfont_gen.py` file in the source folder. After running, the compressed `.woff` fonts will be in the `instance_woff` folder and `.woff2` fonts in the `instance_woff2` folder.
 
 If your fonts are in a different location, or you want to improve on the code, consider changing the script to your liking.

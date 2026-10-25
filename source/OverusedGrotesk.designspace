@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="200" name="weight" tag="wght" maximum="900" default="200">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Overused Grotesk" name="Black" stylename="Black" filename="masters/OverusedGrotesk-Black.ufo">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </source>
+  <source familyname="Overused Grotesk" name="ExtraLight" stylename="Extra Light" filename="masters/OverusedGrotesk-ExtraLight.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="200" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Overused Grotesk" name="ExtraLight" stylename="ExtraLight" filename="instances/OverusedGrotesk-ExtraLight.ufo">
+   <location>
+    <dimension xvalue="200" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Overused Grotesk" name="Light" stylename="Light" filename="instances/OverusedGrotesk-Light.ufo">
+   <location>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Overused Grotesk" name="Regular" stylename="Regular" filename="instances/OverusedGrotesk-Regular.ufo">
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Overused Grotesk" name="Medium" stylename="Medium" filename="instances/OverusedGrotesk-Medium.ufo">
+   <location>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Overused Grotesk" name="SemiBold" stylename="SemiBold" filename="instances/OverusedGrotesk-SemiBold.ufo">
+   <location>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Overused Grotesk" name="Bold" stylename="Bold" filename="instances/OverusedGrotesk-Bold.ufo">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Overused Grotesk" name="ExtraBold" stylename="ExtraBold" filename="instances/OverusedGrotesk-ExtraBold.ufo">
+   <location>
+    <dimension xvalue="800" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Overused Grotesk" name="Black" stylename="Black" filename="instances/OverusedGrotesk-Black.ufo">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

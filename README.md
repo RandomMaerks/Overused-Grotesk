@@ -21,8 +21,8 @@ The fonts are free & open-source, and any contributions would be greatly appreci
 ## Styles
 | Style name | wght | wdth | slnt | - | Style name | wght | wdth | slnt |
 | --------- | :---: | :---: | :---: | - | --------- | :---: | :---: | :---: |
+| ExtraLight | 200 | 100 | 0 | - | ExtraLight Italic | 200 | 100 | -10 |
 | Light | 300 | 100 | 0 | - | Light Italic | 300 | 100 | -10 |
-| Book | 350 | 100 | 0 | - | Book Italic | 350 | 100 | -10 |
 | Roman | 400 | 100 | 0 | - | Italic | 400 | 100 | -10 |
 | Medium | 500 | 100 | 0 | - | Medium Italic | 500 | 100 | -10 |
 | SemiBold | 600 | 100 | 0 | - | SemiBold Italic | 600 | 100 | -10 |
@@ -35,20 +35,18 @@ The fonts are free & open-source, and any contributions would be greatly appreci
 - 12 Stylistic sets + 5 Character variants
 - Sub- & superscript, denominators & numerators, slashed zero, tabular figures, mathematical notations, fractions
 - .ttf, .otf, .woff, .woff2, and variable .ttf fonts
-- IPA letters (semifunctional diacritics and tone letters, still very basic)
-- Currency symbols: $¢£¤¥֏฿₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿
-- Arrows (reasonable amount of them)
+- Currency symbols: $¢£¤¥₣₤₦₩₪₫€₭₮₱₲₳₴₵₸₹₺₼₽₿
+- Arrows
 
 ## Plans
-_**After v1.0 - Before v2.0**_
-- More widths (5 static widths: Tight - Narrow - Normal - Ample - Wide)
-- Greek
-- Small caps
-- Building more accented letters (Latin-specific)
 
 ### ⏳ In progress
 - Fine tuning
-- Finishing italics
+- Remaking italics
+
+_**After v1.0**_
+- More widths (5 static widths: Tight - Narrow - Normal - Ample - Wide)
+- Greek
 
 ## Web variable font
 Both the source and the release folder include a .woff2 variable font, which you can include in your website and refer to using CSS.
@@ -64,7 +62,7 @@ If you host the fonts yourself, you can insert the following:
 
 Or, if you want to rip the variable font directly from this repository, put the source as:
 ```css
-src: url('https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGrotesk-VF.ttf')
+src: url('https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGrotesk-VF.woff2')
 ```
 
 To reduce [**Cumulative Layout Shift**](https://web.dev/cls/), you can preload the fonts using [**Font Face Observer**](https://fontfaceobserver.com/). For example, you can put the following JS script inside of an HTML file:
