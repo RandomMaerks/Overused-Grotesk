@@ -11,7 +11,7 @@
     <dimension xvalue="900" name="weight"/>
    </location>
   </source>
-  <source familyname="Overused Grotesk" name="ExtraLight" stylename="Extra Light" filename="masters/OverusedGrotesk-ExtraLight.ufo">
+  <source familyname="Overused Grotesk" name="ExtraLight" stylename="ExtraLight" filename="masters/OverusedGrotesk-ExtraLight.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
